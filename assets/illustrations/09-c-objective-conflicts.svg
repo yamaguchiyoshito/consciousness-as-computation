@@ -50,7 +50,7 @@
 <text x="1005.0" y="518.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">×</text>
 <line x1="80.0" y1="510.0" x2="1130.0" y2="510.0" stroke="#d0693a" stroke-width="2"/>
 <text x="600.0" y="575.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">↑ 高く評価　↓ 低く評価　・ ほぼ無関係　　最下段：他の目的で高くても、制約条件として選択肢から除外</text>
-<text x="600.0" y="600.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">U(s, a, c) = Σᵢ wᵢ(s, c)・fᵢ(s, a)　＋　制約条件</text>
+<text x="600.0" y="600.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">U(s, a, c) = Σ_i w_i(s, c)・f_i(s, a)　＋　制約条件</text>
 <text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">目的関数を複数用意することが目的ではない。競合が生じたとき、どう優先順位を決めるかを観測できる構造にする。</text>
 </g>
 </svg>

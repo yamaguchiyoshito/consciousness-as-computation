@@ -20,7 +20,7 @@
 <text x="480.0" y="306.8" fill="#d0693a" font-size="19" text-anchor="middle" font-weight="700">情報獲得</text>
 <line x1="480.0" y1="335.0" x2="480.0" y2="420.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)"/>
 <rect x="170.0" y="425.0" width="300.0" height="60.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
-<text x="320.0" y="461.5" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">重み付き和  U = Σ wᵢ fᵢ</text>
+<text x="320.0" y="461.5" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">重み付き和  U = Σ w_i f_i</text>
 <text x="320.0" y="525.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">分割しても各部分の働きは変わらない</text>
 <rect x="620" y="205" width="520" height="350" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
 <text x="880.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">相互依存する処理の集合</text>

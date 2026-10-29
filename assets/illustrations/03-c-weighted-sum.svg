@@ -77,7 +77,7 @@
 <circle cx="995.0" cy="495.0" r="8" fill="#5d6873"/>
 <circle cx="1017.0" cy="495.0" r="8" fill="#5d6873"/>
 <line x1="60.0" y1="540.0" x2="1140.0" y2="540.0" stroke="#d8d4c8" stroke-width="1.5"/>
-<text x="70.0" y="578.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">総合評価 U(x) = Σᵢ wᵢ・fᵢ(x)</text>
+<text x="70.0" y="578.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">総合評価 U(x) = Σ_i w_i・f_i(x)</text>
 <rect x="365.0" y="558.0" width="120.0" height="30.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
 <text x="425.0" y="579.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="700">3.1</text>
 <rect x="555.0" y="558.0" width="120.0" height="30.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>

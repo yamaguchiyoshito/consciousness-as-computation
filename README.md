@@ -52,7 +52,7 @@ python -m unittest discover -s tests -v
 
 ## 連載の成り立ちと編集
 
-全9回の原稿を先に書き、公開にあたって各回の題名・副題・前後リンクの型を揃え、図版を追加した。原稿の本文は変えていない。図版の配置と意図は[図版計画](claudedocs/figure-plan-2026-10-29.md)にある。[編集ガイド](guides/EDITING.md)に原本と生成物の責務を、[読み方](guides/READING.md)に表示環境の注意をまとめた。閲覧サイトの仕組みは、連載[『意味の関連性 ── RELEVANCE』](https://github.com/yamaguchiyoshito/relevance)と同じ構成である。
+全9回の原稿を先に書き、公開にあたって各回の題名・副題・前後リンクの型を揃え、図版を追加した。その後、読みやすさの観点で校正し、段落の結合、各回の導入と結びの圧縮、用語と式の表記の統一、留保の集約、長い回への中見出しの追加を行った。主張と論理は変えていない。校正の方針は[校正メモ](claudedocs/proofreading-2026-10-29.md)にある。図版の配置と意図は[図版計画](claudedocs/figure-plan-2026-10-29.md)にある。[編集ガイド](guides/EDITING.md)に原本と生成物の責務を、[読み方](guides/READING.md)に表示環境の注意をまとめた。閲覧サイトの仕組みは、連載[『意味の関連性 ── RELEVANCE』](https://github.com/yamaguchiyoshito/relevance)と同じ構成である。
 
 ## ライセンス
 

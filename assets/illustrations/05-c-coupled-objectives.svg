@@ -11,9 +11,9 @@
 <text x="300.0" y="225.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">時刻 t</text>
 <text x="600.0" y="225.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">時刻 t+1</text>
 <text x="900.0" y="225.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">時刻 t+2</text>
-<text x="120.0" y="286.0" fill="#2b7a8c" font-size="16" text-anchor="start" font-weight="700">f₁ 安全性</text>
-<text x="120.0" y="406.0" fill="#5a4fcf" font-size="16" text-anchor="start" font-weight="700">f₂ 効率</text>
-<text x="120.0" y="526.0" fill="#d0693a" font-size="16" text-anchor="start" font-weight="700">f₃ 情報獲得</text>
+<text x="120.0" y="286.0" fill="#2b7a8c" font-size="16" text-anchor="start" font-weight="700">f_1 安全性</text>
+<text x="120.0" y="406.0" fill="#5a4fcf" font-size="16" text-anchor="start" font-weight="700">f_2 効率</text>
+<text x="120.0" y="526.0" fill="#d0693a" font-size="16" text-anchor="start" font-weight="700">f_3 情報獲得</text>
 <line x1="324.0" y1="280.0" x2="576.0" y2="280.0" stroke="#2b7a8c" stroke-width="1.6" marker-end="url(#arrow-teal)"/>
 <line x1="324.0" y1="280.0" x2="576.0" y2="400.0" stroke="#2b7a8c" stroke-width="1.1" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
 <line x1="324.0" y1="280.0" x2="576.0" y2="520.0" stroke="#2b7a8c" stroke-width="1.1" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
@@ -54,7 +54,7 @@
 <text x="1065.0" y="275.4" fill="#ffffff" font-size="15" text-anchor="middle" font-weight="700">s(t) 外界</text>
 <text x="1065.0" y="318.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">外界や身体の状態も</text>
 <text x="1065.0" y="334.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">各更新に入る</text>
-<text x="600.0" y="590.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">fᵢ(t+1) = gᵢ( f₁(t), f₂(t), …, fₙ(t), s(t) )</text>
+<text x="600.0" y="590.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">f_i(t+1) = g_i( f_1(t), f_2(t), …, f_n(t), s(t) )</text>
 <text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">実線は自分自身の更新、破線は他の目的への影響。厳密には目的関数と、それを評価する内部状態を区別する。</text>
 </g>
 </svg>

@@ -460,7 +460,7 @@ def weighted_sum(part):
             for k in range(3):
                 f.circ(x - 22 + k * 22, y + 35, 8, color if k < v else LINE)
     f.line(60, y0 + 4 * rh + 10, 1140, y0 + 4 * rh + 10, LINE, 1.5)
-    f.text(70, y0 + 4 * rh + 48, '総合評価 U(x) = Σᵢ wᵢ・fᵢ(x)', 16, INK, weight=700)
+    f.text(70, y0 + 4 * rh + 48, '総合評価 U(x) = Σ_i w_i・f_i(x)', 16, INK, weight=700)
     totals = [sum(objectives[i][1] * vals[i][j] for i in range(4)) for j in range(4)]
     best = max(range(4), key=lambda j: totals[j])
     for j, t in enumerate(totals):
@@ -588,8 +588,8 @@ def prediction_meets_objectives(part):
     f.text(470, 215, '世界モデルが予測する状態', 16, MUTED, anchor='middle', weight=700)
     f.text(790, 215, '目的関数による評価（重み付き）', 16, MUTED, anchor='middle', weight=700)
     f.text(1060, 215, '総合評価 U', 16, MUTED, anchor='middle', weight=700)
-    rows = [(260, 'a₁ 建物に近づいて調べる', '新しい情報を得る。危険かもしれない', [(3, TEAL), (1, TERRA)], 2.2, True),
-            (440, 'a₂ 離れて先へ進む', '安全だが、何も分からない', [(0, TEAL), (3, TERRA)], 1.6, False)]
+    rows = [(260, 'a_1 建物に近づいて調べる', '新しい情報を得る。危険かもしれない', [(3, TEAL), (1, TERRA)], 2.2, True),
+            (440, 'a_2 離れて先へ進む', '安全だが、何も分からない', [(0, TEAL), (3, TERRA)], 1.6, False)]
     for y, a, s, evals, u, chosen in rows:
         f.box(70, y, 240, 80, a, '', INK, 15)
         f.line(310, y + 40, 350, y + 40, MUTED, 2, arrow=True)
@@ -602,12 +602,12 @@ def prediction_meets_objectives(part):
             for i in range(3):
                 f.circ(740 + i * 20, yy, 7, color if i < v else LINE)
             f.text(820, yy + 5, w, 12, MUTED)
-            f.text(880, yy + 5, '× fᵢ(s′)', 12, MUTED)
+            f.text(880, yy + 5, '× f_i(s′)', 12, MUTED)
         f.line(950, y + 40, 990, y + 40, MUTED, 2, arrow=True)
         f.rect(990, y + 15, 140, 50, fill=PALE if chosen else '#ffffff', stroke=TEAL if chosen else LINE, rx=10)
         f.text(1060, y + 46, f'{u:.1f}', 18, TEAL if chosen else MUTED, anchor='middle', weight=700)
-    f.text(1060, 540, '安全の重み w が大きければ a₂ に傾く', 13, MUTED, anchor='middle')
-    f.text(600, 580, 'U(a | s, c) = Σᵢ wᵢ(s, c)・E[ fᵢ(s′) | s, a ]', 17, INK, anchor='middle', weight=700)
+    f.text(1060, 540, '安全の重み w が大きければ a_2 に傾く', 13, MUTED, anchor='middle')
+    f.text(600, 580, 'U(a | s, c) = Σ_i w_i(s, c)・E[ f_i(s′) | s, a ]', 17, INK, anchor='middle', weight=700)
     f.text(600, 606, '評価は現在の感覚入力だけでなく、将来の状態の予測に依存する', 14, MUTED, anchor='middle')
     f.footer('目的関数の最大化と予測誤差の最小化は、一般には同じ操作ではない。予測が正確な状態が望ましいとは限らない。')
     return f.save('prediction-meets-objectives')
@@ -720,7 +720,7 @@ def independent_vs_integrated(part):
         x = 95 + i * 160
         f.box(x, 265, 130, 70, label, '', color, 19)
         f.line(x + 65, 335, x + 65, 420, color, 2, arrow=True)
-    f.box(170, 425, 300, 60, '重み付き和  U = Σ wᵢ fᵢ', '', INK, 18)
+    f.box(170, 425, 300, 60, '重み付き和  U = Σ w_i f_i', '', INK, 18)
     f.text(320, 525, '分割しても各部分の働きは変わらない', 16, MUTED, anchor='middle')
     f.panel(620, 205, 520, 350, '相互依存する処理の集合')
     nodes = {'安全性': (700, 290, TEAL), '効率': (960, 290, INDIGO), '情報獲得': (830, 400, TERRA)}
@@ -775,7 +775,7 @@ def phi_partition(part):
 def coupled_objectives(part):
     f = Figure(5, '目的関数の内部状態は、互いの更新に影響する', '時間に沿って展開すると、ある目的の状態が次の時刻の他の目的の状態を変える', 660, part)
     cols = [('時刻 t', 300), ('時刻 t+1', 600), ('時刻 t+2', 900)]
-    rows = [('f₁ 安全性', 280, TEAL), ('f₂ 効率', 400, INDIGO), ('f₃ 情報獲得', 520, TERRA)]
+    rows = [('f_1 安全性', 280, TEAL), ('f_2 効率', 400, INDIGO), ('f_3 情報獲得', 520, TERRA)]
     for label, x in cols:
         f.text(x, 225, label, 17, INK, anchor='middle', weight=700)
     for label, y, color in rows:
@@ -792,7 +792,7 @@ def coupled_objectives(part):
     f.pill(1000, 250, 130, 40, 's(t) 外界', MUTED, 15)
     f.text(1065, 318, '外界や身体の状態も', 12, MUTED, anchor='middle')
     f.text(1065, 334, '各更新に入る', 12, MUTED, anchor='middle')
-    f.text(600, 590, 'fᵢ(t+1) = gᵢ( f₁(t), f₂(t), …, fₙ(t), s(t) )', 17, INK, anchor='middle', weight=700)
+    f.text(600, 590, 'f_i(t+1) = g_i( f_1(t), f_2(t), …, f_n(t), s(t) )', 17, INK, anchor='middle', weight=700)
     f.footer('実線は自分自身の更新、破線は他の目的への影響。厳密には目的関数と、それを評価する内部状態を区別する。')
     return f.save('coupled-objectives')
 
@@ -1081,13 +1081,13 @@ def context_mixture(part):
     f.text(135, 375, '状況・相手・環境', 14, MUTED, anchor='middle')
     f.line(210, 325, 280, 325, MUTED, 2.2, arrow=True)
     f.box(280, 285, 220, 80, '混合係数 π(c)', 'どの分人をどの程度', INK, 20)
-    persons = [('職場の分人 w⁽¹⁾', 215, TEAL, '0.7'), ('家庭の分人 w⁽²⁾', 305, TERRA, '0.2'), ('趣味の分人 w⁽³⁾', 395, INDIGO, '0.1')]
+    persons = [('職場の分人 w^(1)', 215, TEAL, '0.7'), ('家庭の分人 w^(2)', 305, TERRA, '0.2'), ('趣味の分人 w^(3)', 395, INDIGO, '0.1')]
     for label, y, color, coef in persons:
         f.box(620, y, 230, 64, label, '', color, 19)
         f.curve(500, 325, 560, (325 + y + 32) / 2, 620, y + 32, color, 2.2)
         f.text(560, (325 + y + 32) / 2 - 8, coef, 15, color, anchor='middle', weight=700)
         f.curve(850, y + 32, 900, (y + 32 + 350) / 2, 940, 350, color, 2.2)
-    f.box(940, 310, 210, 80, '重みの合成 w(c)', 'w(c) = Σ πⱼ(c) w⁽ʲ⁾', INK, 19, sub_size=14)
+    f.box(940, 310, 210, 80, '重みの合成 w(c)', 'w(c) = Σ π_j(c) w^(j)', INK, 19, sub_size=14)
     f.line(1045, 390, 1045, 440, MUTED, 2.2, arrow=True)
     f.box(940, 440, 210, 60, '行動の選択', '', INK, 19)
     f.rect(60, 545, 1090, 80, fill=PALE, stroke=TEAL, rx=14)
@@ -1513,7 +1513,7 @@ def objective_conflicts(part):
         if forbidden:
             f.line(80, y + 30, 1130, y + 30, TERRA, 2)
     f.text(600, 575, '↑ 高く評価　↓ 低く評価　・ ほぼ無関係　　最下段：他の目的で高くても、制約条件として選択肢から除外', 13, MUTED, anchor='middle')
-    f.text(600, 600, 'U(s, a, c) = Σᵢ wᵢ(s, c)・fᵢ(s, a)　＋　制約条件', 16, INK, anchor='middle', weight=700)
+    f.text(600, 600, 'U(s, a, c) = Σ_i w_i(s, c)・f_i(s, a)　＋　制約条件', 16, INK, anchor='middle', weight=700)
     f.footer('目的関数を複数用意することが目的ではない。競合が生じたとき、どう優先順位を決めるかを観測できる構造にする。')
     return f.save('objective-conflicts')
 
