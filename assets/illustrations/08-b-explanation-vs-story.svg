@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">説明が渡す情報と、物語が渡す情報</title>
+<desc id="desc">命題一つと、状況・葛藤・結果の追体験</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">説明が渡す情報と、物語が渡す情報</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">命題一つと、状況・葛藤・結果の追体験</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="60" y="205" width="480" height="320" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="300.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">説明</text>
+<rect x="100.0" y="290.0" width="400.0" height="50.0" rx="25" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<text x="300.0" y="321.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">「困っている人を助けることは望ましい」</text>
+<line x1="300.0" y1="345.0" x2="300.0" y2="400.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="200.0" y="400.0" width="200.0" height="56.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="300.0" y="423.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">知識</text>
+<text x="300.0" y="447.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">命題として保持</text>
+<text x="300.0" y="495.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">短い文章で十分だが、価値判断には結びつきにくい</text>
+<rect x="620" y="205" width="520" height="320" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="880.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">物語</text>
+<rect x="650.0" y="285.0" width="100.0" height="40.0" rx="20.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="700.0" y="310.4" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">状況</text>
+<line x1="750.0" y1="305.0" x2="770.0" y2="305.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="770.0" y="285.0" width="100.0" height="40.0" rx="20.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="820.0" y="310.4" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="700">葛藤</text>
+<line x1="870.0" y1="305.0" x2="890.0" y2="305.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="890.0" y="285.0" width="100.0" height="40.0" rx="20.0" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="940.0" y="310.4" fill="#5a4fcf" font-size="15" text-anchor="middle" font-weight="700">行動</text>
+<line x1="990.0" y1="305.0" x2="1010.0" y2="305.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1010.0" y="285.0" width="100.0" height="40.0" rx="20.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="1060.0" y="310.4" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">結果</text>
+<text x="880.0" y="360.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">困っている人の状況、助けると何が起きるか、助ける側の葛藤を描く</text>
+<line x1="880.0" y1="372.0" x2="880.0" y2="400.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="760.0" y="400.0" width="240.0" height="56.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="880.0" y="423.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">経験</text>
+<text x="880.0" y="447.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">価値判断・感情と結びつく</text>
+<text x="880.0" y="495.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">読者は状況を想像し、登場人物の判断を追体験する</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">目的関数モデルでは、この働きを目的関数の学習として捉える。</text>
+</g>
+</svg>

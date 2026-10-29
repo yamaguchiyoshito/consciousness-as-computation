@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">予測処理の循環</title>
+<desc id="desc">予測が先にあり、誤差が世界モデルを更新する</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     04     図4-4</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">予測処理の循環</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">予測が先にあり、誤差が世界モデルを更新する</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="90.0" y="240.0" width="230.0" height="90.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="205.0" y="280.0" fill="#2b7a8c" font-size="22" text-anchor="middle" font-weight="700">世界モデル</text>
+<text x="205.0" y="309.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">過去の経験から得た内部モデル</text>
+<rect x="430.0" y="240.0" width="170.0" height="80.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="515.0" y="287.9" fill="#2b7a8c" font-size="22" text-anchor="middle" font-weight="700">予測</text>
+<rect x="700.0" y="240.0" width="170.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="785.0" y="287.9" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">比較</text>
+<rect x="700.0" y="410.0" width="170.0" height="80.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="785.0" y="457.9" fill="#5a4fcf" font-size="22" text-anchor="middle" font-weight="700">感覚入力</text>
+<rect x="430.0" y="410.0" width="170.0" height="80.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="515.0" y="457.9" fill="#d0693a" font-size="22" text-anchor="middle" font-weight="700">予測誤差</text>
+<line x1="320.0" y1="285.0" x2="430.0" y2="280.0" stroke="#2b7a8c" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<line x1="600.0" y1="280.0" x2="700.0" y2="280.0" stroke="#2b7a8c" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<line x1="785.0" y1="410.0" x2="785.0" y2="320.0" stroke="#5a4fcf" stroke-width="2.5" marker-end="url(#arrow-indigo)"/>
+<path d="M700.0,300.0 Q650.0,400.0 600.0,440.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<path d="M430.0,450.0 Q250.0,450.0 205.0,330.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<text x="255.0" y="470.0" fill="#d0693a" font-size="18" text-anchor="middle" font-weight="700">更新</text>
+<text x="1030.0" y="232.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">精度が高い入力ほど</text>
+<text x="1030.0" y="252.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">更新への影響が大きい</text>
+<rect x="960.0" y="410.0" width="170.0" height="80.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="1045.0" y="457.9" fill="#5d6873" font-size="22" text-anchor="middle" font-weight="700">外界</text>
+<rect x="90.0" y="500.0" width="230.0" height="80.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="205.0" y="535.0" fill="#5a4fcf" font-size="20" text-anchor="middle" font-weight="700">行動</text>
+<text x="205.0" y="564.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">感覚入力の側を変える</text>
+<line x1="205.0" y1="330.0" x2="205.0" y2="500.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" stroke-dasharray="8 7"/>
+<text x="260.0" y="420.0" fill="#5a4fcf" font-size="16" text-anchor="middle" font-weight="400">能動的推論</text>
+<path d="M320,540 L1045,540 L1045,490" fill="none" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" stroke-dasharray="8 7"/>
+<line x1="960.0" y1="450.0" x2="870.0" y2="450.0" stroke="#5a4fcf" stroke-width="2.5" marker-end="url(#arrow-indigo)"/>
+<text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">予測誤差のすべてが同じ重さではない。信頼できる入力ほど（精度が高いほど）更新に大きく影響する。</text>
+</g>
+</svg>

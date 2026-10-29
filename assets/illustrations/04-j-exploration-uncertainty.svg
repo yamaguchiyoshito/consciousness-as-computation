@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">不確実性を減らすことだけが目的ではない</title>
+<desc id="desc">探索は短期的に不確実性を増やし、長期的に予測精度を上げる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="650" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     04     図4-10</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">不確実性を減らすことだけが目的ではない</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">探索は短期的に不確実性を増やし、長期的に予測精度を上げる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<line x1="120.0" y1="520.0" x2="1000.0" y2="520.0" stroke="#232a33" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
+<line x1="120.0" y1="520.0" x2="120.0" y2="240.0" stroke="#232a33" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
+<text x="1010.0" y="526.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="400">時間</text>
+<text x="110.0" y="232.0" fill="#232a33" font-size="15" text-anchor="end" font-weight="400">不確実性</text>
+<line x1="120.0" y1="400.0" x2="960.0" y2="400.0" stroke="#5d6873" stroke-width="2.5" stroke-dasharray="8 7"/>
+<text x="970.0" y="406.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">回避：不確実性は変わらない</text>
+<path d="M120,400 C300,270 420,250 520,360 S760,460 960,470" fill="none" stroke="#2b7a8c" stroke-width="3.5"/>
+<text x="1030.0" y="476.0" fill="#2b7a8c" font-size="15" text-anchor="start" font-weight="700">探索</text>
+<circle cx="380.0" cy="270.0" r="8" fill="#2b7a8c"/>
+<text x="380.0" y="250.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">未知の場所へ進む：一時的に増大</text>
+<circle cx="560.0" cy="362.0" r="8" fill="#2b7a8c"/>
+<text x="560.0" y="345.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">情報を獲得する</text>
+<circle cx="900.0" cy="465.0" r="8" fill="#2b7a8c"/>
+<text x="900.0" y="495.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">将来の予測精度が改善する</text>
+<text x="600.0" y="575.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">安全を優先すべきときもあれば、好奇心を優先すべきときもある。その判断が目的関数の調停である。</text>
+<text x="50.0" y="622.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">意識は不確実性を単純に排除するのではなく、不確実性とどのように向き合うかを調整する働きとして考えられる。</text>
+</g>
+</svg>

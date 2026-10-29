@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">統一された「自分」は事後的に構築される</title>
+<desc id="desc">複数の動機から生じた行動が、ひとつの物語で一貫した自己像に整理される</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     03     図3-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">統一された「自分」は事後的に構築される</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">複数の動機から生じた行動が、ひとつの物語で一貫した自己像に整理される</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="225.0" width="200.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="170.0" y="252.8" fill="#2b7a8c" font-size="16" text-anchor="middle" font-weight="700">知的好奇心</text>
+<path d="M270.0,247.0 Q320.0,247.0 360.0,330.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<rect x="70.0" y="305.0" width="200.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="170.0" y="332.8" fill="#5a4fcf" font-size="16" text-anchor="middle" font-weight="700">社会的承認欲求</text>
+<path d="M270.0,327.0 Q320.0,327.0 360.0,330.0" fill="none" stroke="#5a4fcf" stroke-width="2.2" marker-end="url(#arrow-indigo)"/>
+<rect x="70.0" y="385.0" width="200.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="170.0" y="412.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">現状への不満</text>
+<path d="M270.0,407.0 Q320.0,407.0 360.0,330.0" fill="none" stroke="#d0693a" stroke-width="2.2" marker-end="url(#arrow-terra)"/>
+<text x="170.0" y="495.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">複数の動機</text>
+<rect x="360.0" y="290.0" width="230.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="475.0" y="325.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">一つの行動</text>
+<text x="475.0" y="350.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">安定した仕事を辞め、新しい分野へ</text>
+<line x1="590.0" y1="330.0" x2="650.0" y2="330.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="650.0" y="275.0" width="260.0" height="110.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="780.0" y="325.0" fill="#d0693a" font-size="19" text-anchor="middle" font-weight="700">ナラティブ</text>
+<text x="780.0" y="351.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">「自分は昔から</text>
+<text x="780.0" y="365.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">挑戦することが好きだった」</text>
+<line x1="910.0" y1="330.0" x2="970.0" y2="330.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="970.0" y="285.0" width="170.0" height="90.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="1055.0" y="325.0" fill="#d0693a" font-size="19" text-anchor="middle" font-weight="700">一貫した</text>
+<text x="1055.0" y="354.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">自己像</text>
+<rect x="360.0" y="430.0" width="780.0" height="90.0" rx="12" fill="#ffffff" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="750.0" y="462.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">挑戦しなかった場合も「自分は慎重に判断する人間だから」と説明できる</text>
+<text x="750.0" y="490.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">同じ人が、異なる行動のそれぞれに一貫した理由を与える</text>
+<text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">意図的な自己欺瞞ではない。記憶と物語が行動を結びつけ、時間的に連続した自己像を作る。</text>
+</g>
+</svg>

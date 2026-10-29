@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">情報統合をどのように測定するのか</title>
+<desc id="desc">工学的な指標で内部の相互依存を調べる。相関は因果的統合ではなく、指標はΦではない</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     09     図9-10</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">情報統合をどのように測定するのか</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">工学的な指標で内部の相互依存を調べる。相関は因果的統合ではなく、指標はΦではない</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="215.0" width="340.0" height="230.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="240.0" y="255.0" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">相互情報量</text>
+<text x="240.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">ある目的関数の状態を知ると、</text>
+<text x="240.0" y="326.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">別の目的関数の状態が</text>
+<text x="240.0" y="352.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">どの程度分かるか</text>
+<circle cx="190.0" cy="405.0" r="14" fill="#2b7a8c"/>
+<line x1="204.0" y1="405.0" x2="276.0" y2="405.0" stroke="#2b7a8c" stroke-width="2" marker-end="url(#arrow-teal)" marker-start="url(#arrow-teal)"/>
+<circle cx="290.0" cy="405.0" r="14" fill="#2b7a8c"/>
+<rect x="430.0" y="215.0" width="340.0" height="230.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="600.0" y="255.0" fill="#5a4fcf" font-size="20" text-anchor="middle" font-weight="700">無効化</text>
+<text x="600.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">一つの目的関数を止め、</text>
+<text x="600.0" y="326.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">他の目的関数や行動選択が</text>
+<text x="600.0" y="352.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">どれだけ変わるかを測る</text>
+<circle cx="550.0" cy="405.0" r="14" fill="#d8d4c8"/>
+<line x1="542.0" y1="397.0" x2="558.0" y2="413.0" stroke="#5a4fcf" stroke-width="2.5"/>
+<line x1="542.0" y1="413.0" x2="558.0" y2="397.0" stroke="#5a4fcf" stroke-width="2.5"/>
+<line x1="564.0" y1="405.0" x2="636.0" y2="405.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)"/>
+<circle cx="650.0" cy="405.0" r="14" fill="#5a4fcf"/>
+<rect x="790.0" y="215.0" width="340.0" height="230.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="960.0" y="255.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">フィードバック除去</text>
+<text x="960.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">自己表象へ戻る経路を切り、</text>
+<text x="960.0" y="326.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">内部状態や行動の変化を</text>
+<text x="960.0" y="352.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">比較する</text>
+<rect x="890.0" y="390.0" width="140.0" height="30.0" rx="8" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="960.0" y="410.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">自己表象</text>
+<line x1="952.0" y1="367.0" x2="968.0" y2="383.0" stroke="#d0693a" stroke-width="2.5"/>
+<line x1="952.0" y1="383.0" x2="968.0" y2="367.0" stroke="#d0693a" stroke-width="2.5"/>
+<rect x="150.0" y="480.0" width="900.0" height="110.0" rx="12" fill="#ffffff" stroke="#d0693a" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="600.0" y="510.0" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="700">注意</text>
+<text x="600.0" y="538.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">相関があっても、共通の入力で同時に変化しているだけかもしれない（因果的な統合とは別）</text>
+<text x="600.0" y="562.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">工学的な指標が大きくても、IITのΦが大きいとは限らない。Φの厳密な評価は小規模な系から行う</text>
+<text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">情報処理の統合と、現象的意識の存在は区別する。</text>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">意識は特定の物理的な基盤に依存するのか</title>
+<desc id="desc">同じ手続きを別の基盤で動かせるとき、二つの問いが分かれる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     02     図2-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">意識は特定の物理的な基盤に依存するのか</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">同じ手続きを別の基盤で動かせるとき、二つの問いが分かれる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="90.0" y="215.0" width="400.0" height="150.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="290.0" y="248.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">脳</text>
+<text x="290.0" y="270.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">生物学的な計算基盤</text>
+<rect x="130.0" y="290.0" width="320.0" height="50.0" rx="10" fill="#dfe9eb" stroke="#2b7a8c" stroke-width="2"/>
+<text x="290.0" y="321.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">自己認識の情報処理</text>
+<rect x="710.0" y="215.0" width="400.0" height="150.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="910.0" y="248.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">計算機</text>
+<text x="910.0" y="270.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">別の計算基盤</text>
+<rect x="750.0" y="290.0" width="320.0" height="50.0" rx="10" fill="#dfe9eb" stroke="#2b7a8c" stroke-width="2"/>
+<text x="910.0" y="321.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">自己認識の情報処理</text>
+<line x1="490.0" y1="315.0" x2="710.0" y2="315.0" stroke="#d8d4c8" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="8 7"/>
+<text x="600.0" y="305.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">同じ手続き？</text>
+<rect x="90.0" y="400.0" width="480.0" height="120.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="330.0" y="455.0" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">問い1：機能を再現できるか</text>
+<text x="330.0" y="481.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">状態の監視・記憶・行動選択を計算機で実装する</text>
+<text x="330.0" y="545.0" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="400">→ 計算機実験で検証できる（第9回）</text>
+<rect x="630.0" y="400.0" width="480.0" height="120.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="870.0" y="455.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">問い2：主観的体験が生じるか</text>
+<text x="870.0" y="481.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">「自分が存在している」と感じているか</text>
+<text x="870.0" y="545.0" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="400">→ 別の問題として残る（第6回）</text>
+<text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">人間の脳は意識を実現する一つの計算基盤である、という仮説。機能の再現は現象的意識の証明にならない。</text>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">現実の理解と物語の理解は、同じ処理を使う</title>
+<desc id="desc">想像・予測・更新という認知的な処理が共通している</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="620" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-9</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">現実の理解と物語の理解は、同じ処理を使う</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">想像・予測・更新という認知的な処理が共通している</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="240.0" width="230.0" height="80.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="185.0" y="275.0" fill="#2b7a8c" font-size="18" text-anchor="middle" font-weight="700">現実の出来事</text>
+<text x="185.0" y="299.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">身体的な危険や責任を伴う</text>
+<rect x="70.0" y="400.0" width="230.0" height="80.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="185.0" y="435.0" fill="#d0693a" font-size="18" text-anchor="middle" font-weight="700">物語の出来事</text>
+<text x="185.0" y="459.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">現実でないと分かっている</text>
+<path d="M300.0,280.0 Q360.0,300.0 420.0,345.0" fill="none" stroke="#2b7a8c" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<path d="M300.0,440.0 Q360.0,420.0 420.0,375.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<rect x="420.0" y="280.0" width="400.0" height="160.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="620.0" y="312.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">共通する処理</text>
+<text x="620.0" y="345.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">状況を想像する</text>
+<text x="620.0" y="373.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">次に何が起きるかを予測する</text>
+<text x="620.0" y="401.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">予想外の出来事で理解を更新する</text>
+<line x1="820.0" y1="360.0" x2="880.0" y2="360.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="880.0" y="315.0" width="250.0" height="90.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="1005.0" y="355.0" fill="#5a4fcf" font-size="17" text-anchor="middle" font-weight="700">世界モデル・自己表象</text>
+<text x="1005.0" y="379.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">行動と結果の関係を学習</text>
+<text x="600.0" y="530.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">主人公が失敗を乗り越える物語から、失敗が最終的な結果ではないという行動と結果の関係を学習できる</text>
+<text x="50.0" y="592.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">物語の理解と現実の経験は完全に同じではない。目的関数モデルでは、これを経験の間接的な学習と呼ぶ。</text>
+</g>
+</svg>

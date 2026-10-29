@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">連載の地図</title>
+<desc id="desc">全9回・4部の流れ</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="620" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     01     図1-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">連載の地図</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">全9回・4部の流れ</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<line x1="70.0" y1="280.0" x2="290.0" y2="280.0" stroke="#2b7a8c" stroke-width="4"/>
+<text x="180.0" y="268.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">第I部 境界を問う</text>
+<line x1="310.0" y1="280.0" x2="650.0" y2="280.0" stroke="#d0693a" stroke-width="4"/>
+<text x="480.0" y="268.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">第II部 自己のモデル</text>
+<line x1="670.0" y1="280.0" x2="1010.0" y2="280.0" stroke="#5a4fcf" stroke-width="4"/>
+<text x="840.0" y="268.0" fill="#5a4fcf" font-size="14" text-anchor="middle" font-weight="700">第III部 体験と複数の自己</text>
+<line x1="1030.0" y1="280.0" x2="1130.0" y2="280.0" stroke="#5d6873" stroke-width="4"/>
+<text x="1080.0" y="268.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="700">第IV部 計算機で確かめる</text>
+<line x1="146.0" y1="360.0" x2="214.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="266.0" y1="360.0" x2="334.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="386.0" y1="360.0" x2="454.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="506.0" y1="360.0" x2="574.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="626.0" y1="360.0" x2="694.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="746.0" y1="360.0" x2="814.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="866.0" y1="360.0" x2="934.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="986.0" y1="360.0" x2="1054.0" y2="360.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<circle cx="120.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="120.0" cy="360.0" r="24" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="120.0" y="366.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">1</text>
+<text x="120.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">境界</text>
+<text x="120.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">現実と仮想、肉体と自分</text>
+<circle cx="240.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="240.0" cy="360.0" r="24" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="240.0" y="366.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">2</text>
+<text x="240.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">意識と自分</text>
+<text x="240.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">認識する働きと表象</text>
+<circle cx="360.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="360.0" cy="360.0" r="24" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<text x="360.0" y="366.0" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">3</text>
+<text x="360.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">目的関数</text>
+<text x="360.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">交差点に生まれる自己</text>
+<circle cx="480.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="480.0" cy="360.0" r="24" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<text x="480.0" y="366.0" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">4</text>
+<text x="480.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">予測</text>
+<text x="480.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">何を優先するか</text>
+<circle cx="600.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="600.0" cy="360.0" r="24" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<text x="600.0" y="366.0" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">5</text>
+<text x="600.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">統合</text>
+<text x="600.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">関係の中の自分</text>
+<circle cx="720.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="720.0" cy="360.0" r="24" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<text x="720.0" y="366.0" fill="#5a4fcf" font-size="17" text-anchor="middle" font-weight="700">6</text>
+<text x="720.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">感じること</text>
+<text x="720.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">ハードプロブレム</text>
+<circle cx="840.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="840.0" cy="360.0" r="24" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<text x="840.0" y="366.0" fill="#5a4fcf" font-size="17" text-anchor="middle" font-weight="700">7</text>
+<text x="840.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">分人</text>
+<text x="840.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">複数の自分と拡張</text>
+<circle cx="960.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="960.0" cy="360.0" r="24" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<text x="960.0" y="366.0" fill="#5a4fcf" font-size="17" text-anchor="middle" font-weight="700">8</text>
+<text x="960.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">物語</text>
+<text x="960.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">目的関数の学習と修復</text>
+<circle cx="1080.0" cy="360.0" r="24" fill="#ffffff"/>
+<circle cx="1080.0" cy="360.0" r="24" fill="none" stroke="#5d6873" stroke-width="2.5"/>
+<text x="1080.0" y="366.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">9</text>
+<text x="1080.0" y="410.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">計算機</text>
+<text x="1080.0" y="430.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">機能的近似と検証</text>
+<text x="600.0" y="500.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">「自分」は発見されるのではなく、情報処理によって構築される</text>
+<text x="600.0" y="528.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">各回は独立した読み物であり、末尾の一段落が次回へつながる</text>
+<text x="50.0" y="592.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">第1回で仮説を立て、第3〜5回でモデルを組み、第6〜8回で体験と複数の自己を扱い、第9回で計算機に載せる。</text>
+</g>
+</svg>

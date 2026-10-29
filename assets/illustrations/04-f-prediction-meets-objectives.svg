@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">予測処理と目的関数を接続する</title>
+<desc id="desc">候補行動ごとに将来の状態を予測し、複数の目的関数が重み付きで評価する</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="700" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     04     図4-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">予測処理と目的関数を接続する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">候補行動ごとに将来の状態を予測し、複数の目的関数が重み付きで評価する</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="190.0" y="215.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="700">行動の候補</text>
+<text x="470.0" y="215.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="700">世界モデルが予測する状態</text>
+<text x="790.0" y="215.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="700">目的関数による評価（重み付き）</text>
+<text x="1060.0" y="215.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="700">総合評価 U</text>
+<rect x="70.0" y="260.0" width="240.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="190.0" y="305.4" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">a_1 建物に近づいて調べる</text>
+<line x1="310.0" y1="300.0" x2="350.0" y2="300.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="350.0" y="260.0" width="240.0" height="80.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="470.0" y="295.0" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">予測された状態 s′</text>
+<text x="470.0" y="318.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">新しい情報を得る。危険かもしれない</text>
+<line x1="590.0" y1="300.0" x2="630.0" y2="300.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="630.0" y="260.0" width="320.0" height="80.0" rx="12" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="645.0" y="289.0" fill="#2b7a8c" font-size="13" text-anchor="start" font-weight="700">知的好奇心</text>
+<circle cx="740.0" cy="284.0" r="7" fill="#2b7a8c"/>
+<circle cx="760.0" cy="284.0" r="7" fill="#2b7a8c"/>
+<circle cx="780.0" cy="284.0" r="7" fill="#2b7a8c"/>
+<text x="820.0" y="289.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">w=0.5</text>
+<text x="880.0" y="289.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">× f_i(s′)</text>
+<text x="645.0" y="321.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="700">安全</text>
+<circle cx="740.0" cy="316.0" r="7" fill="#d0693a"/>
+<circle cx="760.0" cy="316.0" r="7" fill="#d8d4c8"/>
+<circle cx="780.0" cy="316.0" r="7" fill="#d8d4c8"/>
+<text x="820.0" y="321.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">w=0.8</text>
+<text x="880.0" y="321.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">× f_i(s′)</text>
+<line x1="950.0" y1="300.0" x2="990.0" y2="300.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="990.0" y="275.0" width="140.0" height="50.0" rx="10" fill="#dfe9eb" stroke="#2b7a8c" stroke-width="2"/>
+<text x="1060.0" y="306.0" fill="#2b7a8c" font-size="18" text-anchor="middle" font-weight="700">2.2</text>
+<rect x="70.0" y="440.0" width="240.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="190.0" y="485.4" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">a_2 離れて先へ進む</text>
+<line x1="310.0" y1="480.0" x2="350.0" y2="480.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="350.0" y="440.0" width="240.0" height="80.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="470.0" y="475.0" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">予測された状態 s′</text>
+<text x="470.0" y="498.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">安全だが、何も分からない</text>
+<line x1="590.0" y1="480.0" x2="630.0" y2="480.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="630.0" y="440.0" width="320.0" height="80.0" rx="12" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="645.0" y="469.0" fill="#2b7a8c" font-size="13" text-anchor="start" font-weight="700">知的好奇心</text>
+<circle cx="740.0" cy="464.0" r="7" fill="#d8d4c8"/>
+<circle cx="760.0" cy="464.0" r="7" fill="#d8d4c8"/>
+<circle cx="780.0" cy="464.0" r="7" fill="#d8d4c8"/>
+<text x="820.0" y="469.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">w=0.5</text>
+<text x="880.0" y="469.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">× f_i(s′)</text>
+<text x="645.0" y="501.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="700">安全</text>
+<circle cx="740.0" cy="496.0" r="7" fill="#d0693a"/>
+<circle cx="760.0" cy="496.0" r="7" fill="#d0693a"/>
+<circle cx="780.0" cy="496.0" r="7" fill="#d0693a"/>
+<text x="820.0" y="501.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">w=0.8</text>
+<text x="880.0" y="501.0" fill="#5d6873" font-size="12" text-anchor="start" font-weight="400">× f_i(s′)</text>
+<line x1="950.0" y1="480.0" x2="990.0" y2="480.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="990.0" y="455.0" width="140.0" height="50.0" rx="10" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="1060.0" y="486.0" fill="#5d6873" font-size="18" text-anchor="middle" font-weight="700">1.6</text>
+<text x="1060.0" y="540.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">安全の重み w が大きければ a_2 に傾く</text>
+<text x="600.0" y="580.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">U(a | s, c) = Σ_i w_i(s, c)・E[ f_i(s′) | s, a ]</text>
+<text x="600.0" y="606.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">評価は現在の感覚入力だけでなく、将来の状態の予測に依存する</text>
+<text x="50.0" y="672.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">目的関数の最大化と予測誤差の最小化は、一般には同じ操作ではない。予測が正確な状態が望ましいとは限らない。</text>
+</g>
+</svg>

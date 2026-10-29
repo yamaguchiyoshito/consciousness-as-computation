@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">AIに意識を問うときの三つの評価軸</title>
+<desc id="desc">似ていることは、次の段が同じであることを意味しない</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="620" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     06     図6-7</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">AIに意識を問うときの三つの評価軸</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">似ていることは、次の段が同じであることを意味しない</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="430.0" width="300.0" height="92.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="220.0" y="471.0" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">行動上の類似性</text>
+<text x="220.0" y="497.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">同じように判断・応答できるか</text>
+<line x1="70.0" y1="522.0" x2="370.0" y2="522.0" stroke="#2b7a8c" stroke-width="4"/>
+<rect x="450.0" y="320.0" width="300.0" height="92.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="600.0" y="361.0" fill="#5a4fcf" font-size="20" text-anchor="middle" font-weight="700">機能的な構造</text>
+<text x="600.0" y="387.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">自己表象・予測・記憶・調停があるか</text>
+<line x1="450.0" y1="412.0" x2="750.0" y2="412.0" stroke="#5a4fcf" stroke-width="4"/>
+<rect x="830.0" y="210.0" width="300.0" height="92.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="980.0" y="251.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">現象的意識の理論的条件</text>
+<text x="980.0" y="277.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">IITなどが求める内部構造があるか</text>
+<line x1="830.0" y1="302.0" x2="1130.0" y2="302.0" stroke="#d0693a" stroke-width="4"/>
+<line x1="370.0" y1="445.0" x2="450.0" y2="397.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<text x="410.0" y="392.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">必ずしも</text>
+<text x="410.0" y="410.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">意味しない</text>
+<line x1="750.0" y1="335.0" x2="830.0" y2="287.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<text x="790.0" y="282.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">必ずしも</text>
+<text x="790.0" y="300.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">意味しない</text>
+<text x="600.0" y="565.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">行動が似ている → 機能が同じ、とは限らない。機能が似ている → 因果構造が同じ、とも限らない。</text>
+<text x="50.0" y="592.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">因果構造の類似を確認できても、それが体験の存在を証明するかどうかは採用する意識理論に依存する。</text>
+</g>
+</svg>

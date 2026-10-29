@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">追放もの：低い評価の原因を評価者の側へ帰属させる</title>
+<desc id="desc">他者評価と自己評価の結びつきを切り離す構造</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">追放もの：低い評価の原因を評価者の側へ帰属させる</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">他者評価と自己評価の結びつきを切り離す構造</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="60" y="205" width="520" height="330" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="320.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">従来の結びつき</text>
+<rect x="110.0" y="330.0" width="180.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="200.0" y="358.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">低い他者評価</text>
+<line x1="290.0" y1="352.0" x2="380.0" y2="352.0" stroke="#5d6873" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="390.0" y="330.0" width="160.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="470.0" y="358.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">自己評価の低下</text>
+<text x="320.0" y="430.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">周囲に能力が低いと言われ続け、</text>
+<text x="320.0" y="450.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">自分でもそう考えるようになる</text>
+<rect x="640" y="205" width="500" height="330" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="890.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">追放ものが提示する解釈</text>
+<rect x="670.0" y="330.0" width="180.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="760.0" y="358.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">低い他者評価</text>
+<line x1="850.0" y1="340.0" x2="930.0" y2="290.0" stroke="#d8d4c8" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
+<line x1="882.0" y1="307.0" x2="898.0" y2="323.0" stroke="#5d6873" stroke-width="2"/>
+<line x1="882.0" y1="323.0" x2="898.0" y2="307.0" stroke="#5d6873" stroke-width="2"/>
+<rect x="940.0" y="262.0" width="170.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="1025.0" y="290.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">自分の能力</text>
+<line x1="850.0" y1="364.0" x2="930.0" y2="410.0" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<rect x="940.0" y="392.0" width="170.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="1025.0" y="420.1" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">評価者の誤り</text>
+<text x="1025.0" y="470.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">→ 自己評価は維持される</text>
+<text x="890.0" y="505.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">評価の原因について、ひとつの代替的な物語を示す</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">現実のすべての低評価が不当だという主張ではない。他者評価と自分の価値を同一視しなくてよい、という解釈に触れさせる。</text>
+</g>
+</svg>

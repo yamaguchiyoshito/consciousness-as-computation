@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">道具やアバターは、どのように自分の一部になるのか</title>
+<desc id="desc">操作と結果の対応が学習され、予測が成立すると、身体図式へ取り込まれる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker><radialGradient id="g07g-1"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.35"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.16"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     07     図7-7</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">道具やアバターは、どのように自分の一部になるのか</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">操作と結果の対応が学習され、予測が成立すると、身体図式へ取り込まれる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70" y="205" width="340" height="300" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="240.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">習熟前</text>
+<circle cx="180.0" cy="330.0" r="26" fill="#ffffff"/>
+<circle cx="180.0" cy="330.0" r="26" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="180.0" y="335.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">身体</text>
+<rect x="260.0" y="314.0" width="80.0" height="32.0" rx="8" fill="#ffffff" stroke="#d0693a" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="300.0" y="335.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="700">道具</text>
+<line x1="206.0" y1="330.0" x2="260.0" y2="330.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)" marker-start="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<text x="240.0" y="306.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">結果を予測できない</text>
+<text x="240.0" y="420.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">道具の先端の位置を意識して計算する</text>
+<rect x="430" y="205" width="340" height="300" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="600.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">繰り返しの操作</text>
+<circle cx="540.0" cy="330.0" r="26" fill="#ffffff"/>
+<circle cx="540.0" cy="330.0" r="26" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="540.0" y="335.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">身体</text>
+<rect x="620.0" y="314.0" width="80.0" height="32.0" rx="8" fill="#ffffff" stroke="#d0693a" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="660.0" y="335.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="700">道具</text>
+<line x1="566.0" y1="330.0" x2="620.0" y2="330.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)" marker-start="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<text x="600.0" y="306.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">予測の精度</text>
+<rect x="560.0" y="356.0" width="80.0" height="8.0" rx="4" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="560.0" y="356.0" width="40.0" height="8.0" rx="4" fill="#d0693a" stroke="#d0693a" stroke-width="2"/>
+<text x="600.0" y="420.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">操作と結果の対応を学習し、予測が成立する</text>
+<rect x="790" y="205" width="340" height="300" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="960.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">習熟後</text>
+<circle cx="900.0" cy="330.0" r="26" fill="#ffffff"/>
+<circle cx="900.0" cy="330.0" r="26" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="900.0" y="335.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">身体</text>
+<rect x="980.0" y="314.0" width="80.0" height="32.0" rx="8" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="1020.0" y="335.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">道具</text>
+<circle cx="960.0" cy="330.0" r="120" fill="url(#g07g-1)"/>
+<line x1="926.0" y1="330.0" x2="980.0" y2="330.0" stroke="#2b7a8c" stroke-width="3"/>
+<text x="960.0" y="420.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">道具の動きを身体運動と結びつけて制御する</text>
+<line x1="410.0" y1="330.0" x2="430.0" y2="330.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="770.0" y1="330.0" x2="790.0" y2="330.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="600.0" y="560.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">例：職人の道具、自動車の車幅感覚、ゲームキャラクターやアバターの操作</text>
+<text x="600.0" y="585.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">第4回の予測処理：行動によってどの感覚入力が生じるかを予測できることが鍵になる</text>
+<text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">制御できる対象がすべて自己になるわけではない。記憶・感情・価値判断・社会的な関係も関係する。</text>
+</g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">一つの体験は分割できない</title>
+<desc id="desc">IITは意識体験の統一性と不可分性から出発する</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker><radialGradient id="g05b-1"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.35"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.16"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="680" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     05     図5-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">一つの体験は分割できない</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">IITは意識体験の統一性と不可分性から出発する</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="190.0" y="225.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">異なる経路で処理される情報</text>
+<rect x="80.0" y="265.0" width="220.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="190.0" y="292.8" fill="#2b7a8c" font-size="16" text-anchor="middle" font-weight="700">文字の形</text>
+<path d="M300.0,287.0 Q420.0,287.0 520.0,395.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<rect x="80.0" y="335.0" width="220.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="190.0" y="362.8" fill="#2b7a8c" font-size="16" text-anchor="middle" font-weight="700">文章の意味</text>
+<path d="M300.0,357.0 Q420.0,357.0 520.0,395.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<rect x="80.0" y="405.0" width="220.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="190.0" y="432.8" fill="#5a4fcf" font-size="16" text-anchor="middle" font-weight="700">周囲の音</text>
+<path d="M300.0,427.0 Q420.0,427.0 520.0,395.0" fill="none" stroke="#5a4fcf" stroke-width="2.2" marker-end="url(#arrow-indigo)"/>
+<rect x="80.0" y="475.0" width="220.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="190.0" y="502.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">身体の感覚</text>
+<path d="M300.0,497.0 Q420.0,497.0 520.0,395.0" fill="none" stroke="#d0693a" stroke-width="2.2" marker-end="url(#arrow-terra)"/>
+<circle cx="760.0" cy="395.0" r="230" fill="url(#g05b-1)"/>
+<circle cx="760.0" cy="395.0" r="170" fill="none" stroke="#2b7a8c" stroke-width="2.5" stroke-dasharray="7 6"/>
+<text x="760.0" y="300.0" fill="#2b7a8c" font-size="22" text-anchor="middle" font-weight="700">一つの体験</text>
+<circle cx="690.0" cy="355.0" r="34" fill="#ffffff"/>
+<circle cx="690.0" cy="355.0" r="34" fill="none" stroke="#2b7a8c" stroke-width="2"/>
+<text x="690.0" y="360.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">文字の形</text>
+<circle cx="830.0" cy="355.0" r="34" fill="#ffffff"/>
+<circle cx="830.0" cy="355.0" r="34" fill="none" stroke="#2b7a8c" stroke-width="2"/>
+<text x="830.0" y="360.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">文章の意味</text>
+<circle cx="690.0" cy="445.0" r="34" fill="#ffffff"/>
+<circle cx="690.0" cy="445.0" r="34" fill="none" stroke="#5a4fcf" stroke-width="2"/>
+<text x="690.0" y="450.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">周囲の音</text>
+<circle cx="830.0" cy="445.0" r="34" fill="#ffffff"/>
+<circle cx="830.0" cy="445.0" r="34" fill="none" stroke="#d0693a" stroke-width="2"/>
+<text x="830.0" y="450.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">身体の感覚</text>
+<line x1="760.0" y1="240.0" x2="760.0" y2="550.0" stroke="#d0693a" stroke-width="3" stroke-dasharray="8 7"/>
+<line x1="748.0" y1="468.0" x2="772.0" y2="492.0" stroke="#d0693a" stroke-width="3.5"/>
+<line x1="748.0" y1="492.0" x2="772.0" y2="468.0" stroke="#d0693a" stroke-width="3.5"/>
+<text x="760.0" y="600.0" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="700">独立した複数の体験には分割できない</text>
+<text x="50.0" y="652.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">大量の情報を処理しているだけでは意識の成立条件を説明できない。IITは因果的な統合構造に注目する。</text>
+</g>
+</svg>
