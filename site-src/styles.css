@@ -61,6 +61,16 @@ pre{padding:16px 18px;background:var(--soft);border:1px solid var(--line);border
 code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em}
 p code,li code,td code{background:var(--soft);padding:1px 5px;border-radius:4px}
 
+/* 式：各回の本文では、コード表記は式か記号である。本文中の式は明朝系の数式フォントで、式だけの段落は番号付きのブロックにする。添字は sub/sup で描く */
+code.math,code.flow{font-family:"STIX Two Math","Cambria Math","Latin Modern Math","Times New Roman","Hiragino Mincho ProN","Yu Mincho","Noto Serif CJK JP",serif;font-size:1.04em;letter-spacing:.01em;color:var(--ink)}
+code.flow{font-family:inherit;font-size:.95em}
+code sub,code sup{font-size:.68em;line-height:0;position:relative;vertical-align:baseline}
+code sub{bottom:-.28em}code sup{top:-.55em}
+.formula{display:flex;align-items:baseline;justify-content:space-between;gap:18px;margin:20px 0 22px;padding:14px 20px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;overflow-x:auto;scrollbar-width:thin}
+.formula code{background:none;padding:0;white-space:nowrap;font-size:19px}
+.formula code.flow{font-size:16px;white-space:normal}
+.formula-label{flex:0 0 auto;font-size:13px;color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+
 /* 脚注・フッター */
 .footnotes{font-size:13px;color:var(--muted);line-height:1.8;margin-top:32px}.footnotes ol{padding-left:20px}
 .footnote-ref{text-decoration:none;font-size:.8em}.footnote-ref sup{vertical-align:super}
@@ -97,5 +107,5 @@ body:has(.toc-state:checked) .toc-drawer{transform:none;visibility:visible}
 @media(prefers-reduced-motion:reduce){.toc-drawer,.toc-backdrop,.toc-toggle{transition:none}html{scroll-behavior:auto}}
 @media(prefers-color-scheme:dark){:root{--paper:#171a24;--card:#1f2330;--ink:#e6e6ee;--muted:#aab0bf;--accent:#7fc9d6;--accent-2:#f0966a;--line:#343a4c;--soft:#232838;--table-stripe:#1b1f2b}img{background:#f7f5ef;border-color:#4a5062}}
 @media(max-width:940px){.layout{padding:22px 20px 60px}main{max-width:none}.topbar{padding:11px 18px}}
-@media(max-width:600px){.brand{font-size:15px}.brand span{display:none}body{font-size:15.5px;line-height:1.75}h1{font-size:25px}h2{font-size:20px}h3{font-size:17.5px}.topbar-actions{gap:12px;font-size:13px}.toc-toggle{padding:6px 11px}.layout{padding-left:16px;padding-right:16px}.figure-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -16px;padding:0 16px;scrollbar-width:thin}.figure-link{width:max-content}img{width:680px;max-width:none;padding:4px}figcaption::after{content:"　横にスクロールできる。タップで原寸。";color:var(--muted)}th,td{padding:8px 9px}table{font-size:13.5px}.table-wrap{border-radius:6px}.chapter-nav{font-size:13px;padding:8px 12px}}
+@media(max-width:600px){.brand{font-size:15px}.brand span{display:none}body{font-size:15.5px;line-height:1.75}h1{font-size:25px}h2{font-size:20px}h3{font-size:17.5px}.topbar-actions{gap:12px;font-size:13px}.toc-toggle{padding:6px 11px}.layout{padding-left:16px;padding-right:16px}.figure-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -16px;padding:0 16px;scrollbar-width:thin}.figure-link{width:max-content}img{width:680px;max-width:none;padding:4px}figcaption::after{content:"　横にスクロールできる。タップで原寸。";color:var(--muted)}th,td{padding:8px 9px}table{font-size:13.5px}.table-wrap{border-radius:6px}.chapter-nav{font-size:13px;padding:8px 12px}.formula{padding:12px 14px;gap:12px;margin:16px -16px 18px;border-radius:0;border-left-width:3px}.formula code{font-size:17px}}
 @media print{.topbar,aside,.toc-backdrop,.skip,footer{display:none}.layout{display:block;padding:0}main{max-width:none}body{background:white;color:black;font-size:11pt}h1{font-size:20pt}h2,h3{break-after:avoid}img{max-height:16cm;break-inside:avoid;border:0}a{color:inherit}pre{overflow:visible}p{orphans:3;widows:3}.table-wrap{overflow:visible;border:0}.chapter-nav{display:none}}

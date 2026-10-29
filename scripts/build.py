@@ -86,7 +86,7 @@ def next_chapter_note(series: dict, source: Path) -> str:
     return ''
 
 
-def render(text: str, prefix: str = '', next_note: str = '') -> str:
+def render(text: str, prefix: str = '', next_note: str = '', math: bool = False) -> str:
     ast = parse_markdown(nav_markdown(text, next_note))
     transform_links(ast)
     args = ['--from', 'json', '--to', 'html5', '--wrap=none']
@@ -95,7 +95,40 @@ def render(text: str, prefix: str = '', next_note: str = '') -> str:
     output = run_pandoc(json.dumps(ast, ensure_ascii=False), args)
     if prefix:
         output = output.replace('id="footnotes"', f'id="{prefix}footnotes"')
-    return wrap_tables(merge_captions(output))
+    output = wrap_tables(merge_captions(output))
+    return math_markup(output) if math else output
+
+
+# 各回の本文では、コード表記はすべて式か記号である（ファイル名などは出てこない）。
+# 添字 `_i` `_(t+1)` を <sub>、`^(j)` を <sup> に描き、式だけの段落は番号付きのブロックにする。
+SUP_PAREN = re.compile(r'\^\(([^()]*)\)')
+SUB_PAREN = re.compile(r'_\(([^()]*)\)')
+SUB_PLAIN = re.compile(r"_([A-Za-z0-9][A-Za-z0-9:+\-']*)")
+CODE_SPAN = re.compile(r'<code>(.*?)</code>')
+FORMULA_P = re.compile(r'<p>(<code class="(?:math|flow)">.*?</code>)(?:　（式(\d+-\d+)）)?</p>')
+JAPANESE = re.compile(r'[\u3040-\u30fa\u30fc-\u30ff\u4e00-\u9fff]')  # 中黒「・」(U+30FB) は式の積に使うので除く
+
+
+def mathify(code: str) -> str:
+    code = SUP_PAREN.sub(r'<sup>(\1)</sup>', code)
+    code = SUB_PAREN.sub(r'<sub>\1</sub>', code)
+    return SUB_PLAIN.sub(r'<sub>\1</sub>', code)
+
+
+def math_markup(output: str) -> str:
+    """章の本文用。<pre> の外にあるコード表記を math（または日本語の流れ図なら flow）にし、式だけの段落を .formula にする。"""
+    def span(m: re.Match) -> str:
+        body = m.group(1)
+        if JAPANESE.search(body):
+            return f'<code class="flow">{body}</code>'
+        return f'<code class="math">{mathify(body)}</code>'
+    parts = re.split(r'(<pre>.*?</pre>)', output, flags=re.S)
+    output = ''.join(part if part.startswith('<pre>') else CODE_SPAN.sub(span, part) for part in parts)
+
+    def block(m: re.Match) -> str:
+        label = f'<span class="formula-label">（式{m.group(2)}）</span>' if m.group(2) else ''
+        return f'<div class="formula">{m.group(1)}{label}</div>'
+    return FORMULA_P.sub(block, output)
 
 
 # Pandoc が alt から作る自動キャプションは aria-hidden 付きで出る。本文由来の figcaption と区別するため、その属性で限定する。
@@ -181,7 +214,7 @@ def make_book(series: dict, css: str, dest: Path) -> None:
     pieces = []
     for c in series['chapters']:
         source = ROOT / c['path']
-        body = render(source.read_text(encoding='utf-8'), prefix=f'c{c["number"]:02d}-', next_note=next_chapter_note(series, Path(c['path'])))
+        body = render(source.read_text(encoding='utf-8'), prefix=f'c{c["number"]:02d}-', next_note=next_chapter_note(series, Path(c['path'])), math=True)
 
         def rewrite(match: re.Match) -> str:
             attr, url = match.group(1), html.unescape(match.group(2))
@@ -231,7 +264,7 @@ def build(output: Path) -> dict:
             text = site_index_text(text)
         title = re.search(r'^# (.+)', text, re.M).group(1)
         s = series_of(source, all_series)
-        target.write_text(wrap_page(title, render(text, next_note=next_chapter_note(s, source)), source, s, css, all_series), encoding='utf-8')
+        target.write_text(wrap_page(title, render(text, next_note=next_chapter_note(s, source), math=source.parent.name == 'chapters'), source, s, css, all_series), encoding='utf-8')
     shutil.rmtree(output / 'assets', ignore_errors=True)
     shutil.copytree(ROOT / 'assets', output / 'assets')
     for p in [ROOT / f for f in SERIES_FILES]:

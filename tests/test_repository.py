@@ -50,6 +50,19 @@ class RepositoryTests(unittest.TestCase):
         output = render('評価は `U(x) = Σᵢ wᵢ・fᵢ(x)` で表す。\n')
         self.assertIn('<code>U(x) = Σᵢ wᵢ・fᵢ(x)</code>', output)
 
+    def test_formula_block_and_subscripts(self):
+        output = render('`U(x) = Σ_i w_i・f_i(x)`　（式3-2）\n\n重み `w_1^(j)` と `S_(t+1)` と `a_1:t-1`。\n', math=True)
+        self.assertIn('<div class="formula"><code class="math">U(x) = Σ<sub>i</sub> w<sub>i</sub>・f<sub>i</sub>(x)</code><span class="formula-label">（式3-2）</span></div>', output)
+        self.assertIn('<code class="math">w<sub>1</sub><sup>(j)</sup></code>', output)
+        self.assertIn('<code class="math">S<sub>t+1</sub></code>', output)
+        self.assertIn('<code class="math">a<sub>1:t-1</sub></code>', output)
+
+    def test_flow_lines_and_non_math_pages(self):
+        output = render('`物語体験 → 価値判断の学習`\n', math=True)
+        self.assertIn('<div class="formula"><code class="flow">物語体験 → 価値判断の学習</code></div>', output)
+        output = render('ファイル `_site/index.html` を開く。\n', math=False)
+        self.assertIn('<code>_site/index.html</code>', output)
+
     def test_nav_markers_become_nav_cards(self):
         text = '<!-- NAV:TOP -->\n[← 第4回](a.md) | [連載目次](../README.md) | [第6回 →](b.md)\n<!-- /NAV -->\n\n本文\n\n<!-- NAV:BOTTOM -->\n---\n\n[← 第4回](a.md) | [連載目次](../README.md)\n<!-- /NAV -->\n'
         output = render(text, next_note='次回　第6回「題名」')
