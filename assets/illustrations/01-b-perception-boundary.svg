@@ -14,8 +14,8 @@
 <rect x="70.0" y="395.0" width="270.0" height="90.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="205.0" y="435.0" fill="#d0693a" font-size="22" text-anchor="middle" font-weight="700">生成された映像</text>
 <text x="205.0" y="464.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">CG・生成AI</text>
-<line x1="400.0" y1="205.0" x2="400.0" y2="520.0" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
-<text x="400.0" y="548.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">物理的な境界</text>
+<line x1="400.0" y1="205.0" x2="400.0" y2="505.0" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="400.0" y="530.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">物理的な境界</text>
 <rect x="480.0" y="310.0" width="240.0" height="90.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
 <text x="600.0" y="350.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">感覚情報</text>
 <text x="600.0" y="379.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">光・音・圧力 → 神経信号</text>

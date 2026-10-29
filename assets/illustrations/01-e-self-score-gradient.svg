@@ -8,36 +8,36 @@
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">自己認識の強さには濃淡がある</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">皮膚の位置と「自分」の境界は一致しない</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
-<rect x="80" y="260" width="1040" height="64" rx="10" fill="url(#g01e-1)"/>
-<text x="80.0" y="240.0" fill="#5d6873" font-size="17" text-anchor="start" font-weight="400">強い</text>
-<text x="1120.0" y="240.0" fill="#5d6873" font-size="17" text-anchor="end" font-weight="400">弱い</text>
-<text x="600.0" y="240.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">身体の内側</text>
-<circle cx="140.0" cy="292.0" r="9" fill="#ffffff"/>
-<circle cx="140.0" cy="292.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
-<text x="140.0" y="350.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">脳・心臓</text>
-<circle cx="340.0" cy="292.0" r="9" fill="#ffffff"/>
-<circle cx="340.0" cy="292.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
-<text x="340.0" y="350.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">腕・脚</text>
-<circle cx="640.0" cy="292.0" r="9" fill="#ffffff"/>
-<circle cx="640.0" cy="292.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
-<text x="640.0" y="350.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">髪・爪</text>
-<circle cx="960.0" cy="292.0" r="9" fill="#ffffff"/>
-<circle cx="960.0" cy="292.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
-<text x="960.0" y="350.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">排泄物</text>
-<text x="80.0" y="420.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">皮膚の外側</text>
-<rect x="230.0" y="440.0" width="150.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
-<text x="305.0" y="463.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">自分の作品</text>
-<line x1="305.0" y1="440.0" x2="305.0" y2="330.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
-<rect x="400.0" y="440.0" width="180.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
-<text x="490.0" y="463.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">愛着のある所有物</text>
-<line x1="490.0" y1="440.0" x2="490.0" y2="330.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
-<rect x="600.0" y="440.0" width="230.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
-<text x="715.0" y="463.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">アバター・キャラクター</text>
-<line x1="715.0" y1="440.0" x2="715.0" y2="330.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
-<rect x="850.0" y="440.0" width="120.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
-<text x="910.0" y="463.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">熟練した道具</text>
-<line x1="910.0" y1="440.0" x2="910.0" y2="330.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
-<text x="1120.0" y="462.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">位置は強さの目安</text>
-<text x="50.0" y="552.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">「自分らしさスコア」は説明のための仮説であり、脳内に単一の数値があるという主張ではない。</text>
+<rect x="80" y="262" width="1040" height="64" rx="10" fill="url(#g01e-1)"/>
+<text x="80.0" y="212.0" fill="#5d6873" font-size="17" text-anchor="start" font-weight="400">強い</text>
+<text x="1120.0" y="212.0" fill="#5d6873" font-size="17" text-anchor="end" font-weight="400">弱い</text>
+<text x="600.0" y="212.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">身体の内側</text>
+<circle cx="140.0" cy="294.0" r="9" fill="#ffffff"/>
+<circle cx="140.0" cy="294.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
+<text x="140.0" y="248.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">脳・心臓</text>
+<circle cx="340.0" cy="294.0" r="9" fill="#ffffff"/>
+<circle cx="340.0" cy="294.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
+<text x="340.0" y="248.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">腕・脚</text>
+<circle cx="640.0" cy="294.0" r="9" fill="#ffffff"/>
+<circle cx="640.0" cy="294.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
+<text x="640.0" y="248.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">髪・爪</text>
+<circle cx="960.0" cy="294.0" r="9" fill="#ffffff"/>
+<circle cx="960.0" cy="294.0" r="9" fill="none" stroke="#232a33" stroke-width="2"/>
+<text x="960.0" y="248.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">排泄物</text>
+<text x="80.0" y="445.0" fill="#232a33" font-size="18" text-anchor="start" font-weight="700">皮膚の外側</text>
+<rect x="430.0" y="405.0" width="120.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="490.0" y="428.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">熟練した道具</text>
+<line x1="490.0" y1="405.0" x2="490.0" y2="334.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<rect x="645.0" y="405.0" width="230.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="760.0" y="428.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">アバター・キャラクター</text>
+<line x1="760.0" y1="405.0" x2="760.0" y2="334.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<rect x="255.0" y="462.0" width="150.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="330.0" y="485.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">自分の作品</text>
+<line x1="330.0" y1="462.0" x2="330.0" y2="334.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<rect x="510.0" y="462.0" width="180.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="600.0" y="485.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">愛着のある所有物</text>
+<line x1="600.0" y1="462.0" x2="600.0" y2="334.0" stroke="#d0693a" stroke-width="1.5" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<text x="1120.0" y="485.0" fill="#5d6873" font-size="15" text-anchor="end" font-weight="400">横の位置は強さの目安</text>
+<text x="50.0" y="552.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">自己認識の強さの濃淡は説明のための仮説であり、脳内に単一の数値があるという主張ではない。</text>
 </g>
 </svg>

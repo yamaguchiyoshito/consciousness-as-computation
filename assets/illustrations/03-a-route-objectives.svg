@@ -15,7 +15,7 @@
 <path d="M110.0,420.0 Q330.0,215.0 560.0,260.0" fill="none" stroke="#2b7a8c" stroke-width="3"/>
 <text x="300.0" y="262.0" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">A：最短距離</text>
 <path d="M110,420 L260,420 L400,260 L560,260" fill="none" stroke="#5a4fcf" stroke-width="3"/>
-<text x="330.0" y="360.0" fill="#5a4fcf" font-size="15" text-anchor="middle" font-weight="700">B：高速道路（最短時間）</text>
+<text x="345.0" y="372.0" fill="#5a4fcf" font-size="15" text-anchor="start" font-weight="700">B：高速道路（最短時間）</text>
 <path d="M110.0,420.0 Q400.0,520.0 560.0,260.0" fill="none" stroke="#d0693a" stroke-width="3"/>
 <text x="330.0" y="500.0" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="700">C：一般道（最小費用）</text>
 <rect x="680.0" y="215.0" width="460.0" height="290.0" rx="14" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
