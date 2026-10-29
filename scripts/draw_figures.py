@@ -187,7 +187,6 @@ def cover():
         f.circ(x, y, rr, color, fill=False, width=2)
         f.text(x, y + 7, label, 19 if len(label) <= 3 else 17, INK, anchor='middle', weight=700)
     f.circ(cx, cy, 228, TEAL, fill=False, dash=True, width=2.5)
-    f.text(cx, cy - 188, '「自分」＝情報処理が引く境界', 17, TEAL, anchor='middle', weight=700)
     f.text(1120, 630, '外界', 18, MUTED, anchor='end')
     for i in range(14):
         x, y = polar(cx, cy, 262 + (i * 37) % 50, 20 + i * 24)
@@ -195,6 +194,13 @@ def cover():
             f.circ(x, y, 3, LINE)
     f.lines(50, 240, ['意識は「自分」を発見するのではなく、', '構築しているのかもしれない。'], 24, INK, weight=700, gap=38)
     f.lines(50, 330, ['現実とバーチャルの境界から出発し、', '目的関数、予測処理、情報統合、', '現象的意識、分人、物語を経て、', '「自分」を計算可能な構造として', '捉え直す。'], 19, MUTED, gap=32)
+    # 凡例：破線の円と、内的要素・外部対象の色分け
+    f.circ(62, 512, 10, TEAL, fill=False, dash=True, width=2)
+    f.text(84, 518, '破線の円：「自分」＝情報処理が引く境界', 16, TEAL, weight=700)
+    for y, color, label in [(548, TEAL, '身体'), (578, INDIGO, '記憶・価値観・感情：内的な要素'), (608, TERRA, '道具・アバター・作品・所有物：身体の外の対象')]:
+        f.circ(62, y - 6, 9, '#ffffff')
+        f.circ(62, y - 6, 9, color, fill=False, width=2)
+        f.text(84, y, label, 16, INK)
     f.footer('全9回　境界を問う ／ 自己のモデル ／ 体験と複数の自己 ／ 計算機で確かめる')
     return f.save('cover')
 
@@ -207,8 +213,8 @@ def perception_boundary(part):
     f = Figure(1, '現実とバーチャルは、知覚の手前で合流する', '脳が受け取るのは感覚情報だけである', 600, part)
     f.box(70, 225, 270, 90, '現実の光景', '撮影された人物や風景', TEAL)
     f.box(70, 395, 270, 90, '生成された映像', 'CG・生成AI', TERRA)
-    f.line(400, 205, 400, 520, LINE, 2, dash=True)
-    f.text(400, 548, '物理的な境界', 17, MUTED, anchor='middle')
+    f.line(400, 205, 400, 505, LINE, 2, dash=True)
+    f.text(400, 530, '物理的な境界', 17, MUTED, anchor='middle')
     f.box(480, 310, 240, 90, '感覚情報', '光・音・圧力 → 神経信号', INK)
     f.curve(340, 270, 420, 290, 480, 345, TEAL, 2.5)
     f.curve(340, 440, 420, 420, 480, 375, TERRA, 2.5)
@@ -230,8 +236,8 @@ def shared_experience(part):
         f.box(90, 255 + i * 66, 440, 54, label, sub, TEAL, 18, sub_size=14)
     for i, (label, sub) in enumerate([('ゲーム世界', 'レベル・スキル・クエスト・アイテム'), ('SNS', 'アカウント・フォロワー・配信'), ('アバター', 'VTuber・仮想の姿での関係')]):
         f.box(670, 255 + i * 66, 440, 54, label, sub, TERRA, 18, sub_size=14)
-    f.curve(310, 465, 400, 530, 500, 530, TEAL, 2.5)
-    f.curve(890, 465, 800, 530, 700, 530, TERRA, 2.5)
+    f.curve(310, 465, 400, 530, 480, 530, TEAL, 2.5)
+    f.curve(890, 465, 800, 530, 720, 530, TERRA, 2.5)
     f.box(480, 500, 240, 60, '物語を理解する共通言語', '', INK, 18)
     f.text(600, 580, '置き換わる、あるいは拡張される', 15, MUTED, anchor='middle')
     f.footer('学校や職場が共通体験でなくなったわけではない。基盤が物理的な世界だけに限定されなくなった。')
@@ -240,20 +246,21 @@ def shared_experience(part):
 
 def self_score_gradient(part):
     f = Figure(1, '自己認識の強さには濃淡がある', '皮膚の位置と「自分」の境界は一致しない', 580, part)
-    f.hgradient(80, 260, 1040, 64, TEAL, 0.95, 0.04)
-    f.text(80, 240, '強い', 17, MUTED)
-    f.text(1120, 240, '弱い', 17, MUTED, anchor='end')
-    f.text(600, 240, '身体の内側', 18, INK, anchor='middle', weight=700)
+    f.hgradient(80, 262, 1040, 64, TEAL, 0.95, 0.04)
+    f.text(80, 212, '強い', 17, MUTED)
+    f.text(1120, 212, '弱い', 17, MUTED, anchor='end')
+    f.text(600, 212, '身体の内側', 18, INK, anchor='middle', weight=700)
     for x, label in [(140, '脳・心臓'), (340, '腕・脚'), (640, '髪・爪'), (960, '排泄物')]:
-        f.circ(x, 292, 9, '#ffffff')
-        f.circ(x, 292, 9, INK, fill=False, width=2)
-        f.text(x, 350, label, 19, INK, anchor='middle', weight=700)
-    f.text(80, 420, '皮膚の外側', 18, INK, weight=700)
-    for x, w, label in [(230, 150, '自分の作品'), (400, 180, '愛着のある所有物'), (600, 230, 'アバター・キャラクター'), (850, 120, '熟練した道具')]:
-        f.tag(x, 440, w, 36, label, TERRA, 16)
-        f.line(x + w / 2, 440, x + w / 2, 330, TERRA, 1.5, arrow=True, dash=True)
-    f.text(1120, 462, '位置は強さの目安', 15, MUTED, anchor='end')
-    f.footer('「自分らしさスコア」は説明のための仮説であり、脳内に単一の数値があるという主張ではない。')
+        f.circ(x, 294, 9, '#ffffff')
+        f.circ(x, 294, 9, INK, fill=False, width=2)
+        f.text(x, 248, label, 19, INK, anchor='middle', weight=700)
+    f.text(80, 445, '皮膚の外側', 18, INK, weight=700)
+    # 皮膚の外側の対象。横位置が強さの目安（熟練した道具は腕・脚と髪・爪の間）。二段に分けて重なりを避ける
+    for x, y, w, label in [(430, 405, 120, '熟練した道具'), (645, 405, 230, 'アバター・キャラクター'), (255, 462, 150, '自分の作品'), (510, 462, 180, '愛着のある所有物')]:
+        f.tag(x, y, w, 36, label, TERRA, 16)
+        f.line(x + w / 2, y, x + w / 2, 334, TERRA, 1.5, arrow=True, dash=True)
+    f.text(1120, 485, '横の位置は強さの目安', 15, MUTED, anchor='end')
+    f.footer('自己認識の強さの濃淡は説明のための仮説であり、脳内に単一の数値があるという主張ではない。')
     return f.save('self-score-gradient')
 
 
@@ -263,8 +270,9 @@ def common_structure(part):
              ('身体部位の自己認識の濃淡', '生物学的な所属と一致しない'), ('アバター・作品への投影', '身体の外側が自分の一部になる')]
     for i, (t, s) in enumerate(cases):
         y = 215 + i * 90
+        ey = 355 + i * 30  # 終点を縦にずらし、箱の左縁で止める
         f.box(70, y, 330, 70, t, s, MUTED, 17, sub_size=13)
-        f.curve(400, y + 35, 470, y + 35, 520, 400, MUTED, 2)
+        f.curve(400, y + 35, 462, ey, 520, ey, MUTED, 2)
     f.box(520, 330, 300, 140, '内部表象', '感覚情報・記憶・経験・予測から構築', TEAL, 24, sub_size=15)
     f.line(820, 400, 890, 400, TEAL, 2.5, arrow=True)
     f.box(890, 345, 250, 110, '「自分」', '表象の一部を自分として認識', INDIGO, 24, sub_size=14)
@@ -305,7 +313,7 @@ def consciousness_and_self(part):
     f.text(915, 435, '統合された認識上の対象', 16, MUTED, anchor='middle')
     f.curve(410, 300, 555, 250, 700, 290, TEAL, 3)
     f.text(555, 240, '構築する', 18, TEAL, anchor='middle', weight=700)
-    f.curve(700, 400, 555, 450, 410, 360, INDIGO, 3)
+    f.curve(410, 360, 555, 450, 700, 400, INDIGO, 3)  # 意識 → 自己表象（認識し、更新する働きも意識の側から出る）
     f.text(555, 480, '認識する ／ 更新する', 18, INDIGO, anchor='middle', weight=700)
     f.text(245, 500, '感覚情報・記憶・予測', 17, MUTED, anchor='middle')
     f.line(245, 480, 245, 408, MUTED, 2, arrow=True)
@@ -321,14 +329,21 @@ def conscious_unconscious(part):
     f.panel(260, 200, 640, 180, '無意識的処理')
     f.panel(260, 440, 640, 180, '意識的処理')
     for i, label in enumerate(['信号の変換', '特徴の抽出', '習慣的な行動制御', '自動的な予測']):
-        f.box(285 + i * 155, 255, 140, 56, label, '', TEAL, 15)
-    for i, label in enumerate(['注意対象の選択', '情報の評価', '判断の検討', '自己表象との関連づけ']):
-        f.box(285 + i * 155, 495, 140, 56, label, '', INDIGO, 14)
+        f.box(272 + i * 158, 255, 150, 56, label, '', TEAL, 15)
+    for i, label in enumerate(['注意対象の選択', '情報の評価', '判断の検討', '自己表象との\n関連づけ']):
+        x = 272 + i * 158
+        if '\n' in label:  # 箱幅に収まらない語は二行にする
+            f.rect(x, 495, 150, 56, stroke=INDIGO)
+            first, second = label.split('\n')
+            f.text(x + 75, 519, first, 14, INDIGO, anchor='middle', weight=700)
+            f.text(x + 75, 538, second, 14, INDIGO, anchor='middle', weight=700)
+        else:
+            f.box(x, 495, 150, 56, label, '', INDIGO, 14)
     f.text(580, 345, '歩行や熟練した読書：注意を向けずに進む', 14, MUTED, anchor='middle')
     f.text(580, 585, '理解できない文章：読み返し、意味を確認し、文脈を考える', 14, MUTED, anchor='middle')
     f.curve(210, 415, 235, 300, 260, 290, TEAL, 2.5)
     f.curve(210, 440, 235, 540, 260, 530, INDIGO, 2.5)
-    for x in (430, 580, 730):
+    for x in (426, 584, 742):
         f.line(x, 380, x, 440, MUTED, 1.8, both=True, dash=True)
     f.text(880, 415, '相互作用', 14, MUTED, anchor='end')
     f.box(960, 380, 180, 90, '行動・予測', '処理結果の反映', INK, 19, sub_size=13)
@@ -358,10 +373,11 @@ def substrate_independence(part):
 
 def criteria_question(part):
     f = Figure(2, '何を基準に、ある対象を「自分」とするのか', '候補となる評価基準と、次回へ持ち越す問い', 600, part)
-    for i, (t, s) in enumerate([('生命の維持に重要か', '脳・心臓・身体'), ('自分の行動で制御できるか', '腕・道具・アバター'), ('社会的な評価に関わるか', '作品・アカウント・地位')]):
+    for i, (t, s) in enumerate([('生命の維持に重要か', '例：脳・心臓・身体'), ('自分の行動で制御できるか', '例：腕・道具・アバター'), ('社会的な評価に関わるか', '例：作品・アカウント・地位')]):
         y = 215 + i * 95
+        ey = 330 + i * 28  # 終点を縦にずらし、箱の左縁で止める
         f.box(70, y, 360, 72, t, s, TEAL, 18, sub_size=14)
-        f.curve(430, y + 36, 500, y + 36, 560, 358, TEAL, 2.2)
+        f.curve(430, y + 36, 500, ey, 560, ey, TEAL, 2.2)
     f.box(560, 310, 220, 96, '「自分」として', '認識される対象', INK, 20, sub_size=16)
     f.text(250, 520, '近くにある、長く接している、だけでは決まらない', 14, MUTED, anchor='middle')
     f.rect(830, 240, 310, 240, fill='#ffffff', stroke=TERRA, rx=14, dash=True)
@@ -387,7 +403,7 @@ def route_objectives(part):
     f.curve(sx, sy, 330, 215, gx, gy, TEAL, 3, arrow=False)
     f.text(300, 262, 'A：最短距離', 15, TEAL, anchor='middle', weight=700)
     f.path(f'M{sx},{sy} L260,{sy} L400,{gy} L{gx},{gy}', INDIGO, 3)
-    f.text(330, 360, 'B：高速道路（最短時間）', 15, INDIGO, anchor='middle', weight=700)
+    f.text(345, 372, 'B：高速道路（最短時間）', 15, INDIGO, weight=700)  # 斜線の右側に置き、線が文字を貫通しないようにする
     f.curve(sx, sy, 400, 520, gx, gy, TERRA, 3, arrow=False)
     f.text(330, 500, 'C：一般道（最小費用）', 15, TERRA, anchor='middle', weight=700)
     f.rect(680, 215, 460, 290, fill='#ffffff', stroke=LINE)
@@ -443,8 +459,9 @@ def go_ai_two_evaluators(part):
 def weighted_sum(part):
     f = Figure(3, '目的関数には重みがある', '休日の過ごし方を、複数の目的関数が異なる重みで評価する', 720, part)
     options = ['仕事をする', '休息を取る', '家族と過ごす', '新しい技術を学ぶ']
-    objectives = [('社会的承認', 0.9, TEAL), ('健康の維持', 0.5, INDIGO), ('愛着・関係', 0.6, TERRA), ('知的好奇心', 0.4, MUTED)]
-    vals = [[3, 0, 1, 2], [0, 3, 1, 1], [0, 1, 3, 0], [1, 0, 0, 3]]
+    objectives = [('社会的承認', 0.9, TEAL), ('健康の維持', 0.5, INDIGO), ('愛着・関係', 0.5, TERRA), ('知的好奇心', 0.4, MUTED)]
+    # 総合評価：仕事 3.1 ／ 休息 2.0 ／ 家族 2.9 ／ 学習 2.6（仕事が最大。健康の重みを 1.0 にすると休息 3.5 で逆転する）
+    vals = [[3, 0, 1, 1], [0, 3, 1, 1], [0, 1, 3, 0], [1, 0, 0, 3]]
     x0, y0, cw, rh = 330, 250, 190, 70
     for j, o in enumerate(options):
         f.text(x0 + j * cw + cw / 2, 225, o, 15, INK, anchor='middle', weight=700)
@@ -474,24 +491,27 @@ def weighted_sum(part):
 
 
 def intersection_of_objectives(part):
-    f = Figure(3, '「自分」は目的関数の交差点に生まれる', '矢印の太さが重み。向きの異なる目的が同じ対象を評価する', 760, part)
-    cx, cy = 600, 462
+    f = Figure(3, '「自分」は目的関数の交差点に生まれる', '矢印の太さが重み。向きの異なる目的が同じ対象を評価する', 800, part)
+    cx, cy = 600, 468
     f.blob(cx, cy, 150, TEAL, 0.45)
     f.circ(cx, cy, 64, '#ffffff')
     f.circ(cx, cy, 64, TEAL, fill=False, width=2.5)
     f.text(cx, cy + 9, '自分', 26, TEAL, anchor='middle', weight=700)
-    objs = [('生存', -90, 6.0, TEAL, '重み：大 ／ 回避を促す'), ('社会的承認', -18, 4.5, INDIGO, '重み：中 ／ 期待に応える'), ('美的感覚', 54, 2.2, INDIGO, '重み：小'),
-            ('倫理的整合性', 126, 3.0, TERRA, '重み：小 ／ 信念を守る'), ('知的好奇心', 198, 3.6, TERRA, '重み：中 ／ 挑戦を促す')]
-    for label, deg, w, color, note in objs:
+    # 色は一色にして組分けを示唆しない。本文§6で対立しやすい対（好奇心↔生存、承認↔倫理）を向かい合わせに置く
+    objs = [('生存', -90, 6.0, '重み：大 ／ 回避を促す'), ('知的好奇心', 90, 3.6, '重み：中 ／ 挑戦を促す'),
+            ('社会的承認', -25, 4.5, '重み：中 ／ 期待に応える'), ('倫理的整合性', 155, 3.0, '信念を守る ／ 制約条件としても働く'),
+            ('美的感覚', 205, 2.2, '重み：小')]
+    for label, deg, w, note in objs:
         x1, y1 = polar(cx, cy, 205, deg)
         x2, y2 = polar(cx, cy, 82, deg)
-        f.line(x1, y1, x2, y2, color, w, arrow=True)
+        f.line(x1, y1, x2, y2, TEAL, w, arrow=True)
         lx, ly = polar(cx, cy, 240, deg)
         c = math.cos(math.radians(deg))
         anchor = 'middle' if abs(c) < 0.3 else ('start' if c > 0 else 'end')
         f.text(lx, ly + 7, label, 21, INK, anchor=anchor, weight=700)
         f.text(lx, ly + 30, note, 15, MUTED, anchor=anchor)
     f.text(1150, 215, '矢印の先：共通して参照される対象', 14, MUTED, anchor='end')
+    f.text(1150, 240, '向かい合う矢印：対立しやすい対（好奇心と生存、承認と倫理）', 14, MUTED, anchor='end')
     f.footer('重みは状況で変わる。矛盾は統一された自己の失敗ではなく、複数の評価基準を持つ自己の通常の働きである。')
     return f.save('intersection-of-objectives')
 
@@ -517,16 +537,16 @@ def posthoc_narrative(part):
 
 
 def three_stages(part):
-    f = Figure(3, '目的関数を持つことと、意識を持つことは同じではない', '三つの段階のうち、目的関数仮説が直接扱うのは前の二つ', 640, part)
+    f = Figure(3, '目的関数を持つことと、意識を持つことは同じではない', '三つの段階のうち、目的関数モデルが直接扱うのは前の二つ', 640, part)
     steps = [(70, 400, '① 目的関数に基づく行動選択', '囲碁AI・ロボット・最適化アルゴリズムにもある', TEAL),
              (430, 310, '② 共通対象についての自己表象の形成', '複数の目的関数が参照する対象を内部に表象する', TEAL),
-             (790, 220, '③ 主観的な体験が伴うこと', 'なぜ「感じる」のか。目的関数モデルでは説明できない', TERRA)]
+             (790, 220, '③ 主観的な体験が伴うこと', 'なぜ「感じる」のか。このモデルでは説明できない', TERRA)]
     for x, y, t, s, color in steps:
-        f.box(x, y, 340, 92, t, s, color, 17, sub_size=12, dash=(color == TERRA))
+        f.box(x, y, 340, 92, t, s, color, 17, sub_size=13, dash=(color == TERRA))
     f.line(410, 446, 430, 446, MUTED, 2, arrow=True)
     f.line(770, 356, 790, 356, MUTED, 2, arrow=True)
     f.line(70, 520, 770, 520, TEAL, 3)
-    f.text(420, 548, '本モデルの目的関数仮説が扱う範囲（計算機で検証できる）', 15, TEAL, anchor='middle', weight=700)
+    f.text(420, 548, '目的関数モデルが扱う範囲（計算機で検証できる）', 15, TEAL, anchor='middle', weight=700)
     f.line(790, 520, 1130, 520, TERRA, 3, dash=True)
     f.text(960, 548, '第5・6回で検討', 15, TERRA, anchor='middle', weight=700)
     f.footer('複数の評価関数で行動を選ぶプログラムが、自分自身を認識しているとは限らない。')
@@ -1723,16 +1743,19 @@ def success_criteria(part):
 
 def series_map(part):
     f = Figure(1, '連載の地図', '全9回・4部の流れ', 620, part)
-    chapters = [(1, '境界', '現実と仮想、肉体と自分'), (2, '意識と自分', '認識する働きと表象'), (3, '目的関数', '交差点に生まれる自己'),
-                (4, '予測', '何を優先するか'), (5, '統合', '関係の中の自分'), (6, '感じること', 'ハードプロブレム'),
-                (7, '分人', '複数の自分と拡張'), (8, '物語', '目的関数の学習と修復'), (9, '計算機', '機能的近似と検証')]
+    chapters = [(1, '境界', ['現実と仮想、', '肉体と自分']), (2, '意識と自分', ['認識する働き', 'と表象']), (3, '目的関数', ['交差点に', '生まれる自己']),
+                (4, '予測', ['何を優先するか']), (5, '統合', ['関係の中の自分']), (6, '感じること', ['ハードプロブレム']),
+                (7, '分人', ['複数の自分と拡張']), (8, '物語', ['目的関数の学習', 'と修復']), (9, '計算機', ['機能的近似と検証'])]
     parts = [('第I部 境界を問う', [0, 1], TEAL), ('第II部 自己のモデル', [2, 3, 4], TERRA), ('第III部 体験と複数の自己', [5, 6, 7], INDIGO), ('第IV部 計算機で確かめる', [8], MUTED)]
     xs = [120 + i * 120 for i in range(9)]
     y = 360
     for label, idx, color in parts:
         x0, x1 = xs[idx[0]] - 50, xs[idx[-1]] + 50
         f.line(x0, y - 80, x1, y - 80, color, 4)
-        f.text((x0 + x1) / 2, y - 92, label, 14, color, anchor='middle', weight=700)
+        if len(idx) == 1:  # 帯が短い第IV部は右端で揃え、帯より右へはみ出さない
+            f.text(x1, y - 92, label, 14, color, anchor='end', weight=700)
+        else:
+            f.text((x0 + x1) / 2, y - 92, label, 14, color, anchor='middle', weight=700)
     for i in range(8):
         f.line(xs[i] + 26, y, xs[i + 1] - 26, y, MUTED, 2, arrow=True)
     for (n, title, sub), x in zip(chapters, xs):
@@ -1741,10 +1764,10 @@ def series_map(part):
         f.circ(x, y, 24, color, fill=False, width=2.5)
         f.text(x, y + 6, str(n), 17, color, anchor='middle', weight=700)
         f.text(x, y + 50, title, 15, INK, anchor='middle', weight=700)
-        f.text(x, y + 70, sub, 11, MUTED, anchor='middle')
+        f.lines(x, y + 70, sub, 13, MUTED, anchor='middle', gap=17)
     f.text(600, 500, '「自分」は発見されるのではなく、情報処理によって構築される', 17, INK, anchor='middle', weight=700)
     f.text(600, 528, '各回は独立した読み物であり、末尾の一段落が次回へつながる', 14, MUTED, anchor='middle')
-    f.footer('第1回で仮説を立て、第3〜5回でモデルを組み、第6〜8回で体験と複数の自己を扱い、第9回で計算機に載せる。')
+    f.footer('第1〜2回で仮説を立て、第3〜5回でモデルを組み、第6〜8回で体験と複数の自己を扱い、第9回で計算機に載せる。')
     return f.save('series-map')
 
 
@@ -1765,10 +1788,10 @@ def emotion_quadrant(part):
     f.text(x0 - 16, y0 + h / 4 + 20, '生じる', 15, INK, anchor='end', weight=700)
     f.text(x0 - 16, y0 + 3 * h / 4, '感情が', 15, MUTED, anchor='end')
     f.text(x0 - 16, y0 + 3 * h / 4 + 20, '生じない', 15, MUTED, anchor='end')
-    f.lines(x0 + w / 4, y0 + 70, ['親しい人との別れ', '現実の対象・現実の感情'], 15, INK, anchor='middle', gap=26)
-    f.lines(x0 + 3 * w / 4, y0 + 60, ['育てたキャラクターの喪失', 'SNSでの評価や批判', '仮想の対象・現実の感情'], 15, TEAL, anchor='middle', gap=26, weight=700)
-    f.lines(x0 + w / 4, y0 + h / 2 + 80, ['通り過ぎる見知らぬ物体'], 15, MUTED, anchor='middle')
-    f.lines(x0 + 3 * w / 4, y0 + h / 2 + 80, ['操作していない背景の人物'], 15, MUTED, anchor='middle')
+    f.lines(x0 + w / 4, y0 + 70, ['例：親しい人との別れ', '現実の対象・現実の感情'], 15, INK, anchor='middle', gap=26)
+    f.lines(x0 + 3 * w / 4, y0 + 60, ['例：育てたキャラクターの喪失', 'SNSでの評価や批判', '仮想の対象・現実の感情'], 15, TEAL, anchor='middle', gap=26, weight=700)
+    f.lines(x0 + w / 4, y0 + h / 2 + 80, ['例：通り過ぎる見知らぬ物体'], 15, MUTED, anchor='middle')
+    f.lines(x0 + 3 * w / 4, y0 + h / 2 + 80, ['例：操作していない背景の人物'], 15, MUTED, anchor='middle')
     f.text(600, 595, '感情の現実性は、対象の存在ではなく、感覚情報・記憶・予測から構築された対象への反応で決まる', 14, MUTED, anchor='middle')
     f.footer('右上の象限が、意識は物理的な実体そのものではなく、構築された対象に反応することを示す。')
     return f.save('emotion-quadrant')
@@ -1794,8 +1817,8 @@ def score_dynamics(part):
 
 
 def weight_drift(part):
-    f = Figure(3, '目的関数の重みは、時間でも文脈でも変わる', '年齢に伴う推移と、同じ時点での状況による違い', 640, part)
-    f.panel(60, 205, 640, 380, '年齢に伴う重みの推移')
+    f = Figure(3, '目的関数の重みは、時間でも文脈でも変わる', '年齢に伴う推移と、同じ時点での状況による違い', 660, part)
+    f.panel(60, 205, 640, 400, '年齢に伴う重みの推移')
     x0, x1, base, top = 110, 660, 520, 280
     f.line(x0, base, x1, base, INK, 1.5, arrow=True)
     f.line(x0, base, x0, top, INK, 1.5, arrow=True)
@@ -1805,19 +1828,22 @@ def weight_drift(part):
     f.text(640, 488, '承認・競争', 14, TERRA, anchor='end', weight=700)
     f.path(f'M{x0 + 20},470 C300,460 450,350 {x1 - 30},305', TEAL, 3.5)
     f.text(640, 298, '健康・家族', 14, TEAL, anchor='end', weight=700)
-    f.text(380, 560, '価値観の変化は、重み付けの変化と自己表象の更新として説明できる', 13, MUTED, anchor='middle')
-    f.panel(740, 205, 400, 380, '同じ時点での文脈の違い')
+    f.text(380, 580, '価値観の変化は、重み付けの変化と自己表象の更新として説明できる', 13, MUTED, anchor='middle')
+    f.panel(740, 205, 400, 400, '同じ時点での文脈の違い')
+    # 棒は色だけでなく塗り（べた・斜線・白抜き）でも区別する
+    f.defs.append(f'<pattern id="hatch03{part}" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="rotate(45)"><rect width="7" height="7" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="7" stroke="{TEAL}" stroke-width="2.5"/></pattern>')
+    styles = [(TERRA, TERRA), (f'url(#hatch03{part})', TEAL), ('#ffffff', INDIGO)]
     base2 = 500
     for i, (ctx, vals) in enumerate([('職場', [120, 40, 50]), ('家庭', [40, 130, 45]), ('趣味', [35, 45, 135])]):
         cx = 800 + i * 120
-        for j, (v, color) in enumerate(zip(vals, [TERRA, TEAL, INDIGO])):
-            f.bar(cx - 36 + j * 26, base2, 22, v, color)
+        for j, (v, (fill, stroke)) in enumerate(zip(vals, styles)):
+            f.rect(cx - 36 + j * 26, base2 - v, 22, v, fill=fill, stroke=stroke, rx=4)
         f.text(cx, base2 + 24, ctx, 14, INK, anchor='middle', weight=700)
     f.line(780, base2, 1120, base2, INK, 1.5)
-    for j, (name, color) in enumerate([('効率・成果', TERRA), ('愛着・安定', TEAL), ('好奇心・楽しさ', INDIGO)]):
-        f.rect(770, 245 + j * 24, 14, 14, fill=color, stroke=color, rx=3)
-        f.text(792, 257 + j * 24, name, 12, INK)
-    f.text(940, 560, 'どれか一つだけが本当の自分ではない', 13, MUTED, anchor='middle')
+    for j, (name, (fill, stroke)) in enumerate(zip(['効率・成果', '愛着・安定', '好奇心・楽しさ'], styles)):
+        f.rect(770, 243 + j * 26, 16, 16, fill=fill, stroke=stroke, rx=3)
+        f.text(794, 257 + j * 26, name, 14, INK)
+    f.text(940, 580, 'どれか一つだけが本当の自分ではない', 13, MUTED, anchor='middle')
     f.footer('右の文脈による違いは、第7回の「分人」につながる。')
     return f.save('weight-drift')
 

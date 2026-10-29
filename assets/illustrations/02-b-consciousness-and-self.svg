@@ -26,7 +26,7 @@
 <text x="915.0" y="435.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">統合された認識上の対象</text>
 <path d="M410.0,300.0 Q555.0,250.0 700.0,290.0" fill="none" stroke="#2b7a8c" stroke-width="3" marker-end="url(#arrow-teal)"/>
 <text x="555.0" y="240.0" fill="#2b7a8c" font-size="18" text-anchor="middle" font-weight="700">構築する</text>
-<path d="M700.0,400.0 Q555.0,450.0 410.0,360.0" fill="none" stroke="#5a4fcf" stroke-width="3" marker-end="url(#arrow-indigo)"/>
+<path d="M410.0,360.0 Q555.0,450.0 700.0,400.0" fill="none" stroke="#5a4fcf" stroke-width="3" marker-end="url(#arrow-indigo)"/>
 <text x="555.0" y="480.0" fill="#5a4fcf" font-size="18" text-anchor="middle" font-weight="700">認識する ／ 更新する</text>
 <text x="245.0" y="500.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">感覚情報・記憶・予測</text>
 <line x1="245.0" y1="480.0" x2="245.0" y2="408.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>

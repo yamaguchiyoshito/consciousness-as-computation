@@ -30,8 +30,8 @@
 <rect x="670.0" y="387.0" width="440.0" height="54.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="890.0" y="409.0" fill="#d0693a" font-size="18" text-anchor="middle" font-weight="700">アバター</text>
 <text x="890.0" y="435.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">VTuber・仮想の姿での関係</text>
-<path d="M310.0,465.0 Q400.0,530.0 500.0,530.0" fill="none" stroke="#2b7a8c" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
-<path d="M890.0,465.0 Q800.0,530.0 700.0,530.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<path d="M310.0,465.0 Q400.0,530.0 480.0,530.0" fill="none" stroke="#2b7a8c" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<path d="M890.0,465.0 Q800.0,530.0 720.0,530.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
 <rect x="480.0" y="500.0" width="240.0" height="60.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
 <text x="600.0" y="536.5" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">物語を理解する共通言語</text>
 <text x="600.0" y="580.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">置き換わる、あるいは拡張される</text>

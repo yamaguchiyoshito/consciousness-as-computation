@@ -11,19 +11,19 @@
 <rect x="70.0" y="215.0" width="330.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
 <text x="235.0" y="245.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">現実と仮想の映像</text>
 <text x="235.0" y="270.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">感覚情報が似ていれば区別できない</text>
-<path d="M400.0,250.0 Q470.0,250.0 520.0,400.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M400.0,250.0 Q462.0,355.0 520.0,355.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="70.0" y="305.0" width="330.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
 <text x="235.0" y="335.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">仮想の対象への感情</text>
 <text x="235.0" y="360.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">対象が存在しなくても感情は現実</text>
-<path d="M400.0,340.0 Q470.0,340.0 520.0,400.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M400.0,340.0 Q462.0,385.0 520.0,385.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="70.0" y="395.0" width="330.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
 <text x="235.0" y="425.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">身体部位の自己認識の濃淡</text>
 <text x="235.0" y="450.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">生物学的な所属と一致しない</text>
-<path d="M400.0,430.0 Q470.0,430.0 520.0,400.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M400.0,430.0 Q462.0,415.0 520.0,415.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="70.0" y="485.0" width="330.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
 <text x="235.0" y="515.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">アバター・作品への投影</text>
 <text x="235.0" y="540.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">身体の外側が自分の一部になる</text>
-<path d="M400.0,520.0 Q470.0,520.0 520.0,400.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M400.0,520.0 Q462.0,445.0 520.0,445.0" fill="none" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="520.0" y="330.0" width="300.0" height="140.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
 <text x="670.0" y="395.0" fill="#2b7a8c" font-size="24" text-anchor="middle" font-weight="700">内部表象</text>
 <text x="670.0" y="422.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">感覚情報・記憶・経験・予測から構築</text>

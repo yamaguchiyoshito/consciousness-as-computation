@@ -42,7 +42,6 @@
 <circle cx="592.9" cy="443.0" r="36" fill="none" stroke="#d0693a" stroke-width="2"/>
 <text x="592.9" y="450.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">所有物</text>
 <circle cx="780.0" cy="410.0" r="228" fill="none" stroke="#2b7a8c" stroke-width="2.5" stroke-dasharray="7 6"/>
-<text x="780.0" y="222.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">「自分」＝情報処理が引く境界</text>
 <text x="1120.0" y="630.0" fill="#5d6873" font-size="18" text-anchor="end" font-weight="400">外界</text>
 <circle cx="1026.2" cy="499.6" r="3" fill="#d8d4c8"/>
 <circle cx="995.1" cy="617.7" r="3" fill="#d8d4c8"/>
@@ -58,6 +57,17 @@
 <text x="50.0" y="394.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">現象的意識、分人、物語を経て、</text>
 <text x="50.0" y="426.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">「自分」を計算可能な構造として</text>
 <text x="50.0" y="458.0" fill="#5d6873" font-size="19" text-anchor="start" font-weight="400">捉え直す。</text>
+<circle cx="62.0" cy="512.0" r="10" fill="none" stroke="#2b7a8c" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="84.0" y="518.0" fill="#2b7a8c" font-size="16" text-anchor="start" font-weight="700">破線の円：「自分」＝情報処理が引く境界</text>
+<circle cx="62.0" cy="542.0" r="9" fill="#ffffff"/>
+<circle cx="62.0" cy="542.0" r="9" fill="none" stroke="#2b7a8c" stroke-width="2"/>
+<text x="84.0" y="548.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">身体</text>
+<circle cx="62.0" cy="572.0" r="9" fill="#ffffff"/>
+<circle cx="62.0" cy="572.0" r="9" fill="none" stroke="#5a4fcf" stroke-width="2"/>
+<text x="84.0" y="578.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">記憶・価値観・感情：内的な要素</text>
+<circle cx="62.0" cy="602.0" r="9" fill="#ffffff"/>
+<circle cx="62.0" cy="602.0" r="9" fill="none" stroke="#d0693a" stroke-width="2"/>
+<text x="84.0" y="608.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="400">道具・アバター・作品・所有物：身体の外の対象</text>
 <text x="50.0" y="652.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">全9回　境界を問う ／ 自己のモデル ／ 体験と複数の自己 ／ 計算機で確かめる</text>
 </g>
 </svg>

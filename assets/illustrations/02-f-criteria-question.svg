@@ -10,16 +10,16 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <rect x="70.0" y="215.0" width="360.0" height="72.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
 <text x="250.0" y="246.0" fill="#2b7a8c" font-size="18" text-anchor="middle" font-weight="700">生命の維持に重要か</text>
-<text x="250.0" y="272.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">脳・心臓・身体</text>
-<path d="M430.0,251.0 Q500.0,251.0 560.0,358.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<text x="250.0" y="272.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">例：脳・心臓・身体</text>
+<path d="M430.0,251.0 Q500.0,330.0 560.0,330.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
 <rect x="70.0" y="310.0" width="360.0" height="72.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
 <text x="250.0" y="341.0" fill="#2b7a8c" font-size="18" text-anchor="middle" font-weight="700">自分の行動で制御できるか</text>
-<text x="250.0" y="367.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">腕・道具・アバター</text>
-<path d="M430.0,346.0 Q500.0,346.0 560.0,358.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<text x="250.0" y="367.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">例：腕・道具・アバター</text>
+<path d="M430.0,346.0 Q500.0,358.0 560.0,358.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
 <rect x="70.0" y="405.0" width="360.0" height="72.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
 <text x="250.0" y="436.0" fill="#2b7a8c" font-size="18" text-anchor="middle" font-weight="700">社会的な評価に関わるか</text>
-<text x="250.0" y="462.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">作品・アカウント・地位</text>
-<path d="M430.0,441.0 Q500.0,441.0 560.0,358.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<text x="250.0" y="462.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">例：作品・アカウント・地位</text>
+<path d="M430.0,441.0 Q500.0,386.0 560.0,386.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
 <rect x="560.0" y="310.0" width="220.0" height="96.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
 <text x="670.0" y="353.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">「自分」として</text>
 <text x="670.0" y="381.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">認識される対象</text>
