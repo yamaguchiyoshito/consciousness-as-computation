@@ -112,4 +112,6 @@
 
 ## 保守
 
+2026-10-29 に全点を本文と照合して点検し（[点検結果](figure-review-2026-10-29.md)）、数値・矢印の向き・用語・重なり・文字サイズ（13px以上）を修正した。
+
 図を変えるときは `scripts/draw_figures.py` を編集して再生成し、`CHAPTERS` の登録順と本文の図の順序、`series.json` の `figures` を同じPRで合わせる。`python scripts/validate.py` が参照・番号・SVGの構造を検査する。図の目視には `rsvg-convert` で画像化すると正確（`qlmanage` は拡大・切り抜きされる）。
