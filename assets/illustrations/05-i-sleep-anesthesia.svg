@@ -1,32 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
 <title id="title">覚醒・睡眠・麻酔は、活動の量だけでは分けられない</title>
 <desc id="desc">神経活動の量と、情報処理の統合の程度は別の軸である</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker><radialGradient id="g05i-1"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.4"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.18"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient><radialGradient id="g05i-2"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g05i-3"><stop offset="0" stop-color="#d0693a" stop-opacity="0.4"/><stop offset="0.55" stop-color="#d0693a" stop-opacity="0.18"/><stop offset="1" stop-color="#d0693a" stop-opacity="0"/></radialGradient><radialGradient id="g05i-4"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient></defs>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker><radialGradient id="g05i-1"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.4"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.18"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient><radialGradient id="g05i-2"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g05i-3"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g05i-4"><stop offset="0" stop-color="#d0693a" stop-opacity="0.4"/><stop offset="0.55" stop-color="#d0693a" stop-opacity="0.18"/><stop offset="1" stop-color="#d0693a" stop-opacity="0"/></radialGradient></defs>
 <rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     05     図5-9</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">覚醒・睡眠・麻酔は、活動の量だけでは分けられない</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">神経活動の量と、情報処理の統合の程度は別の軸である</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
-<line x1="150.0" y1="530.0" x2="1000.0" y2="530.0" stroke="#232a33" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
-<line x1="150.0" y1="530.0" x2="150.0" y2="240.0" stroke="#232a33" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
-<text x="1010.0" y="536.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="400">神経活動の量</text>
+<line x1="150.0" y1="520.0" x2="1000.0" y2="520.0" stroke="#232a33" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
+<line x1="150.0" y1="520.0" x2="150.0" y2="240.0" stroke="#232a33" stroke-width="1.5" marker-end="url(#arrow-ink)"/>
+<text x="1010.0" y="526.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="400">神経活動の量</text>
 <text x="140.0" y="232.0" fill="#232a33" font-size="15" text-anchor="end" font-weight="400">統合の程度</text>
-<circle cx="820.0" cy="290.0" r="60" fill="url(#g05i-1)"/>
-<circle cx="820.0" cy="290.0" r="10" fill="#2b7a8c"/>
-<text x="838.0" y="295.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">覚醒</text>
-<circle cx="560.0" cy="470.0" r="60" fill="url(#g05i-2)"/>
-<circle cx="560.0" cy="470.0" r="10" fill="#5a4fcf"/>
-<text x="578.0" y="475.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">深い睡眠</text>
-<circle cx="430.0" cy="490.0" r="60" fill="url(#g05i-3)"/>
-<circle cx="430.0" cy="490.0" r="10" fill="#d0693a"/>
-<text x="448.0" y="495.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">全身麻酔</text>
-<circle cx="700.0" cy="380.0" r="60" fill="url(#g05i-4)"/>
-<circle cx="700.0" cy="380.0" r="10" fill="#5a4fcf"/>
-<text x="718.0" y="385.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">夢を見る睡眠</text>
-<line x1="430.0" y1="455.0" x2="760.0" y2="455.0" stroke="#d8d4c8" stroke-width="1.5" stroke-dasharray="8 7"/>
-<text x="600.0" y="445.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">活動の量は近くても、統合の程度が違う</text>
-<text x="600.0" y="585.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">脳は睡眠中にも活動している。活動が存在することと、覚醒時と同じ体験が成立することは同じではない</text>
+<circle cx="840.0" cy="290.0" r="60" fill="url(#g05i-1)"/>
+<circle cx="840.0" cy="290.0" r="10" fill="#2b7a8c"/>
+<text x="858.0" y="295.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">覚醒</text>
+<circle cx="700.0" cy="335.0" r="60" fill="url(#g05i-2)"/>
+<circle cx="700.0" cy="335.0" r="10" fill="#5a4fcf"/>
+<text x="718.0" y="340.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">夢を見る睡眠</text>
+<circle cx="700.0" cy="475.0" r="60" fill="url(#g05i-3)"/>
+<circle cx="700.0" cy="475.0" r="10" fill="#5a4fcf"/>
+<text x="718.0" y="480.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">深い睡眠</text>
+<circle cx="400.0" cy="488.0" r="60" fill="url(#g05i-4)"/>
+<circle cx="400.0" cy="488.0" r="10" fill="#d0693a"/>
+<text x="418.0" y="493.0" fill="#232a33" font-size="15" text-anchor="start" font-weight="700">全身麻酔</text>
+<line x1="700.0" y1="355.0" x2="700.0" y2="455.0" stroke="#5d6873" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="715.0" y="400.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">活動の量は近くても、</text>
+<text x="715.0" y="418.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">統合の程度が違う</text>
+<text x="600.0" y="570.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">脳は睡眠中にも活動している。活動が存在することと、覚醒時と同じ体験が成立することは同じではない</text>
 <text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">摂動複雑性指標（PCI）は応答の複雑さを測る指標であり、Φそのものではない。位置は概念的な目安である。</text>
 </g>
 </svg>

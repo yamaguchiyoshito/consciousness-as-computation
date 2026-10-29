@@ -38,7 +38,7 @@
 <line x1="340.0" y1="350.0" x2="520.0" y2="350.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <line x1="680.0" y1="350.0" x2="860.0" y2="350.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="150.0" y="510.0" width="900.0" height="70.0" rx="12" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
-<text x="600.0" y="538.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">Φ_approx(S) = min_P  D( C(S), C(P) )</text>
+<text x="600.0" y="538.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">Φ_approx(S) = min_P D(C(S), C(P))</text>
 <text x="600.0" y="564.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">最も統合の弱い分割を探し、それでも失われる構造の大きさを統合の程度とみなす</text>
 <text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">この式はIITの正式なΦの定義ではない。情報の量ではなく、全体に固有の因果構造を問うという考え方を表す。</text>
 </g>
