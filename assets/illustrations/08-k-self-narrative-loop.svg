@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
 <title id="title">自己を更新する循環と、外から入る物語</title>
 <desc id="desc">物語はナラティブと自己表象の段に作用し、自分の物語は他者へ共有される</desc>
 <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
-<rect width="1200" height="720" rx="20" fill="#f7f5ef"/>
+<rect width="1200" height="780" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-11</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">自己を更新する循環と、外から入る物語</text>
@@ -33,19 +33,19 @@
 <path d="M646.8,598.0 Q695.4,595.3 720.4,555.5" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
 <path d="M768.9,473.5 Q790.9,430.0 768.9,388.5" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
 <path d="M722.1,305.5 Q695.4,264.7 648.5,263.0" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
-<rect x="60.0" y="395.0" width="200.0" height="80.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
-<text x="160.0" y="430.0" fill="#d0693a" font-size="22" text-anchor="middle" font-weight="700">物語</text>
-<text x="160.0" y="459.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">他者が作った物語</text>
-<path d="M260.0,415.0 Q330.0,390.0 379.1,517.5" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
-<path d="M260.0,455.0 Q380.0,540.0 548.0,633.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
-<text x="160.0" y="505.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">価値判断・解釈を</text>
-<text x="160.0" y="523.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">外から更新する</text>
-<rect x="940.0" y="540.0" width="210.0" height="80.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
-<text x="1045.0" y="575.0" fill="#5a4fcf" font-size="20" text-anchor="middle" font-weight="700">他者への共有</text>
-<text x="1045.0" y="604.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">別の人の目的関数へ</text>
-<path d="M652.0,635.0 Q820.0,600.0 940.0,580.0" fill="none" stroke="#5a4fcf" stroke-width="2.5" marker-end="url(#arrow-indigo)"/>
+<rect x="60.0" y="590.0" width="200.0" height="80.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="160.0" y="625.0" fill="#d0693a" font-size="22" text-anchor="middle" font-weight="700">物語</text>
+<text x="160.0" y="654.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">他者が作った物語</text>
+<path d="M260.0,612.0 Q330.0,600.0 395.1,563.5" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<path d="M260.0,650.0 Q420.0,720.0 600.0,677.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<text x="160.0" y="700.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">価値判断・解釈を</text>
+<text x="160.0" y="719.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">外から更新する</text>
+<rect x="60.0" y="380.0" width="210.0" height="80.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="165.0" y="415.0" fill="#5a4fcf" font-size="20" text-anchor="middle" font-weight="700">他者への共有</text>
+<text x="165.0" y="444.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">別の人の目的関数へ</text>
+<path d="M387.1,501.5 Q330.0,470.0 270.0,425.0" fill="none" stroke="#5a4fcf" stroke-width="2.5" marker-end="url(#arrow-indigo)"/>
 <text x="600.0" y="422.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">自分についての物語が</text>
 <text x="600.0" y="444.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">次の行動を方向づける</text>
-<text x="50.0" y="692.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">私たちは物語を読むだけでなく、自分を物語として構築し、その物語に従って行動している可能性がある。</text>
+<text x="50.0" y="752.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">私たちは物語を読むだけでなく、自分を物語として構築し、その物語に従って行動している可能性がある。</text>
 </g>
 </svg>

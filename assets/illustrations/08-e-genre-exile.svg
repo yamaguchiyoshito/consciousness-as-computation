@@ -30,7 +30,7 @@
 <rect x="940.0" y="392.0" width="170.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="1025.0" y="420.1" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">評価者の誤り</text>
 <text x="1025.0" y="470.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">→ 自己評価は維持される</text>
-<text x="890.0" y="505.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">評価の原因について、ひとつの代替的な物語を示す</text>
+<text x="890.0" y="505.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">評価の原因について、ひとつの代替的な物語を示す</text>
 <text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">現実のすべての低評価が不当だという主張ではない。他者評価と自分の価値を同一視しなくてよい、という解釈に触れさせる。</text>
 </g>
 </svg>

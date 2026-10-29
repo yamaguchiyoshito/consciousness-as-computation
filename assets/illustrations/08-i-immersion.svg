@@ -18,26 +18,26 @@
 <line x1="699.9" y1="567.5" x2="500.1" y2="567.5" stroke="#d8d4c8" stroke-width="1.5"/>
 <line x1="699.9" y1="567.5" x2="438.3" y2="377.5" stroke="#d8d4c8" stroke-width="1.5"/>
 <line x1="500.1" y1="567.5" x2="438.3" y2="377.5" stroke="#d8d4c8" stroke-width="1.5"/>
-<circle cx="600.0" cy="260.0" r="52" fill="#ffffff"/>
-<circle cx="600.0" cy="260.0" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
-<text x="600.0" y="258.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">物語世界への</text>
-<text x="600.0" y="274.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">注意の集中</text>
-<circle cx="761.7" cy="377.5" r="52" fill="#ffffff"/>
-<circle cx="761.7" cy="377.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
-<text x="761.7" y="375.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">登場人物の状態</text>
-<text x="761.7" y="391.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">や行動の予測</text>
-<circle cx="699.9" cy="567.5" r="52" fill="#ffffff"/>
-<circle cx="699.9" cy="567.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
-<text x="699.9" y="565.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">登場人物への</text>
-<text x="699.9" y="581.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">感情的な反応</text>
-<circle cx="500.1" cy="567.5" r="52" fill="#ffffff"/>
-<circle cx="500.1" cy="567.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
-<text x="500.1" y="565.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">自己の経験との</text>
-<text x="500.1" y="581.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">関連づけ</text>
-<circle cx="438.3" cy="377.5" r="52" fill="#ffffff"/>
-<circle cx="438.3" cy="377.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
-<text x="438.3" y="375.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">物語の情報による</text>
-<text x="438.3" y="391.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">価値判断の更新</text>
+<circle cx="600.0" cy="260.0" r="58" fill="#ffffff"/>
+<circle cx="600.0" cy="260.0" r="58" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="600.0" y="258.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">物語世界への</text>
+<text x="600.0" y="275.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">注意の集中</text>
+<circle cx="761.7" cy="377.5" r="58" fill="#ffffff"/>
+<circle cx="761.7" cy="377.5" r="58" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="761.7" y="375.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">登場人物の状態</text>
+<text x="761.7" y="392.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">や行動の予測</text>
+<circle cx="699.9" cy="567.5" r="58" fill="#ffffff"/>
+<circle cx="699.9" cy="567.5" r="58" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="699.9" y="565.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">登場人物への</text>
+<text x="699.9" y="582.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">感情的な反応</text>
+<circle cx="500.1" cy="567.5" r="58" fill="#ffffff"/>
+<circle cx="500.1" cy="567.5" r="58" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="500.1" y="565.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">自己の経験との</text>
+<text x="500.1" y="582.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">関連づけ</text>
+<circle cx="438.3" cy="377.5" r="58" fill="#ffffff"/>
+<circle cx="438.3" cy="377.5" r="58" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="438.3" y="375.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">物語の情報による</text>
+<text x="438.3" y="392.5" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">価値判断の更新</text>
 <circle cx="600.0" cy="430.0" r="70" fill="url(#g08i-1)"/>
 <text x="600.0" y="436.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">没入</text>
 <text x="1050.0" y="400.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">結びつきが強いほど</text>

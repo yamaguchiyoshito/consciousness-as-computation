@@ -15,17 +15,17 @@
 <text x="526.0" y="506.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">操作回数</text>
 <text x="132.0" y="264.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">装置の動作の予測誤差</text>
 <path d="M130,290 C200,300 300,440 480,470" fill="none" stroke="#2b7a8c" stroke-width="3.5"/>
-<text x="400.0" y="350.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">行動と結果の対応を学習</text>
+<text x="400.0" y="350.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="700">行動と結果の対応を学習</text>
 <text x="320.0" y="540.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">装置の状態を自分の行動計画に組み込める</text>
 <rect x="620" y="205" width="520" height="360" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
 <text x="880.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">成果物との結びつき</text>
 <rect x="660.0" y="260.0" width="200.0" height="70.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
 <text x="760.0" y="290.0" fill="#5a4fcf" font-size="17" text-anchor="middle" font-weight="700">作成した成果物</text>
-<text x="760.0" y="314.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">内部資源ではない</text>
+<text x="760.0" y="315.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">内部資源ではない</text>
 <line x1="860.0" y1="295.0" x2="930.0" y2="295.0" stroke="#5a4fcf" stroke-width="2.5" marker-end="url(#arrow-indigo)"/>
 <rect x="930.0" y="260.0" width="180.0" height="70.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="1020.0" y="290.0" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">目的関数</text>
-<text x="1020.0" y="314.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">喪失を大きな損失と評価</text>
+<text x="1020.0" y="315.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">喪失を大きな損失と評価</text>
 <line x1="1020.0" y1="330.0" x2="1020.0" y2="400.0" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
 <rect x="900.0" y="400.0" width="240.0" height="60.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
 <text x="1020.0" y="435.8" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">意思決定に強く影響</text>

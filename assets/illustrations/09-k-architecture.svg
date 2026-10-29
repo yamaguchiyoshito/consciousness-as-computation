@@ -37,8 +37,9 @@
 <line x1="470.0" y1="532.0" x2="560.0" y2="473.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)"/>
 <line x1="730.0" y1="532.0" x2="640.0" y2="473.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)"/>
 <line x1="505.0" y1="560.0" x2="695.0" y2="560.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)"/>
-<text x="600.0" y="552.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">整理</text>
-<line x1="665.0" y1="365.0" x2="645.0" y2="407.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)"/>
+<text x="600.0" y="552.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">整理</text>
+<line x1="665.0" y1="365.0" x2="645.0" y2="407.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)" marker-start="url(#arrow-terra)"/>
+<text x="672.0" y="392.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="400">共有</text>
 <line x1="775.0" y1="340.0" x2="960.0" y2="440.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
 <line x1="700.0" y1="440.0" x2="960.0" y2="455.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
 <text x="830.0" y="418.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">重みと優先順位に影響</text>
@@ -46,6 +47,6 @@
 <text x="548.0" y="345.0" fill="#d0693a" font-size="13" text-anchor="end" font-weight="400">予測に影響</text>
 <line x1="530.0" y1="672.0" x2="450.0" y2="590.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" stroke-dasharray="8 7"/>
 <text x="450.0" y="650.0" fill="#5a4fcf" font-size="13" text-anchor="end" font-weight="400">結果を記録</text>
-<text x="50.0" y="752.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">各要素を独立に実装するだけでは不十分で、相互に影響し循環する構造を形成する必要がある。</text>
+<text x="50.0" y="752.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">各要素が相互に影響し循環する構造が必要になる。自己表象→世界モデルの破線は第8回の循環（図8-11）に対応する。</text>
 </g>
 </svg>

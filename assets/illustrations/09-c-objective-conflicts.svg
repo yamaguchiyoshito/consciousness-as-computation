@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
 <title id="title">目的関数の競合を意図的に発生させる</title>
 <desc id="desc">同じ行動が、目的関数によって高くも低くも評価される</desc>
 <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
-<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
+<rect width="1200" height="690" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     09     図9-3</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">目的関数の競合を意図的に発生させる</text>
@@ -49,8 +49,9 @@
 <text x="875.0" y="518.0" fill="#d8d4c8" font-size="20" text-anchor="middle" font-weight="700">・</text>
 <text x="1005.0" y="518.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">×</text>
 <line x1="80.0" y1="510.0" x2="1130.0" y2="510.0" stroke="#d0693a" stroke-width="2"/>
-<text x="600.0" y="575.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">↑ 高く評価　↓ 低く評価　・ ほぼ無関係　　最下段：他の目的で高くても、制約条件として選択肢から除外</text>
-<text x="600.0" y="600.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">U(s, a, c) = Σ_i w_i(s, c)・f_i(s, a)　＋　制約条件</text>
-<text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">目的関数を複数用意することが目的ではない。競合が生じたとき、どう優先順位を決めるかを観測できる構造にする。</text>
+<text x="600.0" y="575.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">例：↑ 高く評価　↓ 低く評価　・ ほぼ無関係（表の評価は説明のための例）</text>
+<text x="600.0" y="604.0" fill="#232a33" font-size="16" text-anchor="middle" font-weight="700">U(s, a, c) = Σ_i w_i(s, c)・f_i(s, a)　（式9-2）</text>
+<text x="600.0" y="630.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="400">制約条件：禁止行動は選択対象から除外する（式9-2の重み付き和には含めない）</text>
+<text x="50.0" y="662.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">目的関数を複数用意することが目的ではない。競合が生じたとき、どう優先順位を決めるかを観測できる構造にする。</text>
 </g>
 </svg>

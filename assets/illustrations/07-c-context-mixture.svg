@@ -11,37 +11,39 @@
 <rect x="60.0" y="300.0" width="150.0" height="50.0" rx="25.0" fill="#232a33" stroke="#232a33" stroke-width="2"/>
 <text x="135.0" y="332.2" fill="#ffffff" font-size="20" text-anchor="middle" font-weight="700">文脈 c</text>
 <text x="135.0" y="375.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">状況・相手・環境</text>
-<line x1="210.0" y1="325.0" x2="280.0" y2="325.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
-<rect x="280.0" y="285.0" width="220.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
-<text x="390.0" y="320.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">混合係数 π(c)</text>
-<text x="390.0" y="349.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">どの分人をどの程度</text>
-<rect x="620.0" y="215.0" width="230.0" height="64.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
-<text x="735.0" y="253.8" fill="#2b7a8c" font-size="19" text-anchor="middle" font-weight="700">職場の分人 w^(1)</text>
-<path d="M500.0,325.0 Q560.0,286.0 620.0,247.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
-<text x="560.0" y="278.0" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">0.7</text>
-<path d="M850.0,247.0 Q900.0,298.5 940.0,350.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
-<rect x="620.0" y="305.0" width="230.0" height="64.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
-<text x="735.0" y="343.8" fill="#d0693a" font-size="19" text-anchor="middle" font-weight="700">家庭の分人 w^(2)</text>
-<path d="M500.0,325.0 Q560.0,331.0 620.0,337.0" fill="none" stroke="#d0693a" stroke-width="2.2" marker-end="url(#arrow-terra)"/>
-<text x="560.0" y="323.0" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="700">0.2</text>
-<path d="M850.0,337.0 Q900.0,343.5 940.0,350.0" fill="none" stroke="#d0693a" stroke-width="2.2" marker-end="url(#arrow-terra)"/>
-<rect x="620.0" y="395.0" width="230.0" height="64.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
-<text x="735.0" y="433.8" fill="#5a4fcf" font-size="19" text-anchor="middle" font-weight="700">趣味の分人 w^(3)</text>
-<path d="M500.0,325.0 Q560.0,376.0 620.0,427.0" fill="none" stroke="#5a4fcf" stroke-width="2.2" marker-end="url(#arrow-indigo)"/>
-<text x="560.0" y="368.0" fill="#5a4fcf" font-size="15" text-anchor="middle" font-weight="700">0.1</text>
-<path d="M850.0,427.0 Q900.0,388.5 940.0,350.0" fill="none" stroke="#5a4fcf" stroke-width="2.2" marker-end="url(#arrow-indigo)"/>
-<rect x="940.0" y="310.0" width="210.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
-<text x="1045.0" y="345.0" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">重みの合成 w(c)</text>
-<text x="1045.0" y="371.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">w(c) = Σ π_j(c) w^(j)</text>
-<line x1="1045.0" y1="390.0" x2="1045.0" y2="440.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
-<rect x="940.0" y="440.0" width="210.0" height="60.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
-<text x="1045.0" y="476.8" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">行動の選択</text>
+<line x1="210.0" y1="325.0" x2="275.0" y2="325.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="275.0" y="285.0" width="220.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="385.0" y="320.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">混合係数 π(c)</text>
+<text x="385.0" y="349.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">どの分人をどの程度</text>
+<line x1="495.0" y1="325.0" x2="560.0" y2="325.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="560.0" y="200.0" width="340.0" height="290.0" rx="16" fill="none" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="730.0" y="222.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">分人 Person_j（目的関数の重み w^(j)）</text>
+<line x1="592.0" y1="545.0" x2="592.0" y2="268.0" stroke="#2b7a8c" stroke-width="1.5" stroke-dasharray="8 7"/>
+<rect x="625.0" y="232.0" width="240.0" height="64.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="745.0" y="259.0" fill="#2b7a8c" font-size="18" text-anchor="middle" font-weight="700">職場の分人 w^(1)</text>
+<text x="745.0" y="285.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">π_1(c) = 0.7</text>
+<line x1="592.0" y1="280.0" x2="622.0" y2="280.0" stroke="#2b7a8c" stroke-width="1.5" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<path d="M865.0,264.0 Q905.0,302.0 940.0,320.0" fill="none" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)"/>
+<rect x="625.0" y="320.0" width="240.0" height="64.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="745.0" y="347.0" fill="#d0693a" font-size="18" text-anchor="middle" font-weight="700">家庭の分人 w^(2)</text>
+<text x="745.0" y="373.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">π_2(c) = 0.2</text>
+<line x1="592.0" y1="368.0" x2="622.0" y2="368.0" stroke="#2b7a8c" stroke-width="1.5" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<path d="M865.0,352.0 Q905.0,346.0 940.0,340.0" fill="none" stroke="#d0693a" stroke-width="2.2" marker-end="url(#arrow-terra)"/>
+<rect x="625.0" y="408.0" width="240.0" height="64.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="745.0" y="435.0" fill="#5a4fcf" font-size="18" text-anchor="middle" font-weight="700">趣味の分人 w^(3)</text>
+<text x="745.0" y="461.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">π_3(c) = 0.1</text>
+<line x1="592.0" y1="456.0" x2="622.0" y2="456.0" stroke="#2b7a8c" stroke-width="1.5" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<path d="M865.0,440.0 Q905.0,390.0 940.0,360.0" fill="none" stroke="#5a4fcf" stroke-width="2.2" marker-end="url(#arrow-indigo)"/>
+<text x="1045.0" y="288.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">式7-2を重みで書くと</text>
+<rect x="940.0" y="300.0" width="210.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="1045.0" y="335.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">重みの合成 w(c)</text>
+<text x="1045.0" y="361.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">w(c) = Σ_j π_j(c)・w^(j)</text>
+<line x1="1045.0" y1="380.0" x2="1045.0" y2="430.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="940.0" y="430.0" width="210.0" height="60.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="1045.0" y="466.8" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">行動の選択</text>
 <rect x="60.0" y="545.0" width="1090.0" height="80.0" rx="14" fill="#dfe9eb" stroke="#2b7a8c" stroke-width="2"/>
 <text x="605.0" y="580.0" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">分人が共有する基盤</text>
 <text x="605.0" y="606.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">記憶 ／ 身体 ／ 自己表象 ── どの分人の経験も、同じ個人の履歴として蓄積される</text>
-<line x1="690.0" y1="545.0" x2="690.0" y2="462.0" stroke="#2b7a8c" stroke-width="1.5" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
-<line x1="735.0" y1="545.0" x2="735.0" y2="462.0" stroke="#2b7a8c" stroke-width="1.5" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
-<line x1="780.0" y1="545.0" x2="780.0" y2="462.0" stroke="#2b7a8c" stroke-width="1.5" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
 <text x="50.0" y="652.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">混合エキスパートモデルと形式的に似ているが、数学的な類似性が心理的な分人の仕組みを証明するわけではない。</text>
 </g>
 </svg>

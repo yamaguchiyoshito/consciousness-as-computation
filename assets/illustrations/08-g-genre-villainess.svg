@@ -17,10 +17,10 @@
 <circle cx="420.0" cy="400.0" r="9" fill="#d0693a"/>
 <rect x="260.0" y="455.0" width="320.0" height="80.0" rx="12" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="420.0" y="482.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">物語の構造を認識する（メタ認知）</text>
-<text x="420.0" y="508.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">自分が悪役として位置づけられていると知る</text>
+<text x="420.0" y="508.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">自分が悪役として位置づけられていると知る</text>
 <line x1="420.0" y1="455.0" x2="420.0" y2="412.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)"/>
 <text x="650.0" y="330.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">結末を予測し、行動を変更する</text>
-<text x="650.0" y="350.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">世界モデルで未来を再構成する（第4回）</text>
+<text x="650.0" y="350.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">世界モデルで未来を再構成する（第4回）</text>
 <text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">現実でも、環境・地位・過去の失敗・与えられた役割によって未来が決まっているように感じる。その既定の展開を書き換えられる可能性を示す。</text>
 </g>
 </svg>

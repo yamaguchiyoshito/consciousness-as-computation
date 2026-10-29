@@ -8,41 +8,41 @@
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">信念状態：確実でないまま行動し、観測で更新する</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">部分観測マルコフ決定過程（POMDP）による世界モデルの近似</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
-<rect x="70.0" y="225.0" width="300.0" height="190.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
-<text x="220.0" y="258.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">移動前の信念</text>
-<text x="100.0" y="300.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">資源がある</text>
-<rect x="200.0" y="287.0" width="140.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
-<rect x="200.0" y="287.0" width="98.0" height="16.0" rx="8" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2"/>
-<text x="355.0" y="300.0" fill="#5d6873" font-size="12" text-anchor="end" font-weight="400">0.70</text>
-<text x="100.0" y="350.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">危険がある</text>
-<rect x="200.0" y="337.0" width="140.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
-<rect x="200.0" y="337.0" width="28.0" height="16.0" rx="8" fill="#d0693a" stroke="#d0693a" stroke-width="2"/>
-<text x="355.0" y="350.0" fill="#5d6873" font-size="12" text-anchor="end" font-weight="400">0.20</text>
-<text x="220.0" y="395.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">b_t(s)：状態 s にあると考える確率</text>
-<line x1="370.0" y1="320.0" x2="430.0" y2="320.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
-<rect x="430.0" y="285.0" width="170.0" height="70.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
-<text x="515.0" y="325.4" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">行動：移動する</text>
-<line x1="600.0" y1="320.0" x2="660.0" y2="320.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
-<rect x="660.0" y="285.0" width="170.0" height="70.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
-<text x="745.0" y="325.4" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">観測：資源を発見</text>
-<line x1="830.0" y1="320.0" x2="870.0" y2="320.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
-<rect x="870.0" y="225.0" width="300.0" height="190.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
-<text x="1020.0" y="258.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">更新後の信念</text>
-<text x="900.0" y="300.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">資源がある</text>
-<rect x="1000.0" y="287.0" width="140.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
-<rect x="1000.0" y="287.0" width="133.0" height="16.0" rx="8" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2"/>
-<text x="1155.0" y="300.0" fill="#5d6873" font-size="12" text-anchor="end" font-weight="400">0.95</text>
-<text x="900.0" y="350.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">危険がある</text>
-<rect x="1000.0" y="337.0" width="140.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
-<rect x="1000.0" y="337.0" width="7.0" height="16.0" rx="8" fill="#d0693a" stroke="#d0693a" stroke-width="2"/>
-<text x="1155.0" y="350.0" fill="#5d6873" font-size="12" text-anchor="end" font-weight="400">0.05</text>
-<text x="1020.0" y="395.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">b_t(s)：状態 s にあると考える確率</text>
-<text x="515.0" y="390.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">資源の確率が高く、</text>
-<text x="515.0" y="406.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">危険の確率が低ければ選びやすい</text>
-<text x="600.0" y="480.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">b_t(s) = P( s_t = s | o_1:t, a_1:t-1 )</text>
-<text x="600.0" y="510.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">観測 o と過去の行動 a から、直接は見えない環境の状態を推定する</text>
-<path d="M1020.0,415.0 Q700.0,560.0 220.0,415.0" fill="none" stroke="#d8d4c8" stroke-width="1.5" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
-<text x="600.0" y="560.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">次の行動へ</text>
+<rect x="60.0" y="225.0" width="290.0" height="190.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="205.0" y="258.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">移動前の信念</text>
+<text x="86.0" y="300.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">資源がある</text>
+<rect x="178.0" y="287.0" width="116.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="178.0" y="287.0" width="81.2" height="16.0" rx="8" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2"/>
+<text x="306.0" y="300.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">0.70</text>
+<text x="86.0" y="350.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">危険がある</text>
+<rect x="178.0" y="337.0" width="116.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="178.0" y="337.0" width="23.2" height="16.0" rx="8" fill="#d0693a" stroke="#d0693a" stroke-width="2"/>
+<text x="306.0" y="350.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">0.20</text>
+<text x="205.0" y="395.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">b_t(s)：状態 s にあると考える確率</text>
+<line x1="350.0" y1="320.0" x2="410.0" y2="320.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="410.0" y="285.0" width="170.0" height="70.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="495.0" y="325.4" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">行動：移動する</text>
+<line x1="580.0" y1="320.0" x2="640.0" y2="320.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="640.0" y="285.0" width="170.0" height="70.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="725.0" y="325.4" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">観測：資源を発見</text>
+<line x1="810.0" y1="320.0" x2="850.0" y2="320.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<rect x="850.0" y="225.0" width="290.0" height="190.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="995.0" y="258.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">更新後の信念</text>
+<text x="876.0" y="300.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">資源がある</text>
+<rect x="968.0" y="287.0" width="116.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="968.0" y="287.0" width="110.2" height="16.0" rx="8" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2"/>
+<text x="1096.0" y="300.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">0.95</text>
+<text x="876.0" y="350.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">危険がある</text>
+<rect x="968.0" y="337.0" width="116.0" height="16.0" rx="8" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="968.0" y="337.0" width="5.8" height="16.0" rx="8" fill="#d0693a" stroke="#d0693a" stroke-width="2"/>
+<text x="1096.0" y="350.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">0.05</text>
+<text x="995.0" y="395.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">b_t(s)：状態 s にあると考える確率</text>
+<text x="495.0" y="390.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">資源の確率が高く、</text>
+<text x="495.0" y="408.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">危険の確率が低ければ選びやすい</text>
+<text x="600.0" y="458.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">b_t(s) = P( s_t = s | o_1:t, a_1:t-1 )　（式9-1）</text>
+<text x="600.0" y="484.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">観測 o と過去の行動 a から、直接は見えない環境の状態を推定する</text>
+<path d="M995.0,415.0 Q600.0,660.0 205.0,415.0" fill="none" stroke="#d8d4c8" stroke-width="1.5" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
+<text x="600.0" y="575.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">次の行動へ</text>
 <text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">POMDPは部分観測下の意思決定の枠組みであり、人間の神経活動そのものを説明するものではない。</text>
 </g>
 </svg>
