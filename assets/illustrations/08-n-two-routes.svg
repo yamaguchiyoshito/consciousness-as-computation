@@ -10,7 +10,7 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <rect x="70.0" y="330.0" width="220.0" height="90.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
 <text x="180.0" y="370.0" fill="#5d6873" font-size="20" text-anchor="middle" font-weight="700">同じ環境</text>
-<text x="180.0" y="394.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">現実の制約・身体・関係</text>
+<text x="180.0" y="395.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">現実の制約・身体・関係</text>
 <line x1="290.0" y1="375.0" x2="400.0" y2="375.0" stroke="#5d6873" stroke-width="2.5" marker-end="url(#arrow)"/>
 <rect x="400.0" y="300.0" width="300.0" height="150.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
 <text x="550.0" y="340.0" fill="#5a4fcf" font-size="22" text-anchor="middle" font-weight="700">内部モデル</text>
@@ -21,11 +21,11 @@
 <text x="920.0" y="382.9" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">行動</text>
 <rect x="70.0" y="215.0" width="300.0" height="60.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
 <text x="220.0" y="240.0" fill="#2b7a8c" font-size="16" text-anchor="middle" font-weight="700">経路A：環境を変える</text>
-<text x="220.0" y="264.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">転職・転居・関係の変更</text>
+<text x="220.0" y="265.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">転職・転居・関係の変更</text>
 <path d="M220.0,275.0 Q200.0,310.0 180.0,330.0" fill="none" stroke="#2b7a8c" stroke-width="2" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
 <rect x="400.0" y="480.0" width="300.0" height="60.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="550.0" y="505.0" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">経路B：内部モデルを変える</text>
-<text x="550.0" y="529.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">物語による解釈と予測の更新</text>
+<text x="550.0" y="530.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">物語による解釈と予測の更新</text>
 <line x1="550.0" y1="480.0" x2="550.0" y2="450.0" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
 <text x="1050.0" y="480.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">同じ環境でも</text>
 <text x="1050.0" y="500.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">行動が変わり得る</text>

@@ -19,7 +19,7 @@
 <line x1="850.0" y1="265.0" x2="895.0" y2="265.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="895.0" y="230.0" width="230.0" height="70.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
 <text x="1010.0" y="271.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">挑戦を避ける</text>
-<text x="460.0" y="325.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">「自分には能力がない」「努力しても報われない」</text>
+<text x="460.0" y="325.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">「自分には能力がない」「努力しても報われない」</text>
 <rect x="70.0" y="420.0" width="420.0" height="90.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="280.0" y="460.0" fill="#d0693a" font-size="18" text-anchor="middle" font-weight="700">物語による代替的な経験</text>
 <text x="280.0" y="485.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">評価者が誤っていた／成功以外にも価値がある</text>
@@ -27,9 +27,9 @@
 <rect x="540.0" y="420.0" width="260.0" height="90.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="670.0" y="460.0" fill="#d0693a" font-size="18" text-anchor="middle" font-weight="700">評価基準の再構成</text>
 <text x="670.0" y="485.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">出来事の解釈が変わる</text>
-<path d="M800.0,465.0 Q870.0,465.0 900.0,300.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
-<text x="880.0" y="395.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">予測と行動が</text>
-<text x="880.0" y="412.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">変わり得る</text>
+<rect x="720.0" y="335.0" width="320.0" height="40.0" rx="20.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="880.0" y="360.4" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="700">予測と行動が変わり得る</text>
+<path d="M800.0,465.0 Q880.0,450.0 880.0,377.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
 <text x="600.0" y="565.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">現実での失敗 → 自己評価の低下 → 物語による代替的な経験 → 評価基準の再構成</text>
 <text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">「修復」は比喩であり、医学的な治療と同等の効果を主張するものではない。</text>
 </g>

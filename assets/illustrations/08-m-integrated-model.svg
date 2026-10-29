@@ -34,17 +34,17 @@
 <text x="960.0" y="677.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">他者の経験からの学習</text>
 <text x="960.0" y="703.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">新しい共通体験の形成</text>
 <line x1="410.0" y1="290.0" x2="790.0" y2="290.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
-<text x="600.0" y="280.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">予測された状態を評価する</text>
+<text x="600.0" y="280.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">予測された状態を評価する</text>
 <line x1="960.0" y1="365.0" x2="770.0" y2="420.0" stroke="#5a4fcf" stroke-width="2.2" marker-end="url(#arrow-indigo)"/>
 <line x1="430.0" y1="420.0" x2="240.0" y2="365.0" stroke="#d0693a" stroke-width="2.2" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
-<text x="335.0" y="362.0" fill="#d0693a" font-size="12" text-anchor="start" font-weight="400">自己表象が予測に影響</text>
+<text x="240.0" y="438.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="400">自己表象が予測に影響</text>
 <line x1="430.0" y1="530.0" x2="240.0" y2="585.0" stroke="#d0693a" stroke-width="2.2" marker-end="url(#arrow-terra)"/>
 <line x1="410.0" y1="660.0" x2="430.0" y2="548.0" stroke="#5a4fcf" stroke-width="2.2" marker-end="url(#arrow-indigo)"/>
-<text x="395.0" y="605.0" fill="#5a4fcf" font-size="12" text-anchor="middle" font-weight="400">更新</text>
+<text x="440.0" y="612.0" fill="#5a4fcf" font-size="13" text-anchor="start" font-weight="400">更新</text>
 <line x1="960.0" y1="585.0" x2="770.0" y2="530.0" stroke="#2b7a8c" stroke-width="2.2" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
-<text x="945.0" y="548.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="400">物語が価値判断を更新</text>
+<text x="945.0" y="548.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="400">物語が価値判断を更新</text>
 <line x1="410.0" y1="660.0" x2="790.0" y2="660.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-<text x="600.0" y="650.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">自分の物語を共有し、他者から学ぶ</text>
+<text x="600.0" y="650.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">自分の物語を共有し、他者から学ぶ</text>
 <text x="50.0" y="772.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">自己の機能的な形成と変化を説明する仮説である。主観的な意識体験そのものが、なぜ存在するのかは未解決のまま残る。</text>
 </g>
 </svg>

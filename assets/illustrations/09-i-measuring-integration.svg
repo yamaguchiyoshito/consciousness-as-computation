@@ -32,7 +32,7 @@
 <text x="960.0" y="326.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">内部状態や行動の変化を</text>
 <text x="960.0" y="352.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">比較する</text>
 <rect x="890.0" y="390.0" width="140.0" height="30.0" rx="8" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
-<text x="960.0" y="410.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">自己表象</text>
+<text x="960.0" y="410.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="700">自己表象</text>
 <line x1="952.0" y1="367.0" x2="968.0" y2="383.0" stroke="#d0693a" stroke-width="2.5"/>
 <line x1="952.0" y1="383.0" x2="968.0" y2="367.0" stroke="#d0693a" stroke-width="2.5"/>
 <rect x="150.0" y="480.0" width="900.0" height="110.0" rx="12" fill="#ffffff" stroke="#d0693a" stroke-width="2" stroke-dasharray="8 7"/>

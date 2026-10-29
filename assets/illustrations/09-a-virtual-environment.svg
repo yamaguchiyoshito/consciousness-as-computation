@@ -230,7 +230,7 @@
 <path d="M772,398 L784,420 L760,420 Z" fill="#d0693a" stroke="#d0693a" stroke-width="2"/>
 <text x="800.0" y="418.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">危険：損失が生じる</text>
 <rect x="760.0" y="445.0" width="24.0" height="24.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="1"/>
-<text x="772.0" y="462.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">?</text>
+<text x="772.0" y="462.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">?</text>
 <text x="800.0" y="463.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">未知の領域：探索すると情報が得られる</text>
 <circle cx="772.0" cy="500.0" r="12" fill="#5a4fcf"/>
 <text x="800.0" y="505.0" fill="#232a33" font-size="14" text-anchor="start" font-weight="400">他のエージェント：協力や競争ができる</text>
