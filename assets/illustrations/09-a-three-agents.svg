@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">自己表象の効果は比較でしか測れない</title>
+<desc id="desc">構成要素を一つずつ足した三つのモデルを同じ環境に置く</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     09     図9-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">自己表象の効果は比較でしか測れない</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">構成要素を一つずつ足した三つのモデルを同じ環境に置く</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="230.0" y="225.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">モデルA</text>
+<rect x="90.0" y="432.0" width="280.0" height="64.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="230.0" y="471.2" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">目的関数</text>
+<text x="570.0" y="225.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">モデルB</text>
+<rect x="430.0" y="432.0" width="280.0" height="64.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="570.0" y="471.2" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">目的関数</text>
+<rect x="430.0" y="360.0" width="280.0" height="64.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="570.0" y="399.2" fill="#5a4fcf" font-size="20" text-anchor="middle" font-weight="700">記憶</text>
+<text x="910.0" y="225.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">モデルC</text>
+<rect x="770.0" y="432.0" width="280.0" height="64.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="910.0" y="471.2" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">目的関数</text>
+<rect x="770.0" y="360.0" width="280.0" height="64.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="910.0" y="399.2" fill="#5a4fcf" font-size="20" text-anchor="middle" font-weight="700">記憶</text>
+<rect x="770.0" y="288.0" width="280.0" height="64.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="910.0" y="327.2" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">自己表象</text>
+<rect x="758.0" y="276.0" width="304.0" height="76.0" rx="12" fill="none" stroke="#d0693a" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="910.0" y="266.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">これだけ無効化して比較（アブレーション）</text>
+<line x1="60.0" y1="508.0" x2="1140.0" y2="508.0" stroke="#232a33" stroke-width="2"/>
+<text x="600.0" y="536.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">同じ環境・同じ初期条件</text>
+<line x1="380.0" y1="440.0" x2="420.0" y2="440.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="400.0" y="425.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">＋1要素</text>
+<line x1="720.0" y1="440.0" x2="760.0" y2="440.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="740.0" y="425.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">＋1要素</text>
+<text x="600.0" y="580.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="400">観測：同じ失敗の回数 ／ 適応の速さ ／ 目的が競合したときの判断 ／ 行動の一貫性 ／ 環境変化への柔軟性</text>
+<text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">モデルCの性能が高いだけでは証明にならない。記憶容量・計算量・パラメータ数も揃える必要がある。</text>
+</g>
+</svg>

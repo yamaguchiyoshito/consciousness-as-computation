@@ -1,0 +1,182 @@
+{
+  "id": "consciousness-as-computation",
+  "code": "CONSCIOUSNESS",
+  "index": "README.md",
+  "title": "意識の再定義",
+  "subtitle": "情報処理から「自分」の正体を考える、全9回",
+  "language": "ja",
+  "version": "1.0.0",
+  "tagline": "「自分」は発見されるのではなく、情報処理によって構築される。",
+  "related": [
+    {
+      "title": "意味の関連性 ── RELEVANCE",
+      "url": "https://yamaguchiyoshito.github.io/relevance/"
+    },
+    {
+      "title": "マルチ時間スケールの主観的時間",
+      "url": "https://yamaguchiyoshito.github.io/multi-scale-time/"
+    },
+    {
+      "title": "複雑さと秩序",
+      "url": "https://yamaguchiyoshito.github.io/complexity-and-order/"
+    }
+  ],
+  "parts": [
+    {
+      "number": "I",
+      "title": "境界を問う",
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "number": "II",
+      "title": "自己のモデル",
+      "chapters": [
+        3,
+        5
+      ]
+    },
+    {
+      "number": "III",
+      "title": "体験と複数の自己",
+      "chapters": [
+        6,
+        8
+      ]
+    },
+    {
+      "number": "IV",
+      "title": "計算機で確かめる",
+      "chapters": [
+        9,
+        9
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "slug": "reality-and-virtuality",
+      "title": "現実とバーチャルの境界はどこにあるのか",
+      "subtitle": "知覚の境界と、肉体に収まらない「自分」",
+      "summary": "現実と仮想は物理的には異なるが、感覚情報が似ていれば体験は似る。自己の範囲も皮膚では決まらず、情報処理が引く境界ではないかという仮説を立てる。",
+      "path": "chapters/01-reality-and-virtuality.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/01-a-perception-boundary.svg",
+        "assets/illustrations/01-b-self-score-gradient.svg"
+      ]
+    },
+    {
+      "number": 2,
+      "slug": "consciousness-and-self",
+      "title": "意識とは「自分」を認識する情報処理である",
+      "subtitle": "認識する働きと、認識される自己表象を分ける",
+      "summary": "人間を生物学的基盤・情報処理・意識の三層で捉え、意識を「自分」という自己表象を構築し認識する働きとして定義する。意識と自分は同じものではない。",
+      "path": "chapters/02-consciousness-and-self.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/02-a-three-layers.svg",
+        "assets/illustrations/02-b-consciousness-and-self.svg"
+      ]
+    },
+    {
+      "number": 3,
+      "slug": "emergent-self",
+      "title": "「自分」は複数の目的関数の交差点に生まれる",
+      "subtitle": "目的関数の重み付き集合から創発する自己",
+      "summary": "囲碁AIの二つの評価関数を手がかりに、複数の目的関数が共通して参照する対象として「自分」が創発すると考える。自己が矛盾を含むのは構造的な性質である。",
+      "path": "chapters/03-emergent-self.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/03-a-go-ai-two-evaluators.svg",
+        "assets/illustrations/03-b-intersection-of-objectives.svg"
+      ]
+    },
+    {
+      "number": 4,
+      "slug": "predictive-processing",
+      "title": "脳は世界を予測し、意識は何を優先するかを決める",
+      "subtitle": "予測処理・自由エネルギー原理と目的関数の調停",
+      "summary": "脳は外界を直接知らず、世界モデルで予測し誤差で更新する。意識の機能のひとつを、不確実性の中でどの情報と目的を優先するかを調整するメタ処理として位置づける。",
+      "path": "chapters/04-predictive-processing.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/04-a-prediction-loop.svg",
+        "assets/illustrations/04-b-attention-and-priority.svg",
+        "assets/illustrations/04-c-self-representation-cycle.svg"
+      ]
+    },
+    {
+      "number": 5,
+      "slug": "integrated-information",
+      "title": "「自分」を情報の統合として捉える",
+      "subtitle": "統合情報理論と、相互依存する目的関数の構造",
+      "summary": "目的関数が並んでいるだけでは自己は生まれない。統合情報理論を手がかりに、目的関数が相互に影響し自己表象へ循環する、分割できない構造に自己の成立を求める。",
+      "path": "chapters/05-integrated-information.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/05-a-independent-vs-integrated.svg",
+        "assets/illustrations/05-b-self-objective-cycle.svg"
+      ]
+    },
+    {
+      "number": 6,
+      "slug": "phenomenal-consciousness",
+      "title": "なぜ情報処理に「感じる」という体験が生まれるのか",
+      "subtitle": "ハードプロブレムと、機能的意識・現象的意識の区別",
+      "summary": "情報を処理することと体験することは異なる。ハードプロブレムとクオリアを確認し、機能的意識は計算機で近似できても現象的意識の存在は証明されないという前提を置く。",
+      "path": "chapters/06-phenomenal-consciousness.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/06-a-functional-and-phenomenal.svg",
+        "assets/illustrations/06-b-feedforward-vs-recurrent.svg",
+        "assets/illustrations/06-c-three-axes.svg"
+      ]
+    },
+    {
+      "number": 7,
+      "slug": "dividual-and-extended-self",
+      "title": "「本当の自分」は一人ではない",
+      "subtitle": "分人の混合モデルと、肉体の外へ拡張する自己",
+      "summary": "平野啓一郎の分人を、文脈で切り替わる目的関数の重みの混合として表現する。道具やアバター、作品へ広がる自己も、同じ自己表象の更新として説明する。",
+      "path": "chapters/07-dividual-and-extended-self.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/07-a-dividual-weights.svg",
+        "assets/illustrations/07-b-context-mixture.svg",
+        "assets/illustrations/07-c-extended-self.svg"
+      ]
+    },
+    {
+      "number": 8,
+      "slug": "narrative-and-self",
+      "title": "人はなぜ物語を必要とするのか",
+      "subtitle": "目的関数を学習し修復する装置としての物語",
+      "summary": "物語は価値判断を学習させ、傷ついた自己評価を再較正する。異世界転生・追放・日常系・悪役令嬢の四ジャンルを、現実の評価環境を再構成する装置として読み解く。",
+      "path": "chapters/08-narrative-and-self.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/08-a-narrative-as-learning.svg",
+        "assets/illustrations/08-b-four-genres.svg",
+        "assets/illustrations/08-c-self-narrative-loop.svg"
+      ]
+    },
+    {
+      "number": 9,
+      "slug": "computational-implementation",
+      "title": "意識の情報処理モデルを計算機で実現する",
+      "subtitle": "自己を持つAIの機能的近似",
+      "summary": "部分観測の仮想環境、複数の目的関数、自己表象、記憶とナラティブ、分人、物語による更新を計算機上に組み、自己表象の有無を比較実験で検証する道筋を示す。",
+      "path": "chapters/09-computational-implementation.md",
+      "sources": [],
+      "figures": [
+        "assets/illustrations/09-a-three-agents.svg",
+        "assets/illustrations/09-b-architecture.svg",
+        "assets/illustrations/09-c-success-criteria.svg"
+      ]
+    }
+  ]
+}
