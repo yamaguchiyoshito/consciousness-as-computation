@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
 <title id="title">自己の境界は距離として現れる</title>
 <desc id="desc">皮膚の内外ではなく、情報処理上の関係が結びつきの強さを決める</desc>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><radialGradient id="g07c-1"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.5"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.23"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient><radialGradient id="g07c-2"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.4"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.18"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient><radialGradient id="g07c-3"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g07c-4"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g07c-5"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g07c-6"><stop offset="0" stop-color="#d0693a" stop-opacity="0.4"/><stop offset="0.55" stop-color="#d0693a" stop-opacity="0.18"/><stop offset="1" stop-color="#d0693a" stop-opacity="0"/></radialGradient><radialGradient id="g07c-7"><stop offset="0" stop-color="#d0693a" stop-opacity="0.4"/><stop offset="0.55" stop-color="#d0693a" stop-opacity="0.18"/><stop offset="1" stop-color="#d0693a" stop-opacity="0"/></radialGradient><radialGradient id="g07c-8"><stop offset="0" stop-color="#5d6873" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5d6873" stop-opacity="0.18"/><stop offset="1" stop-color="#5d6873" stop-opacity="0"/></radialGradient></defs>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker><radialGradient id="g07f-1"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.5"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.23"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient><radialGradient id="g07f-2"><stop offset="0" stop-color="#2b7a8c" stop-opacity="0.4"/><stop offset="0.55" stop-color="#2b7a8c" stop-opacity="0.18"/><stop offset="1" stop-color="#2b7a8c" stop-opacity="0"/></radialGradient><radialGradient id="g07f-3"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g07f-4"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g07f-5"><stop offset="0" stop-color="#5a4fcf" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5a4fcf" stop-opacity="0.18"/><stop offset="1" stop-color="#5a4fcf" stop-opacity="0"/></radialGradient><radialGradient id="g07f-6"><stop offset="0" stop-color="#d0693a" stop-opacity="0.4"/><stop offset="0.55" stop-color="#d0693a" stop-opacity="0.18"/><stop offset="1" stop-color="#d0693a" stop-opacity="0"/></radialGradient><radialGradient id="g07f-7"><stop offset="0" stop-color="#d0693a" stop-opacity="0.4"/><stop offset="0.55" stop-color="#d0693a" stop-opacity="0.18"/><stop offset="1" stop-color="#d0693a" stop-opacity="0"/></radialGradient><radialGradient id="g07f-8"><stop offset="0" stop-color="#5d6873" stop-opacity="0.4"/><stop offset="0.55" stop-color="#5d6873" stop-opacity="0.18"/><stop offset="1" stop-color="#5d6873" stop-opacity="0"/></radialGradient></defs>
 <rect width="1200" height="740" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
-<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     07     図7-3</text>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     07     図7-6</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">自己の境界は距離として現れる</text>
 <text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">皮膚の内外ではなく、情報処理上の関係が結びつきの強さを決める</text>
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
@@ -13,29 +13,29 @@
 <circle cx="480.0" cy="460.0" r="250" fill="none" stroke="#d8d4c8" stroke-width="1.5" stroke-dasharray="7 6"/>
 <text x="732.0" y="454.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">弱い</text>
 <text x="582.0" y="454.0" fill="#5d6873" font-size="14" text-anchor="start" font-weight="400">強い</text>
-<circle cx="480.0" cy="460.0" r="110" fill="url(#g07c-1)"/>
+<circle cx="480.0" cy="460.0" r="110" fill="url(#g07f-1)"/>
 <circle cx="480.0" cy="460.0" r="56" fill="#ffffff"/>
 <circle cx="480.0" cy="460.0" r="56" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
 <text x="480.0" y="467.0" fill="#2b7a8c" font-size="20" text-anchor="middle" font-weight="700">自己表象</text>
-<circle cx="480.0" cy="380.0" r="48" fill="url(#g07c-2)"/>
+<circle cx="480.0" cy="380.0" r="48" fill="url(#g07f-2)"/>
 <circle cx="480.0" cy="380.0" r="9" fill="#2b7a8c"/>
 <text x="480.0" y="362.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">身体</text>
-<circle cx="468.7" cy="589.5" r="48" fill="url(#g07c-3)"/>
+<circle cx="468.7" cy="589.5" r="48" fill="url(#g07f-3)"/>
 <circle cx="468.7" cy="589.5" r="9" fill="#5a4fcf"/>
 <text x="468.7" y="615.5" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">作品</text>
-<circle cx="335.0" cy="392.4" r="48" fill="url(#g07c-4)"/>
+<circle cx="335.0" cy="392.4" r="48" fill="url(#g07f-4)"/>
 <circle cx="335.0" cy="392.4" r="9" fill="#5a4fcf"/>
 <text x="319.0" y="398.4" fill="#232a33" font-size="17" text-anchor="end" font-weight="700">熟練した道具</text>
-<circle cx="619.3" cy="362.5" r="48" fill="url(#g07c-5)"/>
+<circle cx="619.3" cy="362.5" r="48" fill="url(#g07f-5)"/>
 <circle cx="619.3" cy="362.5" r="9" fill="#5a4fcf"/>
 <text x="635.3" y="368.5" fill="#232a33" font-size="17" text-anchor="start" font-weight="700">自動車</text>
-<circle cx="302.5" cy="562.5" r="48" fill="url(#g07c-6)"/>
+<circle cx="302.5" cy="562.5" r="48" fill="url(#g07f-6)"/>
 <circle cx="302.5" cy="562.5" r="9" fill="#d0693a"/>
 <text x="286.5" y="568.5" fill="#232a33" font-size="17" text-anchor="end" font-weight="700">ゲームキャラクター</text>
-<circle cx="682.0" cy="533.5" r="48" fill="url(#g07c-7)"/>
+<circle cx="682.0" cy="533.5" r="48" fill="url(#g07f-7)"/>
 <circle cx="682.0" cy="533.5" r="9" fill="#d0693a"/>
 <text x="698.0" y="539.5" fill="#232a33" font-size="17" text-anchor="start" font-weight="700">SNSアカウント</text>
-<circle cx="360.0" cy="252.2" r="48" fill="url(#g07c-8)"/>
+<circle cx="360.0" cy="252.2" r="48" fill="url(#g07f-8)"/>
 <circle cx="360.0" cy="252.2" r="9" fill="#5d6873"/>
 <text x="344.0" y="258.2" fill="#232a33" font-size="17" text-anchor="end" font-weight="700">見知らぬ物</text>
 <rect x="840.0" y="225.0" width="300.0" height="300.0" rx="14" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>

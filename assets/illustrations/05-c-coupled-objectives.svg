@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">目的関数の内部状態は、互いの更新に影響する</title>
+<desc id="desc">時間に沿って展開すると、ある目的の状態が次の時刻の他の目的の状態を変える</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     05     図5-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">目的関数の内部状態は、互いの更新に影響する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">時間に沿って展開すると、ある目的の状態が次の時刻の他の目的の状態を変える</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="300.0" y="225.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">時刻 t</text>
+<text x="600.0" y="225.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">時刻 t+1</text>
+<text x="900.0" y="225.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">時刻 t+2</text>
+<text x="120.0" y="286.0" fill="#2b7a8c" font-size="16" text-anchor="start" font-weight="700">f₁ 安全性</text>
+<text x="120.0" y="406.0" fill="#5a4fcf" font-size="16" text-anchor="start" font-weight="700">f₂ 効率</text>
+<text x="120.0" y="526.0" fill="#d0693a" font-size="16" text-anchor="start" font-weight="700">f₃ 情報獲得</text>
+<line x1="324.0" y1="280.0" x2="576.0" y2="280.0" stroke="#2b7a8c" stroke-width="1.6" marker-end="url(#arrow-teal)"/>
+<line x1="324.0" y1="280.0" x2="576.0" y2="400.0" stroke="#2b7a8c" stroke-width="1.1" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<line x1="324.0" y1="280.0" x2="576.0" y2="520.0" stroke="#2b7a8c" stroke-width="1.1" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<line x1="324.0" y1="400.0" x2="576.0" y2="280.0" stroke="#5a4fcf" stroke-width="1.1" marker-end="url(#arrow-indigo)" stroke-dasharray="8 7"/>
+<line x1="324.0" y1="400.0" x2="576.0" y2="400.0" stroke="#5a4fcf" stroke-width="1.6" marker-end="url(#arrow-indigo)"/>
+<line x1="324.0" y1="400.0" x2="576.0" y2="520.0" stroke="#5a4fcf" stroke-width="1.1" marker-end="url(#arrow-indigo)" stroke-dasharray="8 7"/>
+<line x1="324.0" y1="520.0" x2="576.0" y2="280.0" stroke="#d0693a" stroke-width="1.1" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<line x1="324.0" y1="520.0" x2="576.0" y2="400.0" stroke="#d0693a" stroke-width="1.1" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<line x1="324.0" y1="520.0" x2="576.0" y2="520.0" stroke="#d0693a" stroke-width="1.6" marker-end="url(#arrow-terra)"/>
+<line x1="624.0" y1="280.0" x2="876.0" y2="280.0" stroke="#2b7a8c" stroke-width="1.6" marker-end="url(#arrow-teal)"/>
+<line x1="624.0" y1="280.0" x2="876.0" y2="400.0" stroke="#2b7a8c" stroke-width="1.1" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<line x1="624.0" y1="280.0" x2="876.0" y2="520.0" stroke="#2b7a8c" stroke-width="1.1" marker-end="url(#arrow-teal)" stroke-dasharray="8 7"/>
+<line x1="624.0" y1="400.0" x2="876.0" y2="280.0" stroke="#5a4fcf" stroke-width="1.1" marker-end="url(#arrow-indigo)" stroke-dasharray="8 7"/>
+<line x1="624.0" y1="400.0" x2="876.0" y2="400.0" stroke="#5a4fcf" stroke-width="1.6" marker-end="url(#arrow-indigo)"/>
+<line x1="624.0" y1="400.0" x2="876.0" y2="520.0" stroke="#5a4fcf" stroke-width="1.1" marker-end="url(#arrow-indigo)" stroke-dasharray="8 7"/>
+<line x1="624.0" y1="520.0" x2="876.0" y2="280.0" stroke="#d0693a" stroke-width="1.1" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<line x1="624.0" y1="520.0" x2="876.0" y2="400.0" stroke="#d0693a" stroke-width="1.1" marker-end="url(#arrow-terra)" stroke-dasharray="8 7"/>
+<line x1="624.0" y1="520.0" x2="876.0" y2="520.0" stroke="#d0693a" stroke-width="1.6" marker-end="url(#arrow-terra)"/>
+<circle cx="300.0" cy="280.0" r="20" fill="#ffffff"/>
+<circle cx="300.0" cy="280.0" r="20" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<circle cx="300.0" cy="400.0" r="20" fill="#ffffff"/>
+<circle cx="300.0" cy="400.0" r="20" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<circle cx="300.0" cy="520.0" r="20" fill="#ffffff"/>
+<circle cx="300.0" cy="520.0" r="20" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<circle cx="600.0" cy="280.0" r="20" fill="#ffffff"/>
+<circle cx="600.0" cy="280.0" r="20" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<circle cx="600.0" cy="400.0" r="20" fill="#ffffff"/>
+<circle cx="600.0" cy="400.0" r="20" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<circle cx="600.0" cy="520.0" r="20" fill="#ffffff"/>
+<circle cx="600.0" cy="520.0" r="20" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<circle cx="900.0" cy="280.0" r="20" fill="#ffffff"/>
+<circle cx="900.0" cy="280.0" r="20" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<circle cx="900.0" cy="400.0" r="20" fill="#ffffff"/>
+<circle cx="900.0" cy="400.0" r="20" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<circle cx="900.0" cy="520.0" r="20" fill="#ffffff"/>
+<circle cx="900.0" cy="520.0" r="20" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<rect x="1000.0" y="250.0" width="130.0" height="40.0" rx="20.0" fill="#5d6873" stroke="#5d6873" stroke-width="2"/>
+<text x="1065.0" y="275.4" fill="#ffffff" font-size="15" text-anchor="middle" font-weight="700">s(t) 外界</text>
+<text x="1065.0" y="318.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">外界や身体の状態も</text>
+<text x="1065.0" y="334.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">各更新に入る</text>
+<text x="600.0" y="590.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">fᵢ(t+1) = gᵢ( f₁(t), f₂(t), …, fₙ(t), s(t) )</text>
+<text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">実線は自分自身の更新、破線は他の目的への影響。厳密には目的関数と、それを評価する内部状態を区別する。</text>
+</g>
+</svg>

@@ -5,7 +5,7 @@
   "title": "意識の再定義",
   "subtitle": "情報処理から「自分」の正体を考える、全9回",
   "language": "ja",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "tagline": "「自分」は発見されるのではなく、情報処理によって構築される。",
   "related": [
     {
@@ -66,7 +66,9 @@
       "sources": [],
       "figures": [
         "assets/illustrations/01-a-perception-boundary.svg",
-        "assets/illustrations/01-b-self-score-gradient.svg"
+        "assets/illustrations/01-b-shared-experience.svg",
+        "assets/illustrations/01-c-self-score-gradient.svg",
+        "assets/illustrations/01-d-common-structure.svg"
       ]
     },
     {
@@ -79,7 +81,10 @@
       "sources": [],
       "figures": [
         "assets/illustrations/02-a-three-layers.svg",
-        "assets/illustrations/02-b-consciousness-and-self.svg"
+        "assets/illustrations/02-b-consciousness-and-self.svg",
+        "assets/illustrations/02-c-conscious-unconscious.svg",
+        "assets/illustrations/02-d-substrate-independence.svg",
+        "assets/illustrations/02-e-criteria-question.svg"
       ]
     },
     {
@@ -91,8 +96,12 @@
       "path": "chapters/03-emergent-self.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/03-a-go-ai-two-evaluators.svg",
-        "assets/illustrations/03-b-intersection-of-objectives.svg"
+        "assets/illustrations/03-a-route-objectives.svg",
+        "assets/illustrations/03-b-go-ai-two-evaluators.svg",
+        "assets/illustrations/03-c-weighted-sum.svg",
+        "assets/illustrations/03-d-intersection-of-objectives.svg",
+        "assets/illustrations/03-e-posthoc-narrative.svg",
+        "assets/illustrations/03-f-three-stages.svg"
       ]
     },
     {
@@ -104,9 +113,13 @@
       "path": "chapters/04-predictive-processing.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/04-a-prediction-loop.svg",
-        "assets/illustrations/04-b-attention-and-priority.svg",
-        "assets/illustrations/04-c-self-representation-cycle.svg"
+        "assets/illustrations/04-a-ambiguous-input.svg",
+        "assets/illustrations/04-b-prediction-loop.svg",
+        "assets/illustrations/04-c-prediction-meets-objectives.svg",
+        "assets/illustrations/04-d-attention-and-priority.svg",
+        "assets/illustrations/04-e-meta-arbitration.svg",
+        "assets/illustrations/04-f-self-representation-cycle.svg",
+        "assets/illustrations/04-g-exploration-uncertainty.svg"
       ]
     },
     {
@@ -119,7 +132,11 @@
       "sources": [],
       "figures": [
         "assets/illustrations/05-a-independent-vs-integrated.svg",
-        "assets/illustrations/05-b-self-objective-cycle.svg"
+        "assets/illustrations/05-b-phi-partition.svg",
+        "assets/illustrations/05-c-coupled-objectives.svg",
+        "assets/illustrations/05-d-self-objective-cycle.svg",
+        "assets/illustrations/05-e-integrated-subset.svg",
+        "assets/illustrations/05-f-conflict-adjustment.svg"
       ]
     },
     {
@@ -132,8 +149,12 @@
       "sources": [],
       "figures": [
         "assets/illustrations/06-a-functional-and-phenomenal.svg",
-        "assets/illustrations/06-b-feedforward-vs-recurrent.svg",
-        "assets/illustrations/06-c-three-axes.svg"
+        "assets/illustrations/06-b-inverted-qualia.svg",
+        "assets/illustrations/06-c-iit-reframing.svg",
+        "assets/illustrations/06-d-functional-love.svg",
+        "assets/illustrations/06-e-feedforward-vs-recurrent.svg",
+        "assets/illustrations/06-f-three-axes.svg",
+        "assets/illustrations/06-g-three-theories.svg"
       ]
     },
     {
@@ -145,9 +166,13 @@
       "path": "chapters/07-dividual-and-extended-self.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/07-a-dividual-weights.svg",
-        "assets/illustrations/07-b-context-mixture.svg",
-        "assets/illustrations/07-c-extended-self.svg"
+        "assets/illustrations/07-a-true-self-vs-dividual.svg",
+        "assets/illustrations/07-b-dividual-weights.svg",
+        "assets/illustrations/07-c-context-mixture.svg",
+        "assets/illustrations/07-d-narrative-cycle.svg",
+        "assets/illustrations/07-e-tool-incorporation.svg",
+        "assets/illustrations/07-f-extended-self.svg",
+        "assets/illustrations/07-g-unified-update.svg"
       ]
     },
     {
@@ -160,8 +185,15 @@
       "sources": [],
       "figures": [
         "assets/illustrations/08-a-narrative-as-learning.svg",
-        "assets/illustrations/08-b-four-genres.svg",
-        "assets/illustrations/08-c-self-narrative-loop.svg"
+        "assets/illustrations/08-b-repair-flow.svg",
+        "assets/illustrations/08-c-genre-isekai.svg",
+        "assets/illustrations/08-d-genre-exile.svg",
+        "assets/illustrations/08-e-genre-slice-of-life.svg",
+        "assets/illustrations/08-f-genre-villainess.svg",
+        "assets/illustrations/08-g-immersion.svg",
+        "assets/illustrations/08-h-self-narrative-loop.svg",
+        "assets/illustrations/08-i-social-propagation.svg",
+        "assets/illustrations/08-j-integrated-model.svg"
       ]
     },
     {
@@ -173,9 +205,17 @@
       "path": "chapters/09-computational-implementation.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/09-a-three-agents.svg",
-        "assets/illustrations/09-b-architecture.svg",
-        "assets/illustrations/09-c-success-criteria.svg"
+        "assets/illustrations/09-a-virtual-environment.svg",
+        "assets/illustrations/09-b-belief-state.svg",
+        "assets/illustrations/09-c-objective-conflicts.svg",
+        "assets/illustrations/09-d-self-state-update.svg",
+        "assets/illustrations/09-e-three-agents.svg",
+        "assets/illustrations/09-f-memory-and-narrative.svg",
+        "assets/illustrations/09-g-measuring-integration.svg",
+        "assets/illustrations/09-h-narrative-input.svg",
+        "assets/illustrations/09-i-architecture.svg",
+        "assets/illustrations/09-j-explicit-vs-llm.svg",
+        "assets/illustrations/09-k-success-criteria.svg"
       ]
     }
   ]

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+<title id="title">異世界転生もの：社会的制約を取り除いた評価環境</title>
+<desc id="desc">現実で成立しなかった能力と評価の対応を、物語の中で再構成する</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="650" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">異世界転生もの：社会的制約を取り除いた評価環境</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">現実で成立しなかった能力と評価の対応を、物語の中で再構成する</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="60" y="205" width="1080" height="175" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="600.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">現実社会</text>
+<rect x="110.0" y="290.0" width="140.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="180.0" y="318.1" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">能力・努力</text>
+<rect x="420.0" y="262.0" width="340.0" height="86.0" rx="10" fill="#ece9e0" stroke="#5d6873" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="590.0" y="296.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">社会的な制約</text>
+<text x="590.0" y="320.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">地位・所属組織・人間関係・経済的条件</text>
+<line x1="250.0" y1="312.0" x2="420.0" y2="312.0" stroke="#2b7a8c" stroke-width="2.5"/>
+<line x1="760.0" y1="312.0" x2="920.0" y2="312.0" stroke="#d8d4c8" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
+<rect x="930.0" y="290.0" width="140.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="1000.0" y="318.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">評価</text>
+<text x="590.0" y="368.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">能力と評価が必ずしも対応しない</text>
+<rect x="60" y="405" width="1080" height="175" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="600.0" y="439.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">異世界</text>
+<rect x="110.0" y="490.0" width="140.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="180.0" y="518.1" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">能力・努力</text>
+<rect x="420.0" y="462.0" width="340.0" height="86.0" rx="10" fill="none" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="572.0" y1="487.0" x2="608.0" y2="523.0" stroke="#d0693a" stroke-width="3.5"/>
+<line x1="572.0" y1="523.0" x2="608.0" y2="487.0" stroke="#d0693a" stroke-width="3.5"/>
+<text x="590.0" y="568.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">制約が取り除かれる</text>
+<line x1="250.0" y1="512.0" x2="920.0" y2="512.0" stroke="#2b7a8c" stroke-width="3" marker-end="url(#arrow-teal)"/>
+<rect x="930.0" y="490.0" width="140.0" height="44.0" rx="22.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="1000.0" y="518.1" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">評価</text>
+<text x="50.0" y="622.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">修復されるのは能力そのものではなく、自分の能力が社会でどう評価されるべきかという認識である。</text>
+</g>
+</svg>

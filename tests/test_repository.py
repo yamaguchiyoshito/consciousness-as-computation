@@ -134,7 +134,7 @@ class RepositoryTests(unittest.TestCase):
         self.assertEqual(len({c['slug'] for c in SERIES['chapters']}), CHAPTERS)
         for c in SERIES['chapters']:
             self.assertGreaterEqual(len(c['figures']), 1)
-            self.assertLessEqual(len(c['figures']), 3)
+            self.assertLessEqual(len(c["figures"]), 11)
             self.assertEqual(len(c['figures']), len(set(c['figures'])))
             self.assertEqual(len(c['sources']), len(set(c['sources'])))
 
