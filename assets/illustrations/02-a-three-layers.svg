@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">人間を三層で捉える</title>
+<desc id="desc">意識は構造そのものではなく、構造の上で動く処理である</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     02     図2-1</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">人間を三層で捉える</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">意識は構造そのものではなく、構造の上で動く処理である</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="330.0" y="215.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">人間</text>
+<text x="870.0" y="215.0" fill="#232a33" font-size="20" text-anchor="middle" font-weight="700">計算機</text>
+<rect x="120.0" y="235.0" width="420.0" height="88.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="330.0" y="274.0" fill="#2b7a8c" font-size="22" text-anchor="middle" font-weight="700">意識</text>
+<text x="330.0" y="303.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">自己や世界を認識するプロセス</text>
+<rect x="660.0" y="235.0" width="420.0" height="88.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="870.0" y="286.9" fill="#2b7a8c" font-size="22" text-anchor="middle" font-weight="700">実行されるプロセス</text>
+<line x1="560.0" y1="279.0" x2="640.0" y2="279.0" stroke="#d8d4c8" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="8 7"/>
+<rect x="120.0" y="345.0" width="420.0" height="88.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="330.0" y="384.0" fill="#5a4fcf" font-size="22" text-anchor="middle" font-weight="700">情報処理システム</text>
+<text x="330.0" y="413.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">感覚・記憶・予測・判断・行動制御</text>
+<rect x="660.0" y="345.0" width="420.0" height="88.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
+<text x="870.0" y="396.9" fill="#5a4fcf" font-size="22" text-anchor="middle" font-weight="700">ソフトウェア</text>
+<line x1="560.0" y1="389.0" x2="640.0" y2="389.0" stroke="#d8d4c8" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="8 7"/>
+<rect x="120.0" y="455.0" width="420.0" height="88.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="330.0" y="494.0" fill="#5d6873" font-size="22" text-anchor="middle" font-weight="700">生物学的基盤</text>
+<text x="330.0" y="523.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">脳・神経系・感覚器官・身体</text>
+<rect x="660.0" y="455.0" width="420.0" height="88.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="870.0" y="506.9" fill="#5d6873" font-size="22" text-anchor="middle" font-weight="700">ハードウェア</text>
+<line x1="560.0" y1="499.0" x2="640.0" y2="499.0" stroke="#d8d4c8" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)" stroke-dasharray="8 7"/>
+<text x="600.0" y="215.0" fill="#5d6873" font-size="16" text-anchor="middle" font-weight="400">対応</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">対応は説明のためのモデルであり、脳と計算機が同じ仕組みで動くという主張ではない。</text>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">悪役令嬢もの：決められた未来を予測して書き換える</title>
+<desc id="desc">自分の置かれた物語の構造を認識し、現在の行動を変える</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-7</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">悪役令嬢もの：決められた未来を予測して書き換える</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">自分の置かれた物語の構造を認識し、現在の行動を変える</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<circle cx="130.0" cy="400.0" r="10" fill="#232a33"/>
+<text x="130.0" y="440.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">現在</text>
+<line x1="140.0" y1="400.0" x2="920.0" y2="400.0" stroke="#5d6873" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
+<text x="935.0" y="406.0" fill="#5d6873" font-size="15" text-anchor="start" font-weight="400">既定の結末（不幸）</text>
+<path d="M420.0,400.0 Q650.0,400.0 920.0,270.0" fill="none" stroke="#2b7a8c" stroke-width="3" marker-end="url(#arrow-teal)"/>
+<text x="935.0" y="276.0" fill="#2b7a8c" font-size="15" text-anchor="start" font-weight="700">別の未来</text>
+<circle cx="420.0" cy="400.0" r="9" fill="#d0693a"/>
+<rect x="260.0" y="455.0" width="320.0" height="80.0" rx="12" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="420.0" y="482.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">物語の構造を認識する（メタ認知）</text>
+<text x="420.0" y="508.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">自分が悪役として位置づけられていると知る</text>
+<line x1="420.0" y1="455.0" x2="420.0" y2="412.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)"/>
+<text x="650.0" y="330.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">結末を予測し、行動を変更する</text>
+<text x="650.0" y="350.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">世界モデルで未来を再構成する（第4回）</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">現実でも、環境・地位・過去の失敗・与えられた役割によって未来が決まっているように感じる。その既定の展開を書き換えられる可能性を示す。</text>
+</g>
+</svg>

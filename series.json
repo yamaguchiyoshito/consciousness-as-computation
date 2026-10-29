@@ -5,7 +5,7 @@
   "title": "意識の再定義",
   "subtitle": "情報処理から「自分」の正体を考える、全9回",
   "language": "ja",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "tagline": "「自分」は発見されるのではなく、情報処理によって構築される。",
   "related": [
     {
@@ -66,12 +66,11 @@
       "sources": [],
       "figures": [
         "assets/illustrations/01-a-series-map.svg",
-        "assets/illustrations/01-b-chapter-map.svg",
-        "assets/illustrations/01-c-perception-boundary.svg",
-        "assets/illustrations/01-d-shared-experience.svg",
-        "assets/illustrations/01-e-emotion-quadrant.svg",
-        "assets/illustrations/01-f-self-score-gradient.svg",
-        "assets/illustrations/01-g-common-structure.svg"
+        "assets/illustrations/01-b-perception-boundary.svg",
+        "assets/illustrations/01-c-shared-experience.svg",
+        "assets/illustrations/01-d-emotion-quadrant.svg",
+        "assets/illustrations/01-e-self-score-gradient.svg",
+        "assets/illustrations/01-f-common-structure.svg"
       ]
     },
     {
@@ -83,13 +82,12 @@
       "path": "chapters/02-consciousness-and-self.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/02-a-chapter-map.svg",
-        "assets/illustrations/02-b-three-layers.svg",
-        "assets/illustrations/02-c-consciousness-and-self.svg",
-        "assets/illustrations/02-d-conscious-unconscious.svg",
-        "assets/illustrations/02-e-score-dynamics.svg",
-        "assets/illustrations/02-f-substrate-independence.svg",
-        "assets/illustrations/02-g-criteria-question.svg"
+        "assets/illustrations/02-a-three-layers.svg",
+        "assets/illustrations/02-b-consciousness-and-self.svg",
+        "assets/illustrations/02-c-conscious-unconscious.svg",
+        "assets/illustrations/02-d-score-dynamics.svg",
+        "assets/illustrations/02-e-substrate-independence.svg",
+        "assets/illustrations/02-f-criteria-question.svg"
       ]
     },
     {
@@ -101,14 +99,13 @@
       "path": "chapters/03-emergent-self.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/03-a-chapter-map.svg",
-        "assets/illustrations/03-b-route-objectives.svg",
-        "assets/illustrations/03-c-go-ai-two-evaluators.svg",
-        "assets/illustrations/03-d-weighted-sum.svg",
-        "assets/illustrations/03-e-intersection-of-objectives.svg",
-        "assets/illustrations/03-f-posthoc-narrative.svg",
-        "assets/illustrations/03-g-weight-drift.svg",
-        "assets/illustrations/03-h-three-stages.svg"
+        "assets/illustrations/03-a-route-objectives.svg",
+        "assets/illustrations/03-b-go-ai-two-evaluators.svg",
+        "assets/illustrations/03-c-weighted-sum.svg",
+        "assets/illustrations/03-d-intersection-of-objectives.svg",
+        "assets/illustrations/03-e-posthoc-narrative.svg",
+        "assets/illustrations/03-f-weight-drift.svg",
+        "assets/illustrations/03-g-three-stages.svg"
       ]
     },
     {
@@ -120,16 +117,15 @@
       "path": "chapters/04-predictive-processing.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/04-a-chapter-map.svg",
-        "assets/illustrations/04-b-ambiguous-input.svg",
-        "assets/illustrations/04-c-stairs.svg",
-        "assets/illustrations/04-d-prediction-loop.svg",
-        "assets/illustrations/04-e-cold-room.svg",
-        "assets/illustrations/04-f-prediction-meets-objectives.svg",
-        "assets/illustrations/04-g-attention-and-priority.svg",
-        "assets/illustrations/04-h-meta-arbitration.svg",
-        "assets/illustrations/04-i-self-representation-cycle.svg",
-        "assets/illustrations/04-j-exploration-uncertainty.svg"
+        "assets/illustrations/04-a-ambiguous-input.svg",
+        "assets/illustrations/04-b-stairs.svg",
+        "assets/illustrations/04-c-prediction-loop.svg",
+        "assets/illustrations/04-d-cold-room.svg",
+        "assets/illustrations/04-e-prediction-meets-objectives.svg",
+        "assets/illustrations/04-f-attention-and-priority.svg",
+        "assets/illustrations/04-g-meta-arbitration.svg",
+        "assets/illustrations/04-h-self-representation-cycle.svg",
+        "assets/illustrations/04-i-exploration-uncertainty.svg"
       ]
     },
     {
@@ -141,17 +137,16 @@
       "path": "chapters/05-integrated-information.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/05-a-chapter-map.svg",
-        "assets/illustrations/05-b-unity-of-experience.svg",
-        "assets/illustrations/05-c-independent-vs-integrated.svg",
-        "assets/illustrations/05-d-phi-partition.svg",
-        "assets/illustrations/05-e-coupled-objectives.svg",
-        "assets/illustrations/05-f-self-objective-cycle.svg",
-        "assets/illustrations/05-g-integrated-subset.svg",
-        "assets/illustrations/05-h-conflict-adjustment.svg",
-        "assets/illustrations/05-i-weights-vs-structure.svg",
-        "assets/illustrations/05-j-sleep-anesthesia.svg",
-        "assets/illustrations/05-k-three-systems.svg"
+        "assets/illustrations/05-a-unity-of-experience.svg",
+        "assets/illustrations/05-b-independent-vs-integrated.svg",
+        "assets/illustrations/05-c-phi-partition.svg",
+        "assets/illustrations/05-d-coupled-objectives.svg",
+        "assets/illustrations/05-e-self-objective-cycle.svg",
+        "assets/illustrations/05-f-integrated-subset.svg",
+        "assets/illustrations/05-g-conflict-adjustment.svg",
+        "assets/illustrations/05-h-weights-vs-structure.svg",
+        "assets/illustrations/05-i-sleep-anesthesia.svg",
+        "assets/illustrations/05-j-three-systems.svg"
       ]
     },
     {
@@ -163,15 +158,14 @@
       "path": "chapters/06-phenomenal-consciousness.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/06-a-chapter-map.svg",
-        "assets/illustrations/06-b-functional-and-phenomenal.svg",
-        "assets/illustrations/06-c-inverted-qualia.svg",
-        "assets/illustrations/06-d-iit-reframing.svg",
-        "assets/illustrations/06-e-functional-love.svg",
-        "assets/illustrations/06-f-feedforward-vs-recurrent.svg",
-        "assets/illustrations/06-g-three-axes.svg",
-        "assets/illustrations/06-h-hypothesis-to-test.svg",
-        "assets/illustrations/06-i-three-theories.svg"
+        "assets/illustrations/06-a-functional-and-phenomenal.svg",
+        "assets/illustrations/06-b-inverted-qualia.svg",
+        "assets/illustrations/06-c-iit-reframing.svg",
+        "assets/illustrations/06-d-functional-love.svg",
+        "assets/illustrations/06-e-feedforward-vs-recurrent.svg",
+        "assets/illustrations/06-f-three-axes.svg",
+        "assets/illustrations/06-g-hypothesis-to-test.svg",
+        "assets/illustrations/06-h-three-theories.svg"
       ]
     },
     {
@@ -183,16 +177,15 @@
       "path": "chapters/07-dividual-and-extended-self.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/07-a-chapter-map.svg",
-        "assets/illustrations/07-b-true-self-vs-dividual.svg",
-        "assets/illustrations/07-c-dividual-weights.svg",
-        "assets/illustrations/07-d-context-mixture.svg",
-        "assets/illustrations/07-e-narrative-cycle.svg",
-        "assets/illustrations/07-f-extension-routes.svg",
-        "assets/illustrations/07-g-tool-incorporation.svg",
-        "assets/illustrations/07-h-extended-self.svg",
-        "assets/illustrations/07-i-unified-update.svg",
-        "assets/illustrations/07-j-identity-band.svg"
+        "assets/illustrations/07-a-true-self-vs-dividual.svg",
+        "assets/illustrations/07-b-dividual-weights.svg",
+        "assets/illustrations/07-c-context-mixture.svg",
+        "assets/illustrations/07-d-narrative-cycle.svg",
+        "assets/illustrations/07-e-extension-routes.svg",
+        "assets/illustrations/07-f-tool-incorporation.svg",
+        "assets/illustrations/07-g-extended-self.svg",
+        "assets/illustrations/07-h-unified-update.svg",
+        "assets/illustrations/07-i-identity-band.svg"
       ]
     },
     {
@@ -204,21 +197,20 @@
       "path": "chapters/08-narrative-and-self.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/08-a-chapter-map.svg",
-        "assets/illustrations/08-b-explanation-vs-story.svg",
-        "assets/illustrations/08-c-narrative-as-learning.svg",
-        "assets/illustrations/08-d-repair-flow.svg",
-        "assets/illustrations/08-e-genre-isekai.svg",
-        "assets/illustrations/08-f-genre-exile.svg",
-        "assets/illustrations/08-g-genre-slice-of-life.svg",
-        "assets/illustrations/08-h-genre-villainess.svg",
-        "assets/illustrations/08-i-shared-cognition.svg",
-        "assets/illustrations/08-j-immersion.svg",
-        "assets/illustrations/08-k-dividual-shift.svg",
-        "assets/illustrations/08-l-self-narrative-loop.svg",
-        "assets/illustrations/08-m-social-propagation.svg",
-        "assets/illustrations/08-n-integrated-model.svg",
-        "assets/illustrations/08-o-two-routes.svg"
+        "assets/illustrations/08-a-explanation-vs-story.svg",
+        "assets/illustrations/08-b-narrative-as-learning.svg",
+        "assets/illustrations/08-c-repair-flow.svg",
+        "assets/illustrations/08-d-genre-isekai.svg",
+        "assets/illustrations/08-e-genre-exile.svg",
+        "assets/illustrations/08-f-genre-slice-of-life.svg",
+        "assets/illustrations/08-g-genre-villainess.svg",
+        "assets/illustrations/08-h-shared-cognition.svg",
+        "assets/illustrations/08-i-immersion.svg",
+        "assets/illustrations/08-j-dividual-shift.svg",
+        "assets/illustrations/08-k-self-narrative-loop.svg",
+        "assets/illustrations/08-l-social-propagation.svg",
+        "assets/illustrations/08-m-integrated-model.svg",
+        "assets/illustrations/08-n-two-routes.svg"
       ]
     },
     {
@@ -230,21 +222,20 @@
       "path": "chapters/09-computational-implementation.md",
       "sources": [],
       "figures": [
-        "assets/illustrations/09-a-chapter-map.svg",
-        "assets/illustrations/09-b-virtual-environment.svg",
-        "assets/illustrations/09-c-belief-state.svg",
-        "assets/illustrations/09-d-objective-conflicts.svg",
-        "assets/illustrations/09-e-self-state-update.svg",
-        "assets/illustrations/09-f-three-agents.svg",
-        "assets/illustrations/09-g-memory-and-narrative.svg",
-        "assets/illustrations/09-h-dividual-impl.svg",
-        "assets/illustrations/09-i-boundary-impl.svg",
-        "assets/illustrations/09-j-measuring-integration.svg",
-        "assets/illustrations/09-k-narrative-input.svg",
-        "assets/illustrations/09-l-architecture.svg",
-        "assets/illustrations/09-m-explicit-vs-llm.svg",
-        "assets/illustrations/09-n-success-criteria.svg",
-        "assets/illustrations/09-o-support-refute.svg"
+        "assets/illustrations/09-a-virtual-environment.svg",
+        "assets/illustrations/09-b-belief-state.svg",
+        "assets/illustrations/09-c-objective-conflicts.svg",
+        "assets/illustrations/09-d-self-state-update.svg",
+        "assets/illustrations/09-e-three-agents.svg",
+        "assets/illustrations/09-f-memory-and-narrative.svg",
+        "assets/illustrations/09-g-dividual-impl.svg",
+        "assets/illustrations/09-h-boundary-impl.svg",
+        "assets/illustrations/09-i-measuring-integration.svg",
+        "assets/illustrations/09-j-narrative-input.svg",
+        "assets/illustrations/09-k-architecture.svg",
+        "assets/illustrations/09-l-explicit-vs-llm.svg",
+        "assets/illustrations/09-m-success-criteria.svg",
+        "assets/illustrations/09-n-support-refute.svg"
       ]
     }
   ]

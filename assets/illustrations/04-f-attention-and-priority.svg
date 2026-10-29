@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<title id="title">何が意識的な処理の対象になるのか</title>
+<desc id="desc">予測誤差の大きさと、目的に照らした重要性の二段で選ばれる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     04     図4-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">何が意識的な処理の対象になるのか</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">予測誤差の大きさと、目的に照らした重要性の二段で選ばれる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="190.0" y="215.0" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="400">感覚器官からの入力</text>
+<rect x="430" y="200" width="220" height="350" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="540.0" y="234.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">予測誤差は大きいか</text>
+<rect x="730" y="200" width="230" height="350" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="845.0" y="234.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">目的に照らして重要か</text>
+<text x="540.0" y="262.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">予測していた入力は</text>
+<text x="540.0" y="280.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">誤差が小さい</text>
+<text x="845.0" y="262.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">安全・生存に関わるなら</text>
+<text x="845.0" y="280.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">優先度が上がる</text>
+<rect x="80.0" y="222.0" width="220.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
+<text x="190.0" y="246.1" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">文章の内容</text>
+<line x1="300.0" y1="240.0" x2="960.0" y2="240.0" stroke="#2b7a8c" stroke-width="2.5"/>
+<path d="M960.0,240.0 Q1000.0,240.0 1010.0,345.0" fill="none" stroke="#2b7a8c" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<rect x="80.0" y="287.0" width="220.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="190.0" y="311.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">室温</text>
+<line x1="300.0" y1="305.0" x2="470.0" y2="305.0" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="478.0" y1="298.0" x2="492.0" y2="312.0" stroke="#5d6873" stroke-width="2"/>
+<line x1="478.0" y1="312.0" x2="492.0" y2="298.0" stroke="#5d6873" stroke-width="2"/>
+<rect x="80.0" y="352.0" width="220.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="190.0" y="376.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">身体の姿勢</text>
+<line x1="300.0" y1="370.0" x2="470.0" y2="370.0" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="478.0" y1="363.0" x2="492.0" y2="377.0" stroke="#5d6873" stroke-width="2"/>
+<line x1="478.0" y1="377.0" x2="492.0" y2="363.0" stroke="#5d6873" stroke-width="2"/>
+<rect x="80.0" y="417.0" width="220.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="190.0" y="441.1" fill="#5d6873" font-size="17" text-anchor="middle" font-weight="700">周囲の物音</text>
+<line x1="300.0" y1="435.0" x2="470.0" y2="435.0" stroke="#d8d4c8" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="478.0" y1="428.0" x2="492.0" y2="442.0" stroke="#5d6873" stroke-width="2"/>
+<line x1="478.0" y1="442.0" x2="492.0" y2="428.0" stroke="#5d6873" stroke-width="2"/>
+<rect x="80.0" y="482.0" width="220.0" height="36.0" rx="18.0" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="190.0" y="506.1" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">大きな音</text>
+<line x1="300.0" y1="500.0" x2="960.0" y2="500.0" stroke="#d0693a" stroke-width="2.5"/>
+<path d="M960.0,500.0 Q1000.0,500.0 1010.0,365.0" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<text x="540.0" y="520.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">誤差が小さい入力は</text>
+<text x="540.0" y="538.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">ここで止まる</text>
+<text x="845.0" y="520.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">誤差が大きくても</text>
+<text x="845.0" y="538.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">目的に無関係なら弱い</text>
+<rect x="1010.0" y="310.0" width="150.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="1085.0" y="356.8" fill="#232a33" font-size="19" text-anchor="middle" font-weight="700">注意の配分</text>
+<line x1="1085.0" y1="390.0" x2="1085.0" y2="440.0" stroke="#d0693a" stroke-width="2" marker-end="url(#arrow-terra)"/>
+<rect x="1010.0" y="440.0" width="150.0" height="70.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="1085.0" y="481.5" fill="#d0693a" font-size="18" text-anchor="middle" font-weight="700">行動の変更</text>
+<text x="1085.0" y="560.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">読書を中断し、音の原因を確認する</text>
+<text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">重要な情報とは予測誤差が大きい情報ではなく、現在の目的や状況に照らして処理する価値が高い情報である。</text>
+</g>
+</svg>

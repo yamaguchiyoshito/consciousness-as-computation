@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">物語による自己の更新を計算機で検証する</title>
+<desc id="desc">構造化した代替経験を入力し、自己評価と行動方針の変化を測定する</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="680" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     09     図9-10</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">物語による自己の更新を計算機で検証する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">構造化した代替経験を入力し、自己評価と行動方針の変化を測定する</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="230.0" width="180.0" height="60.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="160.0" y="265.4" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="700">失敗の繰り返し</text>
+<line x1="250.0" y1="260.0" x2="270.0" y2="260.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="270.0" y="230.0" width="180.0" height="60.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="360.0" y="265.4" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="700">自己評価の低下</text>
+<line x1="450.0" y1="260.0" x2="470.0" y2="260.0" stroke="#5d6873" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="470.0" y="230.0" width="180.0" height="60.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="560.0" y="265.4" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="700">挑戦を避ける</text>
+<text x="340.0" y="320.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">エージェントの状態（測定の出発点）</text>
+<rect x="70.0" y="360.0" width="560.0" height="200.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="350.0" y="392.0" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">物語に相当する構造化データ</text>
+<text x="100.0" y="420.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="700">初期状態</text>
+<text x="180.0" y="420.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">別のエージェントが失敗している</text>
+<text x="100.0" y="452.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="700">行動</text>
+<text x="180.0" y="452.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">別の戦略を試す</text>
+<text x="100.0" y="484.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="700">結果</text>
+<text x="180.0" y="484.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">以前より高い成果を得る</text>
+<text x="100.0" y="516.0" fill="#d0693a" font-size="13" text-anchor="start" font-weight="700">解釈</text>
+<text x="180.0" y="516.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">失敗は能力の欠如ではなく戦略の不適合</text>
+<line x1="630.0" y1="460.0" x2="700.0" y2="460.0" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<rect x="700.0" y="390.0" width="430.0" height="140.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="915.0" y="418.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">測定</text>
+<text x="730.0" y="450.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">・失敗に対する解釈が変わるか</text>
+<text x="730.0" y="476.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">・自分の能力への評価が変わるか</text>
+<text x="730.0" y="502.0" fill="#232a33" font-size="13" text-anchor="start" font-weight="400">・同じ状況で異なる行動を選ぶか</text>
+<text x="600.0" y="600.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="400">入力すれば必ず重みが変わる設計では、結果が最初から決まっている。検証すべきは、物語から何を抽出し、どう反映するかの処理</text>
+<text x="600.0" y="624.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">最初は文章ではなく構造化データで与えるほうが、効果を検証しやすい</text>
+<text x="50.0" y="652.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">物語から得た情報が実際の環境で有効とは限らない。どの条件で適応的な行動につながるかも検証する。</text>
+</g>
+</svg>

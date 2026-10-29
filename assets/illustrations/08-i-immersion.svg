@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+<title id="title">没入を構成する五つの処理</title>
+<desc id="desc">処理が強く結びつくほど、物語の経験が自己表象や目的関数へ影響しやすい</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker><radialGradient id="g08i-1"><stop offset="0" stop-color="#d0693a" stop-opacity="0.4"/><stop offset="0.55" stop-color="#d0693a" stop-opacity="0.18"/><stop offset="1" stop-color="#d0693a" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="680" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-9</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">没入を構成する五つの処理</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">処理が強く結びつくほど、物語の経験が自己表象や目的関数へ影響しやすい</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<line x1="600.0" y1="260.0" x2="761.7" y2="377.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="600.0" y1="260.0" x2="699.9" y2="567.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="600.0" y1="260.0" x2="500.1" y2="567.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="600.0" y1="260.0" x2="438.3" y2="377.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="761.7" y1="377.5" x2="699.9" y2="567.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="761.7" y1="377.5" x2="500.1" y2="567.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="761.7" y1="377.5" x2="438.3" y2="377.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="699.9" y1="567.5" x2="500.1" y2="567.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="699.9" y1="567.5" x2="438.3" y2="377.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<line x1="500.1" y1="567.5" x2="438.3" y2="377.5" stroke="#d8d4c8" stroke-width="1.5"/>
+<circle cx="600.0" cy="260.0" r="52" fill="#ffffff"/>
+<circle cx="600.0" cy="260.0" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="600.0" y="258.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">物語世界への</text>
+<text x="600.0" y="274.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">注意の集中</text>
+<circle cx="761.7" cy="377.5" r="52" fill="#ffffff"/>
+<circle cx="761.7" cy="377.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="761.7" y="375.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">登場人物の状態</text>
+<text x="761.7" y="391.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">や行動の予測</text>
+<circle cx="699.9" cy="567.5" r="52" fill="#ffffff"/>
+<circle cx="699.9" cy="567.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="699.9" y="565.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">登場人物への</text>
+<text x="699.9" y="581.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">感情的な反応</text>
+<circle cx="500.1" cy="567.5" r="52" fill="#ffffff"/>
+<circle cx="500.1" cy="567.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="500.1" y="565.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">自己の経験との</text>
+<text x="500.1" y="581.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">関連づけ</text>
+<circle cx="438.3" cy="377.5" r="52" fill="#ffffff"/>
+<circle cx="438.3" cy="377.5" r="52" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="438.3" y="375.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">物語の情報による</text>
+<text x="438.3" y="391.5" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">価値判断の更新</text>
+<circle cx="600.0" cy="430.0" r="70" fill="url(#g08i-1)"/>
+<text x="600.0" y="436.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">没入</text>
+<text x="1050.0" y="400.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">結びつきが強いほど</text>
+<text x="1050.0" y="418.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">自己表象・目的関数へ</text>
+<text x="1050.0" y="436.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">影響しやすい</text>
+<text x="50.0" y="652.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">没入は自己と物語世界の境界の消失ではない。読者は登場人物に共感しながらも、自分と登場人物を区別できる。</text>
+</g>
+</svg>

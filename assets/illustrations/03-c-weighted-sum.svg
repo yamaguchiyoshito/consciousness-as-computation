@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">目的関数には重みがある</title>
+<desc id="desc">休日の過ごし方を、複数の目的関数が異なる重みで評価する</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="720" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     03     図3-3</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">目的関数には重みがある</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">休日の過ごし方を、複数の目的関数が異なる重みで評価する</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="425.0" y="225.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">仕事をする</text>
+<text x="615.0" y="225.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">休息を取る</text>
+<text x="805.0" y="225.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">家族と過ごす</text>
+<text x="995.0" y="225.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">新しい技術を学ぶ</text>
+<text x="70.0" y="278.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">社会的承認</text>
+<rect x="70.0" y="288.0" width="200.0" height="10.0" rx="5" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="70.0" y="288.0" width="180.0" height="10.0" rx="5" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2"/>
+<text x="285.0" y="298.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">w=0.9</text>
+<circle cx="403.0" cy="285.0" r="8" fill="#2b7a8c"/>
+<circle cx="425.0" cy="285.0" r="8" fill="#2b7a8c"/>
+<circle cx="447.0" cy="285.0" r="8" fill="#2b7a8c"/>
+<circle cx="593.0" cy="285.0" r="8" fill="#d8d4c8"/>
+<circle cx="615.0" cy="285.0" r="8" fill="#d8d4c8"/>
+<circle cx="637.0" cy="285.0" r="8" fill="#d8d4c8"/>
+<circle cx="783.0" cy="285.0" r="8" fill="#2b7a8c"/>
+<circle cx="805.0" cy="285.0" r="8" fill="#d8d4c8"/>
+<circle cx="827.0" cy="285.0" r="8" fill="#d8d4c8"/>
+<circle cx="973.0" cy="285.0" r="8" fill="#2b7a8c"/>
+<circle cx="995.0" cy="285.0" r="8" fill="#2b7a8c"/>
+<circle cx="1017.0" cy="285.0" r="8" fill="#d8d4c8"/>
+<text x="70.0" y="348.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">健康の維持</text>
+<rect x="70.0" y="358.0" width="200.0" height="10.0" rx="5" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="70.0" y="358.0" width="100.0" height="10.0" rx="5" fill="#5a4fcf" stroke="#5a4fcf" stroke-width="2"/>
+<text x="285.0" y="368.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">w=0.5</text>
+<circle cx="403.0" cy="355.0" r="8" fill="#d8d4c8"/>
+<circle cx="425.0" cy="355.0" r="8" fill="#d8d4c8"/>
+<circle cx="447.0" cy="355.0" r="8" fill="#d8d4c8"/>
+<circle cx="593.0" cy="355.0" r="8" fill="#5a4fcf"/>
+<circle cx="615.0" cy="355.0" r="8" fill="#5a4fcf"/>
+<circle cx="637.0" cy="355.0" r="8" fill="#5a4fcf"/>
+<circle cx="783.0" cy="355.0" r="8" fill="#5a4fcf"/>
+<circle cx="805.0" cy="355.0" r="8" fill="#d8d4c8"/>
+<circle cx="827.0" cy="355.0" r="8" fill="#d8d4c8"/>
+<circle cx="973.0" cy="355.0" r="8" fill="#5a4fcf"/>
+<circle cx="995.0" cy="355.0" r="8" fill="#d8d4c8"/>
+<circle cx="1017.0" cy="355.0" r="8" fill="#d8d4c8"/>
+<text x="70.0" y="418.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">愛着・関係</text>
+<rect x="70.0" y="428.0" width="200.0" height="10.0" rx="5" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="70.0" y="428.0" width="120.0" height="10.0" rx="5" fill="#d0693a" stroke="#d0693a" stroke-width="2"/>
+<text x="285.0" y="438.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">w=0.6</text>
+<circle cx="403.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<circle cx="425.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<circle cx="447.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<circle cx="593.0" cy="425.0" r="8" fill="#d0693a"/>
+<circle cx="615.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<circle cx="637.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<circle cx="783.0" cy="425.0" r="8" fill="#d0693a"/>
+<circle cx="805.0" cy="425.0" r="8" fill="#d0693a"/>
+<circle cx="827.0" cy="425.0" r="8" fill="#d0693a"/>
+<circle cx="973.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<circle cx="995.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<circle cx="1017.0" cy="425.0" r="8" fill="#d8d4c8"/>
+<text x="70.0" y="488.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">知的好奇心</text>
+<rect x="70.0" y="498.0" width="200.0" height="10.0" rx="5" fill="#ece9e0" stroke="#ece9e0" stroke-width="2"/>
+<rect x="70.0" y="498.0" width="80.0" height="10.0" rx="5" fill="#5d6873" stroke="#5d6873" stroke-width="2"/>
+<text x="285.0" y="508.0" fill="#5d6873" font-size="13" text-anchor="start" font-weight="400">w=0.4</text>
+<circle cx="403.0" cy="495.0" r="8" fill="#5d6873"/>
+<circle cx="425.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="447.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="593.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="615.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="637.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="783.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="805.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="827.0" cy="495.0" r="8" fill="#d8d4c8"/>
+<circle cx="973.0" cy="495.0" r="8" fill="#5d6873"/>
+<circle cx="995.0" cy="495.0" r="8" fill="#5d6873"/>
+<circle cx="1017.0" cy="495.0" r="8" fill="#5d6873"/>
+<line x1="60.0" y1="540.0" x2="1140.0" y2="540.0" stroke="#d8d4c8" stroke-width="1.5"/>
+<text x="70.0" y="578.0" fill="#232a33" font-size="16" text-anchor="start" font-weight="700">総合評価 U(x) = Σ_i w_i・f_i(x)</text>
+<rect x="365.0" y="558.0" width="120.0" height="30.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="425.0" y="579.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="700">3.1</text>
+<rect x="555.0" y="558.0" width="120.0" height="30.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="615.0" y="579.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="700">2.1</text>
+<rect x="745.0" y="558.0" width="120.0" height="30.0" rx="8" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="805.0" y="579.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="700">3.2</text>
+<rect x="935.0" y="558.0" width="120.0" height="30.0" rx="8" fill="#dfe9eb" stroke="#2b7a8c" stroke-width="2"/>
+<text x="995.0" y="579.0" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">3.5</text>
+<text x="600.0" y="620.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">承認の重みが大きいこの例では仕事が選ばれる。健康の重みが増せば休息へ傾く。</text>
+<text x="600.0" y="642.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="400">倫理的に許されない行動は、重みに関係なく制約条件として選択肢から除外する。</text>
+<text x="50.0" y="692.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">人間がこの式を計算して行動を決めているという主張ではない。優先順位の変化を扱うための近似である。</text>
+</g>
+</svg>

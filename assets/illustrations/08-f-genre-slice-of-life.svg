@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">日常系：競争という評価軸を相対化する</title>
+<desc id="desc">達成を否定するのではなく、重み付けに別の選択肢を提示する</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-6</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">日常系：競争という評価軸を相対化する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">達成を否定するのではなく、重み付けに別の選択肢を提示する</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<text x="300.0" y="225.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">現実社会</text>
+<text x="900.0" y="225.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">日常系の物語世界</text>
+<line x1="80.0" y1="480.0" x2="520.0" y2="480.0" stroke="#232a33" stroke-width="1.5"/>
+<rect x="120.0" y="280.0" width="60.0" height="200.0" rx="4" fill="#5d6873" stroke="#5d6873" stroke-width="2" opacity="0.9"/>
+<text x="150.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">競争・達成</text>
+<rect x="230.0" y="410.0" width="60.0" height="70.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
+<text x="260.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">会話・食事</text>
+<rect x="340.0" y="420.0" width="60.0" height="60.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
+<text x="370.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">季節の変化</text>
+<rect x="450.0" y="430.0" width="60.0" height="50.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
+<text x="480.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">何もない時間</text>
+<line x1="680.0" y1="480.0" x2="1120.0" y2="480.0" stroke="#232a33" stroke-width="1.5"/>
+<rect x="720.0" y="410.0" width="60.0" height="70.0" rx="4" fill="#5d6873" stroke="#5d6873" stroke-width="2" opacity="0.9"/>
+<text x="750.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">競争・達成</text>
+<rect x="830.0" y="280.0" width="60.0" height="200.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
+<text x="860.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">会話・食事</text>
+<rect x="940.0" y="290.0" width="60.0" height="190.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
+<text x="970.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">季節の変化</text>
+<rect x="1050.0" y="300.0" width="60.0" height="180.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
+<text x="1080.0" y="504.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="700">何もない時間</text>
+<line x1="560.0" y1="360.0" x2="640.0" y2="360.0" stroke="#d0693a" stroke-width="3" marker-end="url(#arrow-terra)"/>
+<text x="600.0" y="340.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="700">重みの相対化</text>
+<text x="600.0" y="540.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">競争に勝たなくてもよい。成果を残さなくてもよい。そのような環境を物語の中に構築する</text>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">達成という目的関数を完全に否定するわけではない。重視する場面とそうでない場面がある。</text>
+</g>
+</svg>

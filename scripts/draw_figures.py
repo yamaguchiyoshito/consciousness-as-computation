@@ -8,7 +8,6 @@
 `python scripts/draw_figures.py --list` で series.json の figures に入れる一覧を出力する。
 """
 from __future__ import annotations
-from functools import partial
 from html import escape
 import math
 from pathlib import Path
@@ -1719,87 +1718,8 @@ def success_criteria(part):
 
 
 # ---------------------------------------------------------------------------
-# 見取り図（各回の導入）と連載の地図
+# 連載の地図
 # ---------------------------------------------------------------------------
-
-CHAPTER_MAPS = {
-    1: [('境界が揺らぐ', [(1, '実写とCG'), (2, '共通体験の変化'), (3, '仮想と感情')], TEAL),
-        ('自分の境界', [(4, '肉体の境界'), (5, '情報処理が引く境界'), (6, '意識と自分')], TERRA)],
-    2: [('情報処理として', [(1, '三層モデル'), (2, '意識と自己表象'), (3, '意識的と無意識的')], TEAL),
-        ('自己の範囲', [(4, '肉体の中の濃淡'), (5, '身体の外へ')], TERRA),
-        ('残る問い', [(6, '基盤への依存'), (7, '何を基準に')], INDIGO)],
-    3: [('目的関数', [(1, '目的関数とは'), (2, '囲碁AI'), (3, '人間の目的関数'), (4, '重み')], TEAL),
-        ('自己の創発', [(5, '交差点'), (6, '矛盾'), (7, '事後的な構築'), (8, '変化し続ける')], TERRA),
-        ('限界', [(9, '意識との区別')], INDIGO)],
-    4: [('予測処理', [(1, '直接認識できない'), (2, '世界モデル'), (3, '予測誤差'), (4, '自由エネルギー')], TEAL),
-        ('目的関数と接続', [(5, '接続'), (6, '注意の配分'), (7, 'メタ処理'), (8, '自己表象')], TERRA),
-        ('限界', [(9, '不確実性'), (10, '感じること')], INDIGO)],
-    5: [('統合情報', [(1, '集合では足りない'), (2, 'IITの出発点'), (3, 'Φとは')], TEAL),
-        ('目的関数と接続', [(4, '相互依存'), (5, '統合された自分'), (6, '部分集合'), (7, '矛盾の調整'), (8, '重みと統合')], TERRA),
-        ('検証と限界', [(9, '睡眠と麻酔'), (10, '検証'), (11, '留保')], INDIGO)],
-    6: [('ハードプロブレム', [(1, '処理と体験'), (2, 'ハードプロブレム'), (3, 'クオリア'), (4, '三つの立場')], TEAL),
-        ('理論の位置', [(5, 'IITの答え'), (6, '二つのモデル')], INDIGO),
-        ('AIと意識', [(7, '愛の例'), (8, 'アーキテクチャ'), (9, '三つの評価軸')], TERRA),
-        ('実装の意味', [(10, '意味'), (11, '二つの立場')], MUTED)],
-    7: [('分人', [(1, '本当の自分'), (2, '分人'), (3, '混合モデル'), (4, '文脈'), (5, '連続性'), (6, 'ナラティブ'), (7, '統合の観点')], TEAL),
-        ('拡張', [(8, '肉体の外へ'), (9, '道具'), (10, 'スコアの拡張'), (11, '同じ構造'), (12, '同一性')], TERRA)],
-    8: [('物語の機能', [(1, '娯楽だけでない'), (2, '学習装置'), (3, '修復')], TEAL),
-        ('ジャンルの分析', [(4, '異世界転生'), (5, '追放'), (6, '日常系'), (7, '悪役令嬢'), (8, 'ヒット')], TERRA),
-        ('没入と自己', [(9, '架空が自己を変える'), (10, '没入'), (11, 'IITとの関係'), (12, '分人を変える'), (13, '自分の物語')], INDIGO),
-        ('社会と統合', [(14, '他者へ'), (15, '統合'), (16, '作り替える技術')], MUTED)],
-    9: [('方針', [(1, '機能の近似')], MUTED),
-        ('環境と世界モデル', [(2, '仮想環境'), (3, '信念状態')], TEAL),
-        ('目的関数と自己表象', [(4, '目的関数'), (5, '自己表象'), (6, '比較実験')], TERRA),
-        ('記憶・分人・境界', [(7, '記憶とナラティブ'), (8, '分人'), (9, '自己の境界')], INDIGO),
-        ('測定と検証', [(10, '統合の測定'), (11, '物語の入力')], TEAL),
-        ('全体像と判断', [(12, 'アーキテクチャ'), (13, 'LLM'), (14, '判断基準'), (15, '支持と反証'), (16, '限界')], TERRA)],
-}
-
-
-def chapter_map(number, part):
-    groups = CHAPTER_MAPS[number]
-    items = [(n, s, gi) for gi, (_, secs, _) in enumerate(groups) for (n, s) in secs]
-    total = len(items)
-    per_row = total if total <= 8 else math.ceil(total / 2)
-    rows = math.ceil(total / per_row)
-    f = Figure(number, f'第{number}回の見取り図', 'この回で通る節と、そのまとまり', 500 if rows == 1 else 660, part)
-    left, right = 110, 1090
-    step = (right - left) / max(per_row - 1, 1)
-    row_y = [320] if rows == 1 else [305, 525]
-    pos = []
-    for idx, (n, s, gi) in enumerate(items):
-        r, c = divmod(idx, per_row)
-        x = left + c * step if r % 2 == 0 else right - c * step
-        pos.append((x, row_y[r], gi))
-    for gi, (label, secs, color) in enumerate(groups):
-        by_row = {}
-        for x, y, g in pos:
-            if g == gi:
-                by_row.setdefault(y, []).append(x)
-        first = True
-        for y, xs in sorted(by_row.items()):
-            x0, x1 = max(min(xs) - step * 0.42, left - 50), min(max(xs) + step * 0.42, right + 50)
-            f.line(x0, y - 66, x1, y - 66, color, 4)
-            if first:
-                f.text((x0 + x1) / 2, y - 78, label, 14, color, anchor='middle', weight=700)
-                first = False
-    for i in range(len(pos) - 1):
-        (x1, y1, _), (x2, y2, _) = pos[i], pos[i + 1]
-        if y1 == y2:
-            d = 25 if x2 > x1 else -25
-            f.line(x1 + d, y1, x2 - d, y2, MUTED, 2, arrow=True)
-        else:
-            side = 26 if x1 > 600 else -26
-            f.curve(x1 + side, y1, x1 + side * 3.6, (y1 + y2) / 2, x2 + side, y2, MUTED, 2)
-    for (x, y, gi), (n, s, _) in zip(pos, items):
-        color = groups[gi][2]
-        f.circ(x, y, 22, '#ffffff')
-        f.circ(x, y, 22, color, fill=False, width=2.5)
-        f.text(x, y + 6, str(n), 16, color, anchor='middle', weight=700)
-        f.text(x, y + 46, s, 13, INK, anchor='middle')
-    f.footer('番号は節の番号。色のまとまりは、この回の議論の段階を示す。')
-    return f.save('chapter-map')
-
 
 def series_map(part):
     f = Figure(1, '連載の地図', '全9回・4部の流れ', 620, part)
@@ -2249,15 +2169,15 @@ def support_refute(part):
 # ---------------------------------------------------------------------------
 
 CHAPTERS = {
-    1: [series_map, partial(chapter_map, 1), perception_boundary, shared_experience, emotion_quadrant, self_score_gradient, common_structure],
-    2: [partial(chapter_map, 2), three_layers, consciousness_and_self, conscious_unconscious, score_dynamics, substrate_independence, criteria_question],
-    3: [partial(chapter_map, 3), route_objectives, go_ai_two_evaluators, weighted_sum, intersection_of_objectives, posthoc_narrative, weight_drift, three_stages],
-    4: [partial(chapter_map, 4), ambiguous_input, stairs, prediction_loop, cold_room, prediction_meets_objectives, attention_and_priority, meta_arbitration, self_representation_cycle, exploration_uncertainty],
-    5: [partial(chapter_map, 5), unity_of_experience, independent_vs_integrated, phi_partition, coupled_objectives, self_objective_cycle, integrated_subset, conflict_adjustment, weights_vs_structure, sleep_anesthesia, three_systems],
-    6: [partial(chapter_map, 6), functional_and_phenomenal, inverted_qualia, iit_reframing, functional_love, feedforward_vs_recurrent, three_axes, hypothesis_to_test, three_theories],
-    7: [partial(chapter_map, 7), true_self_vs_dividual, dividual_weights, context_mixture, narrative_cycle, extension_routes, tool_incorporation, extended_self, unified_update, identity_band],
-    8: [partial(chapter_map, 8), explanation_vs_story, narrative_as_learning, repair_flow, genre_isekai, genre_exile, genre_slice_of_life, genre_villainess, shared_cognition, immersion, dividual_shift, self_narrative_loop, social_propagation, integrated_model, two_routes],
-    9: [partial(chapter_map, 9), virtual_environment, belief_state, objective_conflicts, self_state_update, three_agents, memory_and_narrative, dividual_impl, boundary_impl, measuring_integration, narrative_input, architecture, explicit_vs_llm, success_criteria, support_refute],
+    1: [series_map, perception_boundary, shared_experience, emotion_quadrant, self_score_gradient, common_structure],
+    2: [three_layers, consciousness_and_self, conscious_unconscious, score_dynamics, substrate_independence, criteria_question],
+    3: [route_objectives, go_ai_two_evaluators, weighted_sum, intersection_of_objectives, posthoc_narrative, weight_drift, three_stages],
+    4: [ambiguous_input, stairs, prediction_loop, cold_room, prediction_meets_objectives, attention_and_priority, meta_arbitration, self_representation_cycle, exploration_uncertainty],
+    5: [unity_of_experience, independent_vs_integrated, phi_partition, coupled_objectives, self_objective_cycle, integrated_subset, conflict_adjustment, weights_vs_structure, sleep_anesthesia, three_systems],
+    6: [functional_and_phenomenal, inverted_qualia, iit_reframing, functional_love, feedforward_vs_recurrent, three_axes, hypothesis_to_test, three_theories],
+    7: [true_self_vs_dividual, dividual_weights, context_mixture, narrative_cycle, extension_routes, tool_incorporation, extended_self, unified_update, identity_band],
+    8: [explanation_vs_story, narrative_as_learning, repair_flow, genre_isekai, genre_exile, genre_slice_of_life, genre_villainess, shared_cognition, immersion, dividual_shift, self_narrative_loop, social_propagation, integrated_model, two_routes],
+    9: [virtual_environment, belief_state, objective_conflicts, self_state_update, three_agents, memory_and_narrative, dividual_impl, boundary_impl, measuring_integration, narrative_input, architecture, explicit_vs_llm, success_criteria, support_refute],
 }
 
 

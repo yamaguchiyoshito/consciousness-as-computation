@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">自己表象を、行動に影響する内部状態として実装する</title>
+<desc id="desc">S_t が方針に入り、行動の結果で更新される</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     09     図9-4</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">自己表象を、行動に影響する内部状態として実装する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">S_t が方針に入り、行動の結果で更新される</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="70.0" y="225.0" width="320.0" height="230.0" rx="16" fill="#dfe9eb" stroke="#d0693a" stroke-width="2"/>
+<text x="230.0" y="260.0" fill="#d0693a" font-size="20" text-anchor="middle" font-weight="700">自己表象 S_t</text>
+<text x="95.0" y="295.0" fill="#d0693a" font-size="14" text-anchor="start" font-weight="700">Ability</text>
+<text x="185.0" y="295.0" fill="#232a33" font-size="12" text-anchor="start" font-weight="400">探索の成功率・協力の能力</text>
+<text x="95.0" y="333.0" fill="#d0693a" font-size="14" text-anchor="start" font-weight="700">Value</text>
+<text x="185.0" y="333.0" fill="#232a33" font-size="12" text-anchor="start" font-weight="400">安全・好奇心・関係の重視度</text>
+<text x="95.0" y="371.0" fill="#d0693a" font-size="14" text-anchor="start" font-weight="700">Experience</text>
+<text x="185.0" y="371.0" fill="#232a33" font-size="12" text-anchor="start" font-weight="400">成功・失敗・他者からの評価</text>
+<text x="95.0" y="409.0" fill="#d0693a" font-size="14" text-anchor="start" font-weight="700">Tendency</text>
+<text x="185.0" y="409.0" fill="#232a33" font-size="12" text-anchor="start" font-weight="400">危険時や未知の状況での選び方</text>
+<line x1="390.0" y1="340.0" x2="460.0" y2="340.0" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<rect x="460.0" y="290.0" width="260.0" height="100.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="590.0" y="335.0" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">方針 Policy</text>
+<text x="590.0" y="359.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">a_t = Policy(b_t, S_t, F, W_t)</text>
+<text x="590.0" y="420.0" fill="#5d6873" font-size="11" text-anchor="middle" font-weight="400">信念状態 b_t・目的関数 F・重み W_t も入る</text>
+<line x1="720.0" y1="340.0" x2="790.0" y2="340.0" stroke="#5d6873" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="790.0" y="300.0" width="150.0" height="80.0" rx="14" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="865.0" y="346.5" fill="#232a33" font-size="18" text-anchor="middle" font-weight="700">行動 a_t</text>
+<line x1="940.0" y1="340.0" x2="1000.0" y2="340.0" stroke="#5d6873" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="1000.0" y="300.0" width="140.0" height="80.0" rx="14" fill="#ffffff" stroke="#5d6873" stroke-width="2"/>
+<text x="1070.0" y="346.5" fill="#5d6873" font-size="18" text-anchor="middle" font-weight="700">環境</text>
+<path d="M1070,380 L1070,520 L560,520" fill="none" stroke="#5d6873" stroke-width="2.2" stroke-dasharray="8 7"/>
+<text x="815.0" y="510.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">観測 o_t・結果の評価 r_t</text>
+<rect x="400.0" y="490.0" width="160.0" height="60.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
+<text x="480.0" y="525.8" fill="#d0693a" font-size="16" text-anchor="middle" font-weight="700">Update</text>
+<path d="M400,520 L230,520 L230,455" fill="none" stroke="#d0693a" stroke-width="2.5" marker-end="url(#arrow-terra)"/>
+<text x="300.0" y="545.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="400">S_(t+1) = Update(S_t, o_t, a_t, r_t)</text>
+<text x="600.0" y="600.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">例：探索に失敗し続けて自分の探索能力を低く評価すると、同じ環境でも以前とは異なる行動を選ぶ</text>
+<text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">本モデルで実装する「自分」とは、自身の状態を表現し、その表現が将来の行動を変える情報処理上の構造である。</text>
+</g>
+</svg>

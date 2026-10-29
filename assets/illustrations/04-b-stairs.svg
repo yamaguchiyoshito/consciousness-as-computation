@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">予測が先にあり、感覚入力はそれと比べられる</title>
+<desc id="desc">階段を下りる足は、次の段の高さを予測して動いている</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="600" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     04     図4-2</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">予測が先にあり、感覚入力はそれと比べられる</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">階段を下りる足は、次の段の高さを予測して動いている</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<rect x="60" y="205" width="520" height="320" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="320.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">予測どおり</text>
+<rect x="100.0" y="450.0" width="80.0" height="50.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="180.0" y="410.0" width="80.0" height="90.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="260.0" y="370.0" width="80.0" height="130.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="340.0" y="330.0" width="80.0" height="170.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="340.0" y="272.0" width="30.0" height="50.0" rx="8" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="355.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">人</text>
+<rect x="440.0" y="370.0" width="90.0" height="50.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="440.0" y="370.0" width="90.0" height="50.0" rx="0" fill="none" stroke="#2b7a8c" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="485.0" y="362.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="400">予測した段</text>
+<text x="320.0" y="505.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">差がない → 意識せず歩き続ける</text>
+<path d="M355.0,270.0 Q400.0,240.0 485.0,350.0" fill="none" stroke="#5d6873" stroke-width="1.8" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
+<rect x="620" y="205" width="520" height="320" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="880.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">予測と違う</text>
+<rect x="660.0" y="450.0" width="80.0" height="50.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="740.0" y="410.0" width="80.0" height="90.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="820.0" y="370.0" width="80.0" height="130.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="900.0" y="330.0" width="80.0" height="170.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
+<rect x="900.0" y="272.0" width="30.0" height="50.0" rx="8" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
+<text x="915.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">人</text>
+<rect x="1000.0" y="370.0" width="90.0" height="50.0" rx="0" fill="none" stroke="#2b7a8c" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="1045.0" y="362.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="400">予測した段</text>
+<line x1="1033.0" y1="383.0" x2="1057.0" y2="407.0" stroke="#d0693a" stroke-width="3"/>
+<line x1="1033.0" y1="407.0" x2="1057.0" y2="383.0" stroke="#d0693a" stroke-width="3"/>
+<text x="1045.0" y="440.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">段がない</text>
+<text x="880.0" y="505.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">予測誤差 → 身体が大きく反応する</text>
+<path d="M915.0,270.0 Q960.0,240.0 1045.0,350.0" fill="none" stroke="#5d6873" stroke-width="1.8" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
+<text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">脳は感覚情報を受け取ってから世界を理解するのではなく、感覚入力に先立って予測を生成している。</text>
+</g>
+</svg>

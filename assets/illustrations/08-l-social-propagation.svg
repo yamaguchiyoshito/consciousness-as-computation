@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+<title id="title">物語は個人の内部と社会の間を循環する</title>
+<desc id="desc">自分についての物語が共有され、他者の目的関数に影響し、新しい共通体験になる</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
+<rect width="1200" height="740" rx="20" fill="#f7f5ef"/>
+<g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
+<text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     08     図8-12</text>
+<text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">物語は個人の内部と社会の間を循環する</text>
+<text x="50.0" y="141.0" fill="#5d6873" font-size="21" text-anchor="start" font-weight="400">自分についての物語が共有され、他者の目的関数に影響し、新しい共通体験になる</text>
+<line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
+<path d="M652.0,270.0 Q697.6,270.9 721.2,310.0" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M773.2,400.0 Q795.2,440.0 773.2,480.0" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M721.2,570.0 Q697.6,609.1 652.0,610.0" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M548.0,610.0 Q502.4,609.1 478.8,570.0" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M426.8,480.0 Q404.8,440.0 426.8,400.0" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M478.8,310.0 Q502.4,270.9 548.0,270.0" fill="none" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
+<circle cx="600.0" cy="240.0" r="56" fill="#ffffff"/>
+<circle cx="600.0" cy="240.0" r="56" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="600.0" y="244.3" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">個人の経験</text>
+<circle cx="773.2" cy="340.0" r="56" fill="#ffffff"/>
+<circle cx="773.2" cy="340.0" r="56" fill="none" stroke="#2b7a8c" stroke-width="2.5"/>
+<text x="773.2" y="338.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">自分についての</text>
+<text x="773.2" y="354.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="700">物語</text>
+<circle cx="773.2" cy="540.0" r="56" fill="#ffffff"/>
+<circle cx="773.2" cy="540.0" r="56" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<text x="773.2" y="538.0" fill="#5a4fcf" font-size="12" text-anchor="middle" font-weight="700">共有</text>
+<text x="773.2" y="554.0" fill="#5a4fcf" font-size="12" text-anchor="middle" font-weight="700">（会話・SNS・映像）</text>
+<circle cx="600.0" cy="640.0" r="56" fill="#ffffff"/>
+<circle cx="600.0" cy="640.0" r="56" fill="none" stroke="#5a4fcf" stroke-width="2.5"/>
+<text x="600.0" y="638.0" fill="#5a4fcf" font-size="12" text-anchor="middle" font-weight="700">他者の解釈</text>
+<text x="600.0" y="654.0" fill="#5a4fcf" font-size="12" text-anchor="middle" font-weight="700">（記憶・価値観で異なる）</text>
+<circle cx="426.8" cy="540.0" r="56" fill="#ffffff"/>
+<circle cx="426.8" cy="540.0" r="56" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<text x="426.8" y="538.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">他者の目的関数</text>
+<text x="426.8" y="554.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">への影響</text>
+<circle cx="426.8" cy="340.0" r="56" fill="#ffffff"/>
+<circle cx="426.8" cy="340.0" r="56" fill="none" stroke="#d0693a" stroke-width="2.5"/>
+<text x="426.8" y="338.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">新しい社会的な</text>
+<text x="426.8" y="354.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">共通体験</text>
+<text x="600.0" y="434.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">第1回の共通体験の変化へ戻る：</text>
+<text x="600.0" y="454.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">学習データは物理的な現実に限定されない</text>
+<text x="50.0" y="712.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">価値観はプログラムのようにコピーされない。どう解釈し、どの程度取り入れるかは受け手の記憶・価値観・状況で異なる。</text>
+</g>
+</svg>
