@@ -10,17 +10,17 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <rect x="60" y="205" width="520" height="350" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
 <text x="320.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">重みだけが変わる</text>
-<text x="320.0" y="272.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">重みの層  w(t)</text>
+<text x="320.0" y="272.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">重みの層</text>
 <rect x="170.0" y="275.0" width="20.0" height="70.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
 <rect x="196.0" y="305.0" width="20.0" height="40.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
 <rect x="222.0" y="290.0" width="20.0" height="55.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
-<text x="206.0" y="363.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">t₁</text>
+<text x="206.0" y="363.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">t₁</text>
 <rect x="400.0" y="310.0" width="20.0" height="35.0" rx="4" fill="#d0693a" stroke="#d0693a" stroke-width="2" opacity="0.9"/>
 <rect x="426.0" y="270.0" width="20.0" height="75.0" rx="4" fill="#d0693a" stroke="#d0693a" stroke-width="2" opacity="0.9"/>
 <rect x="452.0" y="295.0" width="20.0" height="50.0" rx="4" fill="#d0693a" stroke="#d0693a" stroke-width="2" opacity="0.9"/>
-<text x="436.0" y="363.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">t₂</text>
+<text x="436.0" y="363.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">t₂</text>
 <line x1="290.0" y1="315.0" x2="350.0" y2="315.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow)"/>
-<text x="320.0" y="398.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">結合構造の層  A(t)</text>
+<text x="320.0" y="398.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">結合構造の層</text>
 <line x1="200.0" y1="428.0" x2="260.0" y2="428.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" marker-start="url(#arrow-indigo)"/>
 <line x1="260.0" y1="428.0" x2="230.0" y2="478.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" marker-start="url(#arrow-indigo)"/>
 <line x1="230.0" y1="478.0" x2="200.0" y2="428.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" marker-start="url(#arrow-indigo)"/>
@@ -43,17 +43,17 @@
 <text x="320.0" y="532.0" fill="#2b7a8c" font-size="15" text-anchor="middle" font-weight="700">Φは変わるとは限らない</text>
 <rect x="620" y="205" width="520" height="350" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
 <text x="880.0" y="239.0" fill="#232a33" font-size="22" text-anchor="middle" font-weight="700">結合構造も変わる</text>
-<text x="880.0" y="272.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">重みの層  w(t)</text>
+<text x="880.0" y="272.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">重みの層</text>
 <rect x="730.0" y="275.0" width="20.0" height="70.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
 <rect x="756.0" y="305.0" width="20.0" height="40.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
 <rect x="782.0" y="290.0" width="20.0" height="55.0" rx="4" fill="#2b7a8c" stroke="#2b7a8c" stroke-width="2" opacity="0.9"/>
-<text x="766.0" y="363.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">t₁</text>
+<text x="766.0" y="363.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">t₁</text>
 <rect x="960.0" y="310.0" width="20.0" height="35.0" rx="4" fill="#d0693a" stroke="#d0693a" stroke-width="2" opacity="0.9"/>
 <rect x="986.0" y="270.0" width="20.0" height="75.0" rx="4" fill="#d0693a" stroke="#d0693a" stroke-width="2" opacity="0.9"/>
 <rect x="1012.0" y="295.0" width="20.0" height="50.0" rx="4" fill="#d0693a" stroke="#d0693a" stroke-width="2" opacity="0.9"/>
-<text x="996.0" y="363.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">t₂</text>
+<text x="996.0" y="363.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">t₂</text>
 <line x1="850.0" y1="315.0" x2="910.0" y2="315.0" stroke="#5d6873" stroke-width="1.5" marker-end="url(#arrow)"/>
-<text x="880.0" y="398.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">結合構造の層  A(t)</text>
+<text x="880.0" y="398.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">結合構造の層</text>
 <line x1="760.0" y1="428.0" x2="820.0" y2="428.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" marker-start="url(#arrow-indigo)"/>
 <line x1="820.0" y1="428.0" x2="790.0" y2="478.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" marker-start="url(#arrow-indigo)"/>
 <line x1="790.0" y1="478.0" x2="760.0" y2="428.0" stroke="#5a4fcf" stroke-width="2" marker-end="url(#arrow-indigo)" marker-start="url(#arrow-indigo)"/>

@@ -18,7 +18,7 @@
 <text x="355.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">人</text>
 <rect x="440.0" y="370.0" width="90.0" height="50.0" rx="0" fill="#ece9e0" stroke="#d8d4c8" stroke-width="2"/>
 <rect x="440.0" y="370.0" width="90.0" height="50.0" rx="0" fill="none" stroke="#2b7a8c" stroke-width="2" stroke-dasharray="8 7"/>
-<text x="485.0" y="362.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="400">予測した段</text>
+<text x="485.0" y="362.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="400">予測した段</text>
 <text x="320.0" y="505.0" fill="#2b7a8c" font-size="14" text-anchor="middle" font-weight="700">差がない → 意識せず歩き続ける</text>
 <path d="M355.0,270.0 Q400.0,240.0 485.0,350.0" fill="none" stroke="#5d6873" stroke-width="1.8" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
 <rect x="620" y="205" width="520" height="320" rx="16" fill="none" stroke="#c9c4b6" stroke-width="2" stroke-dasharray="7 7"/>
@@ -30,10 +30,10 @@
 <rect x="900.0" y="272.0" width="30.0" height="50.0" rx="8" fill="#ffffff" stroke="#232a33" stroke-width="2"/>
 <text x="915.0" y="300.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="400">人</text>
 <rect x="1000.0" y="370.0" width="90.0" height="50.0" rx="0" fill="none" stroke="#2b7a8c" stroke-width="2" stroke-dasharray="8 7"/>
-<text x="1045.0" y="362.0" fill="#2b7a8c" font-size="12" text-anchor="middle" font-weight="400">予測した段</text>
+<text x="1045.0" y="362.0" fill="#2b7a8c" font-size="13" text-anchor="middle" font-weight="400">予測した段</text>
 <line x1="1033.0" y1="383.0" x2="1057.0" y2="407.0" stroke="#d0693a" stroke-width="3"/>
 <line x1="1033.0" y1="407.0" x2="1057.0" y2="383.0" stroke="#d0693a" stroke-width="3"/>
-<text x="1045.0" y="440.0" fill="#d0693a" font-size="12" text-anchor="middle" font-weight="700">段がない</text>
+<text x="1045.0" y="440.0" fill="#d0693a" font-size="13" text-anchor="middle" font-weight="700">段がない</text>
 <text x="880.0" y="505.0" fill="#d0693a" font-size="14" text-anchor="middle" font-weight="700">予測誤差 → 身体が大きく反応する</text>
 <path d="M915.0,270.0 Q960.0,240.0 1045.0,350.0" fill="none" stroke="#5d6873" stroke-width="1.8" marker-end="url(#arrow)" stroke-dasharray="8 7"/>
 <text x="50.0" y="572.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">脳は感覚情報を受け取ってから世界を理解するのではなく、感覚入力に先立って予測を生成している。</text>

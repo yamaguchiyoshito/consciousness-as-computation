@@ -541,10 +541,10 @@ def ambiguous_input(part):
     f = Figure(4, '同じ感覚情報が、文脈によって違うものとして認識される', '認識は感覚情報と過去の経験を組み合わせた推測である', 600, part)
     f.rect(470, 230, 260, 140, fill='#ffffff', stroke=INK, rx=14)
     f.text(600, 262, '感覚情報', 18, INK, anchor='middle', weight=700)
-    f.path('M510,330 Q560,290 610,330 T700,320', INK, 5)
-    f.text(600, 355, '暗がりに細長いもの', 14, MUTED, anchor='middle')
-    f.box(70, 230, 330, 70, '文脈：夜道', '過去に蛇を見た。蛇が出る場所だと知っている', TEAL, 18, sub_size=12)
-    f.box(800, 230, 330, 70, '文脈：室内の机の近く', '電源コードがよく置かれている', INDIGO, 18, sub_size=12)
+    f.path('M505,312 Q552,278 600,312 Q648,346 695,312', INK, 5)
+    f.text(600, 357, '暗がりに細長いもの', 14, MUTED, anchor='middle')
+    f.box(70, 230, 330, 70, '文脈：夜道', '過去に蛇を見た。蛇が出る場所だと知っている', TEAL, 18, sub_size=13)
+    f.box(800, 230, 330, 70, '文脈：室内の机の近く', '電源コードがよく置かれている', INDIGO, 18, sub_size=13)
     f.curve(400, 265, 440, 265, 470, 300, TEAL, 2.2)
     f.curve(800, 265, 760, 265, 730, 300, INDIGO, 2.2)
     f.curve(500, 370, 380, 420, 320, 440, TEAL, 2.5)
@@ -584,67 +584,75 @@ def prediction_loop(part):
 
 def prediction_meets_objectives(part):
     f = Figure(4, '予測処理と目的関数を接続する', '候補行動ごとに将来の状態を予測し、複数の目的関数が重み付きで評価する', 700, part)
-    f.text(190, 215, '行動の候補', 16, MUTED, anchor='middle', weight=700)
-    f.text(470, 215, '世界モデルが予測する状態', 16, MUTED, anchor='middle', weight=700)
-    f.text(790, 215, '目的関数による評価（重み付き）', 16, MUTED, anchor='middle', weight=700)
+    weights = [('知的好奇心', 0.8), ('安全', 0.5)]
+    f.text(180, 215, '行動の候補', 16, MUTED, anchor='middle', weight=700)
+    f.text(440, 215, '世界モデルが予測する状態', 16, MUTED, anchor='middle', weight=700)
+    f.text(775, 215, '目的関数による評価（重み付き）', 16, MUTED, anchor='middle', weight=700)
     f.text(1060, 215, '総合評価 U', 16, MUTED, anchor='middle', weight=700)
-    rows = [(260, 'a_1 建物に近づいて調べる', '新しい情報を得る。危険かもしれない', [(3, TEAL), (1, TERRA)], 2.2, True),
-            (440, 'a_2 離れて先へ進む', '安全だが、何も分からない', [(0, TEAL), (3, TERRA)], 1.6, False)]
-    for y, a, s, evals, u, chosen in rows:
-        f.box(70, y, 240, 80, a, '', INK, 15)
-        f.line(310, y + 40, 350, y + 40, MUTED, 2, arrow=True)
-        f.box(350, y, 240, 80, "予測された状態 s′", s, TEAL, 15, sub_size=11)
-        f.line(590, y + 40, 630, y + 40, MUTED, 2, arrow=True)
-        f.rect(630, y, 320, 80, fill='#ffffff', stroke=LINE, rx=12)
-        for k, ((v, color), name, w) in enumerate(zip(evals, ['知的好奇心', '安全'], ['w=0.5', 'w=0.8'])):
+    rows = [(260, 'a_1 建物に近づいて調べる', '新しい情報を得る。危険かもしれない', [(3, TEAL), (1, TERRA)]),
+            (440, 'a_2 離れて先へ進む', '安全だが、何も分からない', [(0, TEAL), (3, TERRA)])]
+    scores = [sum(w * v for (v, _), (_, w) in zip(evals, weights)) for _, _, _, evals in rows]
+    best = max(scores)
+    for (y, a, s, evals), u in zip(rows, scores):
+        chosen = u == best
+        f.box(70, y, 220, 80, a, '', INK, 15)
+        f.line(290, y + 40, 320, y + 40, MUTED, 2, arrow=True)
+        f.box(320, y, 240, 80, '予測された状態 s′', s, TEAL, 15, sub_size=13)
+        f.line(560, y + 40, 590, y + 40, MUTED, 2, arrow=True)
+        f.rect(590, y, 370, 80, fill='#ffffff', stroke=LINE, rx=12)
+        for k, ((v, color), (name, w)) in enumerate(zip(evals, weights)):
             yy = y + 24 + k * 32
-            f.text(645, yy + 5, name, 13, color, weight=700)
+            f.text(605, yy + 5, name, 13, color, weight=700)
             for i in range(3):
-                f.circ(740 + i * 20, yy, 7, color if i < v else LINE)
-            f.text(820, yy + 5, w, 12, MUTED)
-            f.text(880, yy + 5, '× f_i(s′)', 12, MUTED)
-        f.line(950, y + 40, 990, y + 40, MUTED, 2, arrow=True)
+                f.circ(700 + i * 20, yy, 7, color if i < v else LINE)
+            f.text(770, yy + 5, f'w={w:.1f}', 13, MUTED)
+            f.text(830, yy + 5, '× f_i(s′)', 13, MUTED)
+        f.line(960, y + 40, 990, y + 40, MUTED, 2, arrow=True)
         f.rect(990, y + 15, 140, 50, fill=PALE if chosen else '#ffffff', stroke=TEAL if chosen else LINE, rx=10)
         f.text(1060, y + 46, f'{u:.1f}', 18, TEAL if chosen else MUTED, anchor='middle', weight=700)
-    f.text(1060, 540, '安全の重み w が大きければ a_2 に傾く', 13, MUTED, anchor='middle')
-    f.text(600, 580, 'U(a | s, c) = Σ_i w_i(s, c)・E[ f_i(s′) | s, a ]', 17, INK, anchor='middle', weight=700)
+    f.text(775, 540, '●の数が f_i(s′) の値（0〜3）', 14, MUTED, anchor='middle')
+    f.text(1060, 540, '安全の重みを上げれば a_2 に傾く', 14, MUTED, anchor='middle')
+    f.text(600, 580, 'U(a | s, c) = Σ_i w_i(s, c)・E[f_i(s′) | s, a]', 17, INK, anchor='middle', weight=700)
     f.text(600, 606, '評価は現在の感覚入力だけでなく、将来の状態の予測に依存する', 14, MUTED, anchor='middle')
     f.footer('目的関数の最大化と予測誤差の最小化は、一般には同じ操作ではない。予測が正確な状態が望ましいとは限らない。')
     return f.save('prediction-meets-objectives')
 
 
 def attention_and_priority(part):
-    f = Figure(4, '何が意識的な処理の対象になるのか', '予測誤差の大きさと、目的に照らした重要性の二段で選ばれる', 640, part)
-    inputs = [('文章の内容', 240, TEAL, True), ('室温', 305, MUTED, False), ('身体の姿勢', 370, MUTED, False), ('周囲の物音', 435, MUTED, False), ('大きな音', 500, TERRA, True)]
+    f = Figure(4, '何が意識的な処理の対象になるのか', '予測誤差の大きさと、目的に照らした重要性の二段で選ばれる', 660, part)
     f.text(190, 215, '感覚器官からの入力', 17, MUTED, anchor='middle')
-    f.panel(430, 200, 220, 350, '予測誤差は大きいか')
-    f.panel(730, 200, 230, 350, '目的に照らして重要か')
-    f.text(540, 262, '予測していた入力は', 14, MUTED, anchor='middle')
-    f.text(540, 280, '誤差が小さい', 14, MUTED, anchor='middle')
-    f.text(845, 262, '安全・生存に関わるなら', 14, MUTED, anchor='middle')
-    f.text(845, 280, '優先度が上がる', 14, MUTED, anchor='middle')
+    f.tag(80, 227, 220, 36, '文章の内容', TEAL, 17)
+    f.path('M300,245 L1080,245 L1080,330', TEAL, 2.5, arrow=True)
+    f.text(690, 236, '現在の注意：予測どおりの入力が続き、誤差は小さい', 14, TEAL, anchor='middle')
+    f.panel(430, 265, 220, 310, '予測誤差は大きいか')
+    f.panel(730, 265, 230, 310, '目的に照らして重要か')
+    f.text(540, 325, '予測どおりの入力は', 14, MUTED, anchor='middle')
+    f.text(540, 343, '誤差が小さく、ここで止まる', 14, MUTED, anchor='middle')
+    f.text(845, 325, '誤差が大きくても', 14, MUTED, anchor='middle')
+    f.text(845, 343, '目的に無関係なら止まる', 14, MUTED, anchor='middle')
+    inputs = [('室温の変化', 375, INDIGO, 1), ('身体の姿勢', 425, MUTED, 0), ('周囲の物音', 475, MUTED, 0), ('大きな音', 525, TERRA, 2)]
     for label, y, color, passes in inputs:
         f.tag(80, y - 18, 220, 36, label, color, 17)
-        if passes:
-            f.line(300, y, 960, y, color, 2.5)
-            f.curve(960, y, 1000, y, 1010, 365 if color == TERRA else 345, color, 2.5)
+        if passes == 2:
+            f.path(f'M300,{y} L975,{y} L975,370 L1000,370', color, 2.5, arrow=True)
+        elif passes == 1:
+            f.line(300, y, 770, y, color, 2.2)
+            f.cross(785, y, 7, color, 2)
         else:
             f.line(300, y, 470, y, LINE, 2, dash=True)
             f.cross(485, y, 7, MUTED, 2)
-    f.text(540, 520, '誤差が小さい入力は', 14, MUTED, anchor='middle')
-    f.text(540, 538, 'ここで止まる', 14, MUTED, anchor='middle')
-    f.text(845, 520, '誤差が大きくても', 14, MUTED, anchor='middle')
-    f.text(845, 538, '目的に無関係なら弱い', 14, MUTED, anchor='middle')
-    f.box(1010, 310, 150, 80, '注意の配分', '', INK, 19)
-    f.line(1085, 390, 1085, 440, TERRA, 2, arrow=True)
-    f.box(1010, 440, 150, 70, '行動の変更', '', TERRA, 18)
-    f.text(1085, 560, '読書を中断し、音の原因を確認する', 14, MUTED, anchor='middle')
+    f.text(845, 555, '室温の変化は誤差が大きくても', 13, INDIGO, anchor='middle')
+    f.text(845, 571, '目的に関わらないので止まる', 13, INDIGO, anchor='middle')
+    f.box(1000, 330, 160, 80, '注意の配分', '', INK, 19)
+    f.line(1080, 410, 1080, 470, TERRA, 2, arrow=True)
+    f.box(1000, 470, 160, 70, '行動の変更', '', TERRA, 18)
+    f.text(1070, 575, '読書を中断し、音の原因を確認する', 14, TERRA, anchor='middle')
     f.footer('重要な情報とは予測誤差が大きい情報ではなく、現在の目的や状況に照らして処理する価値が高い情報である。')
     return f.save('attention-and-priority')
 
 
 def meta_arbitration(part):
-    f = Figure(4, '意識を、目的の優先順位を調整するメタ処理として考える', '個別の目的を達成する処理の上位で、どの情報と目的を優先するかを決める', 660, part)
+    f = Figure(4, '意識を、目的の優先順位を調整するメタ処理として考える', '個別の目的を達成する処理の上位で、どの情報と目的を優先するかを決める', 700, part)
     f.rect(250, 215, 700, 130, fill=PALE, stroke=TEAL, rx=16)
     f.text(600, 255, 'メタ処理：どの情報と目的を優先するか', 22, TEAL, anchor='middle', weight=700)
     f.text(600, 285, '現在の状態を認識し、将来の結果を予測し、競合する目的を調停する', 15, INK, anchor='middle')
@@ -655,15 +663,17 @@ def meta_arbitration(part):
     f.line(910, 440, 780, 345, INDIGO, 2.5, arrow=True, dash=True)
     f.text(600, 420, '競合', 18, INK, anchor='middle', weight=700)
     f.line(450, 490, 750, 490, MUTED, 2, both=True, dash=True)
-    f.line(600, 345, 600, 560, TEAL, 3, arrow=True)
-    f.box(520, 560, 160, 50, '行動', '', TEAL, 18)
-    f.text(1100, 600, 'すべての調停が意識的に行われるわけではない', 13, MUTED, anchor='end')
+    f.text(600, 530, '両方を同時には満たせない', 14, MUTED, anchor='middle')
+    f.path('M950,300 L1090,300 L1090,580', TEAL, 3, arrow=True)
+    f.text(1100, 420, '調停の結果', 14, TEAL)
+    f.box(1010, 580, 160, 50, '行動', '', TEAL, 18)
+    f.text(130, 612, 'すべての調停が意識的に行われるわけではない', 14, MUTED)
     f.footer('意識がすべての意思決定を統括しているという主張ではなく、複雑な状況での統合と調停に関与するという機能的な仮説。')
     return f.save('meta-arbitration')
 
 
 def self_representation_cycle(part):
-    f = Figure(4, '自己表象は予測処理と目的関数を結びつける', '三つの要素が循環し、行動の結果が三つを更新する', 660, part)
+    f = Figure(4, '自己表象は予測処理と目的関数を結びつける', '三つの要素が循環し、行動の結果が世界モデルと自己表象を更新する', 660, part)
     wm = (150, 240, 250, 90)
     ob = (800, 240, 250, 90)
     sr = (475, 490, 250, 90)
@@ -673,11 +683,15 @@ def self_representation_cycle(part):
     f.line(400, 275, 800, 275, TEAL, 2.5, arrow=True)
     f.text(600, 262, '行動の結果を予測する', 17, TEAL, anchor='middle', weight=700)
     f.line(900, 330, 650, 490, INDIGO, 2.5, arrow=True)
-    f.text(830, 420, '評価が自己像を変える', 17, INDIGO, anchor='end', weight=700)
+    f.text(838, 362, '評価が自己像を変える', 17, INDIGO, anchor='end', weight=700)
     f.line(550, 490, 300, 330, TERRA, 2.5, arrow=True)
     f.text(370, 420, '予測に影響する', 17, TERRA, anchor='start', weight=700)
     f.line(700, 490, 950, 330, TERRA, 1.8, arrow=True, dash=True)
     f.text(905, 470, '重みに影響する', 15, TERRA, anchor='middle')
+    f.line(556, 380, 400, 310, MUTED, 1.8, arrow=True, dash=True)
+    f.text(515, 338, '更新', 15, MUTED, anchor='middle')
+    f.line(600, 446, 600, 490, MUTED, 1.8, arrow=True, dash=True)
+    f.text(612, 474, '更新', 15, MUTED, anchor='start')
     f.circ(600, 400, 46, '#ffffff')
     f.circ(600, 400, 46, MUTED, fill=False, width=2, dash=True)
     f.text(600, 395, '行動の', 16, INK, anchor='middle', weight=700)
@@ -716,25 +730,21 @@ def exploration_uncertainty(part):
 def independent_vs_integrated(part):
     f = Figure(5, '集約することと、相互依存することは違う', '左は分割しても働きが変わらない。右は分割すると因果構造が失われる', 640, part)
     f.panel(60, 205, 520, 350, '独立した処理の集合')
-    for i, (label, color) in enumerate([('安全性', TEAL), ('効率', INDIGO), ('情報獲得', TERRA)]):
+    for i, (label, color) in enumerate([('安全性', TEAL), ('情報獲得', TERRA), ('効率', INDIGO)]):
         x = 95 + i * 160
         f.box(x, 265, 130, 70, label, '', color, 19)
         f.line(x + 65, 335, x + 65, 420, color, 2, arrow=True)
     f.box(170, 425, 300, 60, '重み付き和  U = Σ w_i f_i', '', INK, 18)
     f.text(320, 525, '分割しても各部分の働きは変わらない', 16, MUTED, anchor='middle')
     f.panel(620, 205, 520, 350, '相互依存する処理の集合')
-    nodes = {'安全性': (700, 290, TEAL), '効率': (960, 290, INDIGO), '情報獲得': (830, 400, TERRA)}
+    nodes = {'安全性': (700, 295, TEAL), '情報獲得': (960, 295, TERRA), '効率': (830, 435, INDIGO)}
     for label, (x, y, color) in nodes.items():
-        f.box(x, y - 30, 130, 60, label, '', color, 19)
-    f.line(830, 260, 960, 260, TEAL, 2.2, arrow=True)
-    f.line(995, 320, 920, 372, INDIGO, 2.2, arrow=True)
-    f.line(830, 372, 760, 320, TERRA, 2.2, arrow=True)
-    f.text(880, 345, '互いの評価を変える', 14, MUTED, anchor='middle')
-    f.box(730, 455, 200, 56, '自己表象', '', INK, 18, dash=True)
-    f.line(830, 430, 830, 455, MUTED, 1.5, arrow=True)
-    f.curve(930, 480, 1060, 440, 1030, 320, MUTED, 1.5, arrow=True, dash=True)
-    f.curve(730, 480, 600, 440, 700, 320, MUTED, 1.5, arrow=True, dash=True)
-    f.text(880, 540, '分割すると因果的な関係が失われる', 16, MUTED, anchor='middle')
+        f.box(x - 65, y - 30, 130, 60, label, '', color, 19)
+    f.line(765, 295, 895, 295, TEAL, 2.2, arrow=True)
+    f.line(930, 325, 862, 405, TERRA, 2.2, arrow=True)
+    f.line(798, 405, 730, 325, INDIGO, 2.2, arrow=True)
+    f.text(830, 495, '互いの評価を変える（環状の因果）', 14, MUTED, anchor='middle')
+    f.text(830, 528, '分割すると因果的な関係が失われる', 16, MUTED, anchor='middle')
     f.footer('Φは情報の量ではなく、全体に固有の因果構造が部分へどの程度還元できないかを問う。')
     return f.save('independent-vs-integrated')
 
@@ -766,34 +776,38 @@ def phi_partition(part):
     f.line(340, 350, 520, 350, MUTED, 2, arrow=True)
     f.line(680, 350, 860, 350, MUTED, 2, arrow=True)
     f.rect(150, 510, 900, 70, fill='#ffffff', stroke=LINE, rx=12)
-    f.text(600, 538, 'Φ_approx(S) = min_P  D( C(S), C(P) )', 18, INK, anchor='middle', weight=700)
+    f.text(600, 538, 'Φ_approx(S) = min_P D(C(S), C(P))', 18, INK, anchor='middle', weight=700)
     f.text(600, 564, '最も統合の弱い分割を探し、それでも失われる構造の大きさを統合の程度とみなす', 14, MUTED, anchor='middle')
     f.footer('この式はIITの正式なΦの定義ではない。情報の量ではなく、全体に固有の因果構造を問うという考え方を表す。')
     return f.save('phi-partition')
 
 
 def coupled_objectives(part):
-    f = Figure(5, '目的関数の内部状態は、互いの更新に影響する', '時間に沿って展開すると、ある目的の状態が次の時刻の他の目的の状態を変える', 660, part)
+    f = Figure(5, '目的関数の内部状態は、互いの更新に影響する', '時間に沿って展開すると、ある目的の状態が次の時刻の他の目的の状態を変える', 720, part)
     cols = [('時刻 t', 300), ('時刻 t+1', 600), ('時刻 t+2', 900)]
-    rows = [('f_1 安全性', 280, TEAL), ('f_2 効率', 400, INDIGO), ('f_3 情報獲得', 520, TERRA)]
+    rows = [('f_1 安全性', 270, TEAL), ('f_2 効率', 370, INDIGO), ('f_3 情報獲得', 470, TERRA)]
+    ext = ('s 外界・身体の状態', 580, MUTED)
     for label, x in cols:
         f.text(x, 225, label, 17, INK, anchor='middle', weight=700)
-    for label, y, color in rows:
+    for label, y, color in rows + [ext]:
         f.text(120, y + 6, label, 16, color, weight=700)
     for ci in range(len(cols) - 1):
         x1, x2 = cols[ci][1], cols[ci + 1][1]
         for _, y1, c1 in rows:
             for _, y2, _ in rows:
                 f.line(x1 + 24, y1, x2 - 24, y2, c1, 1.6 if y1 == y2 else 1.1, arrow=True, dash=(y1 != y2))
+        for _, y2, _ in rows:
+            f.line(x1 + 20, ext[1] - 12, x2 - 24, y2 + 6, MUTED, 1.1, arrow=True, dash=True)
     for _, x in cols:
         for _, y, color in rows:
             f.circ(x, y, 20, '#ffffff')
             f.circ(x, y, 20, color, fill=False, width=2.5)
-    f.pill(1000, 250, 130, 40, 's(t) 外界', MUTED, 15)
-    f.text(1065, 318, '外界や身体の状態も', 12, MUTED, anchor='middle')
-    f.text(1065, 334, '各更新に入る', 12, MUTED, anchor='middle')
-    f.text(600, 590, 'f_i(t+1) = g_i( f_1(t), f_2(t), …, f_n(t), s(t) )', 17, INK, anchor='middle', weight=700)
-    f.footer('実線は自分自身の更新、破線は他の目的への影響。厳密には目的関数と、それを評価する内部状態を区別する。')
+        f.rect(x - 40, ext[1] - 18, 80, 36, fill='#ffffff', stroke=MUTED, rx=18)
+        f.text(x, ext[1] + 5, 's(t)' if x == 300 else ('s(t+1)' if x == 600 else 's(t+2)'), 14, MUTED, anchor='middle', weight=700)
+    f.text(1065, 520, '外界や身体の状態 s は', 13, MUTED, anchor='middle')
+    f.text(1065, 538, '次の時刻の各更新に入る', 13, MUTED, anchor='middle')
+    f.text(600, 655, 'f_i(t+1) = g_i(f_1(t), f_2(t), ..., f_n(t), s(t))', 17, INK, anchor='middle', weight=700)
+    f.footer('実線は自分自身の更新、破線は他の目的や外界からの影響。厳密には目的関数と、それを評価する内部状態を区別する。')
     return f.save('coupled-objectives')
 
 
@@ -812,6 +826,9 @@ def self_objective_cycle(part):
         d = math.hypot(dx, dy)
         ux, uy = dx / d, dy / d
         f.line(x1 + ux * 125, y1 + uy * 48, x2 - ux * 125, y2 - uy * 48, MUTED, 2.2, arrow=True)
+    (ex, ey), (sx, sy) = pos[4], pos[1]
+    f.line(ex + 115, ey, sx - 115, sy, TERRA, 2.2, arrow=True, dash=True)
+    f.text(cx, ey - 12, '経験が自己表象へ戻る', 15, TERRA, anchor='middle', weight=700)
     f.text(cx, cy - 10, '「自分」は情報処理の出力であると同時に、', 16, INK, anchor='middle')
     f.text(cx, cy + 14, '将来の情報処理に影響する内部状態である', 16, INK, anchor='middle')
     f.text(cx, cy + 44, '循環が続くことで自己は構築され続ける', 14, MUTED, anchor='middle')
@@ -835,9 +852,9 @@ def integrated_subset(part):
             on = i in strong
             if on:
                 f.blob(x, y, 40, color, 0.45)
-            f.circ(x, y, 22, '#ffffff')
-            f.circ(x, y, 22, color if on else LINE, fill=False, width=2.5 if on else 1.5)
-            f.text(x, y + 5, names[i], 12, INK if on else MUTED, anchor='middle', weight=700 if on else 400)
+            f.circ(x, y, 24, '#ffffff')
+            f.circ(x, y, 24, color if on else LINE, fill=False, width=2.5 if on else 1.5)
+            f.text(x, y + 5, names[i], 13, INK if on else MUTED, anchor='middle', weight=700 if on else 400)
         f.text(cx, 560, 'F*：強く結びつく組', 14, color, anchor='middle', weight=700)
     f.text(600, 400, '状況が変わると', 14, MUTED, anchor='middle')
     f.line(560, 420, 640, 420, MUTED, 2, both=True)
@@ -856,8 +873,11 @@ def conflict_adjustment(part):
     f.rect(420, 255, 360, 190, fill='#ffffff', stroke=INK, rx=14)
     f.text(600, 288, '調整された行動', 17, INK, anchor='middle', weight=700)
     f.lines(445, 325, ['・危険性を調べながら探索する', '・安全が確認できるまで延期する', '・一方を優先する（他方を消さない）'], 15, INK, gap=32)
-    f.cross(600, 480, 10, LINE, 2.5)
-    f.text(630, 486, 'どちらかを完全に排除する、ではない', 14, MUTED)
+    for x, label in [(70, '安全性だけを残す'), (870, '知的好奇心だけを残す')]:
+        f.rect(x, 450, 260, 56, fill='#ffffff', stroke=LINE, rx=12, dash=True)
+        f.cross(x + 32, 478, 10, TERRA, 3)
+        f.text(x + 150, 484, label, 16, MUTED, anchor='middle', weight=700)
+        f.text(x + 130, 540, '一方を排除する構成ではない', 14, MUTED, anchor='middle')
     f.line(600, 445, 600, 520, MUTED, 2, arrow=True)
     f.box(500, 520, 200, 50, '自己表象へ反映', '', INK, 16)
     f.footer('心理的な矛盾と因果的な情報統合は異なる概念である。矛盾が多いほどΦが大きい、という主張ではない。')
@@ -887,25 +907,26 @@ def functional_and_phenomenal(part):
 
 
 def inverted_qualia(part):
-    f = Figure(6, '逆転クオリア', '外から見える行動が同じでも、体験の質が入れ替わっている可能性を問う思考実験', 640, part)
+    f = Figure(6, '逆転クオリア', '外から見える行動が同じでも、体験の質が入れ替わっている可能性を問う思考実験', 660, part)
     f.rect(540, 230, 120, 200, fill='#3a3f47', stroke='#3a3f47', rx=16)
     f.circ(600, 285, 36, '#d9453a')
     f.circ(600, 375, 36, '#3aa65a')
     f.text(600, 460, '同じ信号機', 15, MUTED, anchor='middle')
-    for x, name, red_exp, green_exp in [(230, '人物 A', ('#d9453a', '赤の体験'), ('#3aa65a', '緑の体験')), (970, '人物 B', ('#3aa65a', '緑の体験'), ('#d9453a', '赤の体験'))]:
-        f.circ(x, 280, 30, '#ffffff')
-        f.circ(x, 280, 30, INK, fill=False, width=2.5)
-        f.text(x, 240, name, 17, INK, anchor='middle', weight=700)
-        f.rect(x - 110, 330, 220, 110, fill='#ffffff', stroke=LINE, rx=14)
-        f.text(x, 352, '主観的な体験', 13, MUTED, anchor='middle')
-        f.circ(x - 55, 395, 18, red_exp[0])
-        f.text(x - 55, 428, red_exp[1], 12, INK, anchor='middle')
-        f.circ(x + 55, 395, 18, green_exp[0])
-        f.text(x + 55, 428, green_exp[1], 12, INK, anchor='middle')
-        f.text(x, 480, '赤で止まり、緑で進む', 15, INK, anchor='middle', weight=700)
-        f.text(x, 502, '色の名前も同じように使う', 13, MUTED, anchor='middle')
-    f.text(600, 545, '行動は完全に同じ。体験の質が入れ替わっていても、外部からは確認できない', 15, INK, anchor='middle', weight=700)
-    f.text(600, 570, '左の「赤を見たときの体験」が、右では「緑を見たときの体験」にあたる', 13, MUTED, anchor='middle')
+    red, green = '#d9453a', '#3aa65a'
+    for x, name, on_red, on_green in [(240, '人物 A', (red, '赤の体験'), (green, '緑の体験')), (960, '人物 B', (green, '緑の体験'), (red, '赤の体験'))]:
+        f.circ(x, 265, 26, '#ffffff')
+        f.circ(x, 265, 26, INK, fill=False, width=2.5)
+        f.text(x, 232, name, 17, INK, anchor='middle', weight=700)
+        f.rect(x - 150, 310, 300, 140, fill='#ffffff', stroke=LINE, rx=14)
+        f.text(x, 332, '主観的な体験', 13, MUTED, anchor='middle')
+        for dx, stim, (color, exp) in [(-70, '赤を見たとき', on_red), (70, '緑を見たとき', on_green)]:
+            f.text(x + dx, 356, stim, 13, INK, anchor='middle')
+            f.circ(x + dx, 390, 18, color)
+            f.text(x + dx, 435, exp, 14, INK, anchor='middle', weight=700)
+        f.text(x, 490, '赤で止まり、緑で進む', 15, INK, anchor='middle', weight=700)
+        f.text(x, 512, '色の名前も同じように使う', 13, MUTED, anchor='middle')
+    f.text(600, 560, '行動は完全に同じ。体験の質が入れ替わっていても、外部からは確認できない', 15, INK, anchor='middle', weight=700)
+    f.text(600, 585, '左の「赤を見たときの体験」が、右では「緑を見たときの体験」にあたる', 14, MUTED, anchor='middle')
     f.footer('実際に逆転している証拠があるわけではない。機能だけで体験の質を特定できるのか、という概念上の隔たりを示す。')
     return f.save('inverted-qualia')
 
@@ -989,36 +1010,41 @@ def feedforward_vs_recurrent(part):
 
 def three_axes(part):
     f = Figure(6, 'AIに意識を問うときの三つの評価軸', '似ていることは、次の段が同じであることを意味しない', 620, part)
-    steps = [(70, 430, '行動上の類似性', '同じように判断・応答できるか', TEAL),
-             (450, 320, '機能的な構造', '自己表象・予測・記憶・調停があるか', INDIGO),
-             (830, 210, '現象的意識の理論的条件', 'IITなどが求める内部構造があるか', TERRA)]
+    steps = [(70, 440, '行動上の類似性', '同じように判断・応答できるか', TEAL),
+             (460, 330, '機能的な構造', '自己表象・予測・記憶・調停があるか', INDIGO),
+             (850, 220, '現象的意識の理論的条件', 'IITなどが求める内部構造があるか', TERRA)]
     for x, y, t, s, color in steps:
-        f.box(x, y, 300, 92, t, s, color, 20, sub_size=14)
-        f.line(x, y + 92, x + 300, y + 92, color, 4)
+        f.box(x, y, 280, 92, t, s, color, 19, sub_size=14)
+        f.line(x, y + 92, x + 280, y + 92, color, 4)
     for (x1, y1, *_), (x2, y2, *_) in zip(steps, steps[1:]):
-        f.line(x1 + 300, y1 + 15, x2, y2 + 77, TERRA, 2, arrow=True, dash=True)
-        f.text(x1 + 340, y1 - 38, '必ずしも', 13, TERRA, anchor='middle')
-        f.text(x1 + 340, y1 - 20, '意味しない', 13, TERRA, anchor='middle')
-    f.text(600, 565, '行動が似ている → 機能が同じ、とは限らない。機能が似ている → 因果構造が同じ、とも限らない。', 15, MUTED, anchor='middle')
+        f.line(x1 + 280, y1 + 15, x2, y2 + 77, TERRA, 2, arrow=True, dash=True)
+        f.text(x1 + 330, y1 - 52, '必ずしも', 14, TERRA, anchor='middle')
+        f.text(x1 + 330, y1 - 34, '意味しない', 14, TERRA, anchor='middle')
+    f.text(210, 300, '行動が似ている', 15, MUTED, anchor='middle')
+    f.text(210, 324, '→ 機能が同じ、とは限らない', 15, MUTED, anchor='middle')
+    f.text(990, 400, '機能が似ている', 15, MUTED, anchor='middle')
+    f.text(990, 424, '→ 因果構造が同じ、とも限らない', 15, MUTED, anchor='middle')
+    f.text(990, 470, '因果構造が似ている', 15, MUTED, anchor='middle')
+    f.text(990, 494, '→ 体験の証明になるかは理論に依存する', 15, MUTED, anchor='middle')
     f.footer('因果構造の類似を確認できても、それが体験の存在を証明するかどうかは採用する意識理論に依存する。')
     return f.save('three-axes')
 
 
 def three_theories(part):
     f = Figure(6, '三つの理論は、異なる対象を説明する', '接続はできるが、どれも単独で主観的体験の存在を導かない', 640, part)
-    cols = [(70, '目的関数モデル', ['自己表象の形成', '目的関数の調停', '意思決定'], TEAL), (430, '予測処理', ['世界の状態の推定', '感覚情報の解釈', '予測誤差による更新'], INDIGO), (790, '統合情報理論（IIT）', ['意識体験と', '因果的な情報統合の関係'], TERRA)]
+    cols = [(70, '目的関数モデル', ['自己表象の形成', '目的関数の調停', '意思決定'], TEAL), (450, '予測処理', ['世界の状態の推定', '感覚情報の解釈', '予測誤差による更新'], INDIGO), (830, '統合情報理論（IIT）', ['意識体験と', '因果的な情報統合の関係'], TERRA)]
     for x, title, items, color in cols:
-        f.rect(x, 215, 340, 220, fill='#ffffff', stroke=color)
-        f.text(x + 170, 252, title, 20, color, anchor='middle', weight=700)
-        f.text(x + 170, 282, '説明する対象', 12, MUTED, anchor='middle')
-        f.lines(x + 170, 318, items, 16, INK, anchor='middle', gap=32)
-    f.line(410, 325, 430, 325, MUTED, 2, both=True, dash=True)
-    f.line(770, 325, 790, 325, MUTED, 2, both=True, dash=True)
-    f.text(600, 470, '接続', 14, MUTED, anchor='middle')
+        f.rect(x, 215, 300, 220, fill='#ffffff', stroke=color)
+        f.text(x + 150, 252, title, 20, color, anchor='middle', weight=700)
+        f.text(x + 150, 282, '説明する対象', 13, MUTED, anchor='middle')
+        f.lines(x + 150, 318, items, 16, INK, anchor='middle', gap=32)
+    for gx in (410, 790):
+        f.line(gx - 32, 335, gx + 32, 335, MUTED, 2, both=True, dash=True)
+        f.text(gx, 320, '接続', 14, MUTED, anchor='middle')
     f.line(240, 480, 960, 480, LINE, 1)
     f.rect(150, 500, 900, 70, fill='#ffffff', stroke=TERRA, rx=12, dash=True)
     f.text(600, 528, '機能的な説明をどれほど詳細にしても、主観的体験の存在はそこから論理的に導かれるとは限らない', 15, TERRA, anchor='middle', weight=700)
-    f.text(600, 553, '逆に、現象的意識の理論を採用しても、自己表象の形成や目的の調停は自動的には説明されない', 13, MUTED, anchor='middle')
+    f.text(600, 553, '逆に、現象的意識の理論を採用しても、自己表象の形成や目的の調停は自動的には説明されない', 14, MUTED, anchor='middle')
     f.footer('両者の問題を区別したまま接続する。これが本連載全体の前提である。')
     return f.save('three-theories')
 
@@ -1838,13 +1864,13 @@ def stairs(part):
         if match:
             f.rect(tx - 10, ty, 90, 50, fill=SOFT, stroke=LINE, rx=0)
             f.rect(tx - 10, ty, 90, 50, fill='none', stroke=TEAL, rx=0, dash=True)
-            f.text(tx + 35, ty - 8, '予測した段', 12, TEAL, anchor='middle')
+            f.text(tx + 35, ty - 8, '予測した段', 13, TEAL, anchor='middle')
             f.text(px + 260, 505, '差がない → 意識せず歩き続ける', 14, TEAL, anchor='middle', weight=700)
         else:
             f.rect(tx - 10, ty, 90, 50, fill='none', stroke=TEAL, rx=0, dash=True)
-            f.text(tx + 35, ty - 8, '予測した段', 12, TEAL, anchor='middle')
+            f.text(tx + 35, ty - 8, '予測した段', 13, TEAL, anchor='middle')
             f.cross(tx + 35, ty + 25, 12, TERRA, 3)
-            f.text(tx + 35, ty + 70, '段がない', 12, TERRA, anchor='middle', weight=700)
+            f.text(tx + 35, ty + 70, '段がない', 13, TERRA, anchor='middle', weight=700)
             f.text(px + 260, 505, '予測誤差 → 身体が大きく反応する', 14, TERRA, anchor='middle', weight=700)
         f.curve(fx - 25, fy - 60, fx + 20, fy - 90, tx + 35, ty - 20, MUTED, 1.8, dash=True)
     f.footer('脳は感覚情報を受け取ってから世界を理解するのではなく、感覚入力に先立って予測を生成している。')
@@ -1871,19 +1897,20 @@ def unity_of_experience(part):
     f = Figure(5, '一つの体験は分割できない', 'IITは意識体験の統一性と不可分性から出発する', 680, part)
     f.text(190, 225, '異なる経路で処理される情報', 15, MUTED, anchor='middle')
     items = [('文字の形', TEAL), ('文章の意味', TEAL), ('周囲の音', INDIGO), ('身体の感覚', TERRA)]
-    for i, (label, color) in enumerate(items):
+    ends = [(595, 355), (591, 380), (591, 410), (595, 435)]
+    for i, ((label, color), (ex, ey)) in enumerate(zip(items, ends)):
         y = 265 + i * 70
         f.tag(80, y, 220, 44, label, color, 16)
-        f.curve(300, y + 22, 420, y + 22, 520, 395, color, 2.2)
+        f.curve(300, y + 22, 450, y + 22, ex, ey, color, 2.2)
     f.blob(760, 395, 230, TEAL, 0.35)
     f.circ(760, 395, 170, TEAL, fill=False, width=2.5, dash=True)
-    f.text(760, 300, '一つの体験', 22, TEAL, anchor='middle', weight=700)
+    f.text(760, 262, '一つの体験', 22, TEAL, anchor='middle', weight=700)
     for (label, color), (dx, dy) in zip(items, [(-70, -40), (70, -40), (-70, 50), (70, 50)]):
-        f.circ(760 + dx, 395 + dy, 34, '#ffffff')
-        f.circ(760 + dx, 395 + dy, 34, color, fill=False, width=2)
-        f.text(760 + dx, 395 + dy + 5, label, 12, INK, anchor='middle', weight=700)
-    f.line(760, 240, 760, 550, TERRA, 3, dash=True)
-    f.cross(760, 480, 12, TERRA, 3.5)
+        f.circ(760 + dx, 395 + dy, 38, '#ffffff')
+        f.circ(760 + dx, 395 + dy, 38, color, fill=False, width=2)
+        f.text(760 + dx, 395 + dy + 5, label, 13, INK, anchor='middle', weight=700)
+    f.line(760, 280, 760, 555, TERRA, 3, dash=True)
+    f.cross(760, 500, 12, TERRA, 3.5)
     f.text(760, 600, '独立した複数の体験には分割できない', 15, TERRA, anchor='middle', weight=700)
     f.footer('大量の情報を処理しているだけでは意識の成立条件を説明できない。IITは因果的な統合構造に注目する。')
     return f.save('unity-of-experience')
@@ -1894,14 +1921,14 @@ def weights_vs_structure(part):
     for px, title, change_struct in [(60, '重みだけが変わる', False), (620, '結合構造も変わる', True)]:
         f.panel(px, 205, 520, 350, title)
         base = 345
-        f.text(px + 260, 272, '重みの層  w(t)', 13, MUTED, anchor='middle')
+        f.text(px + 260, 272, '重みの層', 13, MUTED, anchor='middle')
         for k, (vals, color) in enumerate([([70, 40, 55], TEAL), ([35, 75, 50], TERRA)]):
             ox = px + 110 + k * 230
             for j, v in enumerate(vals):
                 f.bar(ox + j * 26, base, 20, v, color)
-            f.text(ox + 36, base + 18, 't₁' if k == 0 else 't₂', 12, MUTED, anchor='middle')
+            f.text(ox + 36, base + 18, 't₁' if k == 0 else 't₂', 13, MUTED, anchor='middle')
         f.line(px + 230, base - 30, px + 290, base - 30, MUTED, 1.5, arrow=True)
-        f.text(px + 260, 398, '結合構造の層  A(t)', 13, MUTED, anchor='middle')
+        f.text(px + 260, 398, '結合構造の層', 13, MUTED, anchor='middle')
         for k in range(2):
             ox = px + 140 + k * 230
             pts = [(ox, 428), (ox + 60, 428), (ox + 30, 478)]
@@ -1921,18 +1948,19 @@ def weights_vs_structure(part):
 
 def sleep_anesthesia(part):
     f = Figure(5, '覚醒・睡眠・麻酔は、活動の量だけでは分けられない', '神経活動の量と、情報処理の統合の程度は別の軸である', 640, part)
-    x0, x1, y0, y1 = 150, 1000, 530, 240
+    x0, x1, y0, y1 = 150, 1000, 520, 240
     f.line(x0, y0, x1, y0, INK, 1.5, arrow=True)
     f.line(x0, y0, x0, y1, INK, 1.5, arrow=True)
     f.text(x1 + 10, y0 + 6, '神経活動の量', 15, INK)
     f.text(x0 - 10, y1 - 8, '統合の程度', 15, INK, anchor='end')
-    for x, y, label, color in [(820, 290, '覚醒', TEAL), (560, 470, '深い睡眠', INDIGO), (430, 490, '全身麻酔', TERRA), (700, 380, '夢を見る睡眠', INDIGO)]:
+    for x, y, label, color in [(840, 290, '覚醒', TEAL), (700, 335, '夢を見る睡眠', INDIGO), (700, 475, '深い睡眠', INDIGO), (400, 488, '全身麻酔', TERRA)]:
         f.blob(x, y, 60, color, 0.4)
         f.circ(x, y, 10, color)
         f.text(x + 18, y + 5, label, 15, INK, weight=700)
-    f.line(430, 455, 760, 455, LINE, 1.5, dash=True)
-    f.text(600, 445, '活動の量は近くても、統合の程度が違う', 13, MUTED, anchor='middle')
-    f.text(600, 585, '脳は睡眠中にも活動している。活動が存在することと、覚醒時と同じ体験が成立することは同じではない', 13, MUTED, anchor='middle')
+    f.line(700, 355, 700, 455, MUTED, 1.5, dash=True)
+    f.text(715, 400, '活動の量は近くても、', 14, MUTED)
+    f.text(715, 418, '統合の程度が違う', 14, MUTED)
+    f.text(600, 570, '脳は睡眠中にも活動している。活動が存在することと、覚醒時と同じ体験が成立することは同じではない', 14, MUTED, anchor='middle')
     f.footer('摂動複雑性指標（PCI）は応答の複雑さを測る指標であり、Φそのものではない。位置は概念的な目安である。')
     return f.save('sleep-anesthesia')
 
@@ -1949,36 +1977,36 @@ def three_systems(part):
         for (x, y), n in zip(pts, names):
             f.circ(x, y, 26, '#ffffff')
             f.circ(x, y, 26, TEAL, fill=False, width=2.5)
-            f.text(x, y + 5, n, 12, TEAL, anchor='middle', weight=700)
+            f.text(x, y + 5, n, 13, TEAL, anchor='middle', weight=700)
         if mode == 2:
             f.box(px + 95, 455, 150, 50, '自己表象', '', TERRA, 16, fill=PALE)
             f.line(px + 170, 416, px + 170, 455, TERRA, 2, both=True)
             f.curve(px + 245, 480, px + 300, 440, px + 250, 320, TERRA, 1.5, dash=True)
             f.curve(px + 95, 480, px + 40, 440, px + 90, 320, TERRA, 1.5, dash=True)
         else:
-            f.text(px + 170, 480, '各目的関数は他の内部状態に影響しない' if mode == 0 else '安全性の評価が好奇心の重みを変える', 12, MUTED, anchor='middle')
+            f.text(px + 170, 480, '各目的関数は他の内部状態に影響しない' if mode == 0 else '安全性の評価が好奇心の重みを変える', 13, MUTED, anchor='middle')
         f.text(px + 170, 530, ['独立に計算', '相互作用を導入', '自己表象を導入'][mode], 14, INK, anchor='middle', weight=700)
-    f.footer('行動の違いを観測する。行動の複雑さと因果的な情報統合は同じ指標ではない。第9回のモデルA/B/Cと対になる。')
+    f.footer('行動の違いを観測する。行動の複雑さと因果的な情報統合は同じ指標ではない。第9回の比較実験へつながる。')
     return f.save('three-systems')
 
 
 def hypothesis_to_test(part):
     f = Figure(6, '仮説を、検証できる形に変換する', '理論の文章を実装し、比較実験で支持するか反証する', 640, part)
-    steps = [('理論の文章', '「自己表象は行動の一貫性を高める」', TEAL), ('実装', '自己表象を内部状態 S_t として定義', INDIGO), ('比較実験', '自己表象あり／なしで同じ環境を走らせる', INDIGO)]
+    steps = [('理論の文章', '「自己表象は行動の一貫性を高める」', TEAL), ('実装', '自己表象を内部状態として定義', INDIGO), ('比較実験', 'あり／なしで同じ環境を走らせる', INDIGO)]
     for i, (t, s, color) in enumerate(steps):
         x = 70 + i * 300
-        f.box(x, 250, 260, 100, t, s, color, 19, sub_size=12)
+        f.box(x, 250, 260, 100, t, s, color, 19, sub_size=13)
         if i < 2:
             f.line(x + 260, 300, x + 300, 300, MUTED, 2.2, arrow=True)
     f.line(930, 300, 970, 300, MUTED, 2.2, arrow=True)
-    f.box(970, 215, 170, 70, '支持', '一貫性が上がる', TEAL, 17, sub_size=12)
-    f.box(970, 315, 170, 70, '反証', '変わらない', TERRA, 17, sub_size=12)
+    f.box(970, 215, 170, 70, '支持', '一貫性が上がる', TEAL, 17, sub_size=13)
+    f.box(970, 315, 170, 70, '反証', '変わらない', TERRA, 17, sub_size=13)
     f.line(970, 300, 970, 250, MUTED, 1.5)
     f.line(970, 300, 970, 350, MUTED, 1.5)
     f.rect(150, 430, 900, 70, fill='#ffffff', stroke=TERRA, rx=12, dash=True)
     f.text(600, 458, 'どちらの結果でも、主観的な「私」という体験が成立したことの証明にはならない', 15, TERRA, anchor='middle', weight=700)
-    f.text(600, 484, '検証できるのは、自己がどのような情報処理によって成立するかという機能的な条件である', 13, MUTED, anchor='middle')
-    f.text(600, 560, '目的関数の競合の調停方法や、相互作用の変更が自己表象と行動に与える影響も同じ手順で調べられる', 13, MUTED, anchor='middle')
+    f.text(600, 484, '検証できるのは、自己がどのような情報処理によって成立するかという機能的な条件である', 14, MUTED, anchor='middle')
+    f.text(600, 560, '目的関数の競合の調停方法や、相互作用の変更が自己表象と行動に与える影響も同じ手順で調べられる', 14, MUTED, anchor='middle')
     f.footer('機能的な意識モデルの実装は、意識の存在を証明する試みではなく、仮説を動かして確かめる試みである。')
     return f.save('hypothesis-to-test')
 

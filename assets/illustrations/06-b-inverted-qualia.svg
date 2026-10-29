@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
 <title id="title">逆転クオリア</title>
 <desc id="desc">外から見える行動が同じでも、体験の質が入れ替わっている可能性を問う思考実験</desc>
 <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5d6873" stroke-width="1.4"/></marker><marker id="arrow-teal" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#2b7a8c" stroke-width="1.6"/></marker><marker id="arrow-terra" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#d0693a" stroke-width="1.6"/></marker><marker id="arrow-indigo" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#5a4fcf" stroke-width="1.6"/></marker><marker id="arrow-ink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#232a33" stroke-width="1.6"/></marker></defs>
-<rect width="1200" height="640" rx="20" fill="#f7f5ef"/>
+<rect width="1200" height="660" rx="20" fill="#f7f5ef"/>
 <g font-family='system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", Meiryo, sans-serif'>
 <text x="50.0" y="52.0" fill="#2b7a8c" font-size="18" text-anchor="start" font-weight="700">CONSCIOUSNESS     06     図6-2</text>
 <text x="50.0" y="103.0" fill="#232a33" font-size="34" text-anchor="start" font-weight="700">逆転クオリア</text>
@@ -12,30 +12,34 @@
 <circle cx="600.0" cy="285.0" r="36" fill="#d9453a"/>
 <circle cx="600.0" cy="375.0" r="36" fill="#3aa65a"/>
 <text x="600.0" y="460.0" fill="#5d6873" font-size="15" text-anchor="middle" font-weight="400">同じ信号機</text>
-<circle cx="230.0" cy="280.0" r="30" fill="#ffffff"/>
-<circle cx="230.0" cy="280.0" r="30" fill="none" stroke="#232a33" stroke-width="2.5"/>
-<text x="230.0" y="240.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">人物 A</text>
-<rect x="120.0" y="330.0" width="220.0" height="110.0" rx="14" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
-<text x="230.0" y="352.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">主観的な体験</text>
-<circle cx="175.0" cy="395.0" r="18" fill="#d9453a"/>
-<text x="175.0" y="428.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="400">赤の体験</text>
-<circle cx="285.0" cy="395.0" r="18" fill="#3aa65a"/>
-<text x="285.0" y="428.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="400">緑の体験</text>
-<text x="230.0" y="480.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">赤で止まり、緑で進む</text>
-<text x="230.0" y="502.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">色の名前も同じように使う</text>
-<circle cx="970.0" cy="280.0" r="30" fill="#ffffff"/>
-<circle cx="970.0" cy="280.0" r="30" fill="none" stroke="#232a33" stroke-width="2.5"/>
-<text x="970.0" y="240.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">人物 B</text>
-<rect x="860.0" y="330.0" width="220.0" height="110.0" rx="14" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
-<text x="970.0" y="352.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">主観的な体験</text>
-<circle cx="915.0" cy="395.0" r="18" fill="#3aa65a"/>
-<text x="915.0" y="428.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="400">緑の体験</text>
-<circle cx="1025.0" cy="395.0" r="18" fill="#d9453a"/>
-<text x="1025.0" y="428.0" fill="#232a33" font-size="12" text-anchor="middle" font-weight="400">赤の体験</text>
-<text x="970.0" y="480.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">赤で止まり、緑で進む</text>
-<text x="970.0" y="502.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">色の名前も同じように使う</text>
-<text x="600.0" y="545.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">行動は完全に同じ。体験の質が入れ替わっていても、外部からは確認できない</text>
-<text x="600.0" y="570.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">左の「赤を見たときの体験」が、右では「緑を見たときの体験」にあたる</text>
-<text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">実際に逆転している証拠があるわけではない。機能だけで体験の質を特定できるのか、という概念上の隔たりを示す。</text>
+<circle cx="240.0" cy="265.0" r="26" fill="#ffffff"/>
+<circle cx="240.0" cy="265.0" r="26" fill="none" stroke="#232a33" stroke-width="2.5"/>
+<text x="240.0" y="232.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">人物 A</text>
+<rect x="90.0" y="310.0" width="300.0" height="140.0" rx="14" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="240.0" y="332.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">主観的な体験</text>
+<text x="170.0" y="356.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">赤を見たとき</text>
+<circle cx="170.0" cy="390.0" r="18" fill="#d9453a"/>
+<text x="170.0" y="435.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="700">赤の体験</text>
+<text x="310.0" y="356.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">緑を見たとき</text>
+<circle cx="310.0" cy="390.0" r="18" fill="#3aa65a"/>
+<text x="310.0" y="435.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="700">緑の体験</text>
+<text x="240.0" y="490.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">赤で止まり、緑で進む</text>
+<text x="240.0" y="512.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">色の名前も同じように使う</text>
+<circle cx="960.0" cy="265.0" r="26" fill="#ffffff"/>
+<circle cx="960.0" cy="265.0" r="26" fill="none" stroke="#232a33" stroke-width="2.5"/>
+<text x="960.0" y="232.0" fill="#232a33" font-size="17" text-anchor="middle" font-weight="700">人物 B</text>
+<rect x="810.0" y="310.0" width="300.0" height="140.0" rx="14" fill="#ffffff" stroke="#d8d4c8" stroke-width="2"/>
+<text x="960.0" y="332.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">主観的な体験</text>
+<text x="890.0" y="356.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">赤を見たとき</text>
+<circle cx="890.0" cy="390.0" r="18" fill="#3aa65a"/>
+<text x="890.0" y="435.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="700">緑の体験</text>
+<text x="1030.0" y="356.0" fill="#232a33" font-size="13" text-anchor="middle" font-weight="400">緑を見たとき</text>
+<circle cx="1030.0" cy="390.0" r="18" fill="#d9453a"/>
+<text x="1030.0" y="435.0" fill="#232a33" font-size="14" text-anchor="middle" font-weight="700">赤の体験</text>
+<text x="960.0" y="490.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">赤で止まり、緑で進む</text>
+<text x="960.0" y="512.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">色の名前も同じように使う</text>
+<text x="600.0" y="560.0" fill="#232a33" font-size="15" text-anchor="middle" font-weight="700">行動は完全に同じ。体験の質が入れ替わっていても、外部からは確認できない</text>
+<text x="600.0" y="585.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">左の「赤を見たときの体験」が、右では「緑を見たときの体験」にあたる</text>
+<text x="50.0" y="632.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">実際に逆転している証拠があるわけではない。機能だけで体験の質を特定できるのか、という概念上の隔たりを示す。</text>
 </g>
 </svg>

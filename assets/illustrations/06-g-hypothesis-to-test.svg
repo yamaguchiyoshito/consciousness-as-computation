@@ -10,28 +10,28 @@
 <line x1="50.0" y1="166.0" x2="1150.0" y2="166.0" stroke="#d8d4c8" stroke-width="1"/>
 <rect x="70.0" y="250.0" width="260.0" height="100.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
 <text x="200.0" y="295.0" fill="#2b7a8c" font-size="19" text-anchor="middle" font-weight="700">理論の文章</text>
-<text x="200.0" y="319.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">「自己表象は行動の一貫性を高める」</text>
+<text x="200.0" y="320.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">「自己表象は行動の一貫性を高める」</text>
 <line x1="330.0" y1="300.0" x2="370.0" y2="300.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
 <rect x="370.0" y="250.0" width="260.0" height="100.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
 <text x="500.0" y="295.0" fill="#5a4fcf" font-size="19" text-anchor="middle" font-weight="700">実装</text>
-<text x="500.0" y="319.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">自己表象を内部状態 S_t として定義</text>
+<text x="500.0" y="320.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">自己表象を内部状態として定義</text>
 <line x1="630.0" y1="300.0" x2="670.0" y2="300.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
 <rect x="670.0" y="250.0" width="260.0" height="100.0" rx="14" fill="#ffffff" stroke="#5a4fcf" stroke-width="2"/>
 <text x="800.0" y="295.0" fill="#5a4fcf" font-size="19" text-anchor="middle" font-weight="700">比較実験</text>
-<text x="800.0" y="319.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">自己表象あり／なしで同じ環境を走らせる</text>
+<text x="800.0" y="320.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">あり／なしで同じ環境を走らせる</text>
 <line x1="930.0" y1="300.0" x2="970.0" y2="300.0" stroke="#5d6873" stroke-width="2.2" marker-end="url(#arrow)"/>
 <rect x="970.0" y="215.0" width="170.0" height="70.0" rx="14" fill="#ffffff" stroke="#2b7a8c" stroke-width="2"/>
 <text x="1055.0" y="245.0" fill="#2b7a8c" font-size="17" text-anchor="middle" font-weight="700">支持</text>
-<text x="1055.0" y="269.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">一貫性が上がる</text>
+<text x="1055.0" y="270.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">一貫性が上がる</text>
 <rect x="970.0" y="315.0" width="170.0" height="70.0" rx="14" fill="#ffffff" stroke="#d0693a" stroke-width="2"/>
 <text x="1055.0" y="345.0" fill="#d0693a" font-size="17" text-anchor="middle" font-weight="700">反証</text>
-<text x="1055.0" y="369.0" fill="#5d6873" font-size="12" text-anchor="middle" font-weight="400">変わらない</text>
+<text x="1055.0" y="370.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">変わらない</text>
 <line x1="970.0" y1="300.0" x2="970.0" y2="250.0" stroke="#5d6873" stroke-width="1.5"/>
 <line x1="970.0" y1="300.0" x2="970.0" y2="350.0" stroke="#5d6873" stroke-width="1.5"/>
 <rect x="150.0" y="430.0" width="900.0" height="70.0" rx="12" fill="#ffffff" stroke="#d0693a" stroke-width="2" stroke-dasharray="8 7"/>
 <text x="600.0" y="458.0" fill="#d0693a" font-size="15" text-anchor="middle" font-weight="700">どちらの結果でも、主観的な「私」という体験が成立したことの証明にはならない</text>
-<text x="600.0" y="484.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">検証できるのは、自己がどのような情報処理によって成立するかという機能的な条件である</text>
-<text x="600.0" y="560.0" fill="#5d6873" font-size="13" text-anchor="middle" font-weight="400">目的関数の競合の調停方法や、相互作用の変更が自己表象と行動に与える影響も同じ手順で調べられる</text>
+<text x="600.0" y="484.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">検証できるのは、自己がどのような情報処理によって成立するかという機能的な条件である</text>
+<text x="600.0" y="560.0" fill="#5d6873" font-size="14" text-anchor="middle" font-weight="400">目的関数の競合の調停方法や、相互作用の変更が自己表象と行動に与える影響も同じ手順で調べられる</text>
 <text x="50.0" y="612.0" fill="#5d6873" font-size="18" text-anchor="start" font-weight="400">機能的な意識モデルの実装は、意識の存在を証明する試みではなく、仮説を動かして確かめる試みである。</text>
 </g>
 </svg>
